@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Développeur web à Auch | Shopify & sites vitrines</title>
+  <meta name="description" content="Contactez un développeur web à Auch dans le Gers. Expert Shopify et création de sites vitrines modernes pour artisans et commerçants locaux.">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jbdevweb.fr/contact">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- SEO Local optimisé -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Julien BRAZZALOTTO – Développeur Shopify freelance",
+  "description": "Développeur web spécialisé Shopify, création de boutiques e-commerce et sites vitrines sur-mesure pour artisans et commerçants à Auch et dans le Gers.",
+  "url": "", 
+  "telephone": "+33674466097",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Auch",
+    "addressRegion": "Gers",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.6467,
+    "longitude": 0.5897
+  },
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Gers"
+  },
+  "openingHours": "Mo-Fr 09:00-18:00"
+}
+</script>
+
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index">Accueil</a>
+    <a href="shopify">Shopify</a>
+    <a href="sites-vitrines">Sites vitrines</a>
+    <a href="contact" class="active">Contact</a>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero-text">
+    <div class="hero-bg">
+        <div class="hero-blob" style="top:10%;left:20%"></div>
+        <div class="hero-blob"></div>
+        <div class="hero-blob"></div>
+    </div>
+    <div>
+        <h1 id="hero-title">Parlons de votre <span>projet</span></h1>
+        <p>Vous avez une idée, un besoin précis ou simplement une question ? Je vous réponds personnellement, rapidement et sans engagement.</p>
+    </div>
+    
+  </header>
+
+
+  <!-- CONFIANCE -->
+  <section class="alt">
+  <h2>Pourquoi me contacter ?</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Un échange clair et honnête</h3>
+      <p>
+        Je prends le temps de comprendre votre activité, vos objectifs
+        et vos contraintes avant de proposer quoi que ce soit.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Une réponse rapide</h3>
+      <p>
+        Pas de formulaire qui tombe dans le vide. Je vous réponds sous 24 à 48h,
+        directement, sans intermédiaire.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Un accompagnement sur mesure</h3>
+      <p>
+        Chaque projet est différent. Pas de solution générique, pas de promesses
+        floues, uniquement du concret.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section >
+  <h2>Comment ça se passe ?</h2>
+
+  <div class="services">
+    <div class="service">
+      <h3>1. Prise de contact</h3>
+      <p>
+        Vous m’expliquez votre besoin via le formulaire.
+        Je reviens vers vous rapidement pour échanger.
+      </p>
+    </div>
+
+    <div class="service">
+      <h3>2. Analyse & proposition</h3>
+      <p>
+        J’analyse votre projet, vos objectifs et je vous propose
+        une solution claire, avec un devis transparent.
+      </p>
+      <p>
+        Chaque projet est conçu sur mesure.
+        Le niveau de personnalisation, les fonctionnalités et les animations
+        s’adaptent à vos objectifs… et à votre budget.
+        L’idée n’est pas de surdimensionner, mais de créer un site juste,
+        efficace et évolutif.
+      </p>
+    </div>
+
+    <div class="service">
+      <h3>3. Production & suivi</h3>
+      <p>
+        Une fois validé, je m’occupe de tout et je reste disponible
+        même après la mise en ligne.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FORMULAIRE -->
+ <section class="alt">
+  <h2>Décrivez-moi votre projet</h2>
+  <p>
+    Plus vous me donnez d’informations, plus je pourrai vous faire
+    un retour pertinent et adapté.
+  </p>
+
+  <form id="contact-form" class="contact-form" action="https://formspree.io/f/maqqnnwq" method="POST">
+    
+    <input type="text" name="name" placeholder="Nom / Entreprise" required>
+    <input type="email" name="email" placeholder="Email" required>
+
+    <!-- Select custom -->
+    <div class="custom-select">
+      <input type="hidden" name="project" required>
+      <div class="select-trigger">Type de projet</div>
+      <ul class="select-options">
+        <li data-value="Projet Shopify">Projet Shopify</li>
+        <li data-value="Site vitrine">Site vitrine</li>
+        <li data-value="Autre">Autre</li>
+      </ul>
+    </div>
+
+    <textarea name="message" rows="5" placeholder="Parlez-moi de votre projet" required></textarea>
+
+    <button type="submit" class="cta" disabled>Envoyer ma demande</button>
+    <p id="form-status"></p>
+  </form>
+</section>
+
+
+ <footer>
+  <div>
+   <a href="/">
+      <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
+        <defs>
+          <!-- Filtre pour l’ombre animée -->
+          <filter id="shadow-j-green" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="0" result="blur"/>
+            <feOffset dx="0" dy="0" result="offsetBlur"/>
+            <feFlood flood-color="#00E676" flood-opacity="0.3" result="color"/>
+            <feComposite in2="offsetBlur" operator="in"/>
+            <feMerge>
+              <feMergeNode/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+        </defs>
+
+        <!-- J -->
+        <path
+          d="M78 32 L78 148 C78 176 42 176 42 148"
+          fill="none"
+          stroke="#00E676"
+          stroke-width="18"
+          stroke-linecap="butt"
+          stroke-linejoin="miter"
+          filter="url(#shadow-j-green)"
+        />
+
+        <!-- B -->
+        <path
+          d="M88 32 L88 150 L118 150 C147 150 160 148 160 119 C160 103 155 92 143 92 
+            C150 90 158 86 158 60 C158 36 144 32 118 32 Z 
+            M108 50 L118 50 C133 50 137 56 137 65 C137 76 133 82 118 82 L108 82 Z
+            M108 102 L119 102 C133 102 138 107 138 118 C138 130 132 133 120 133 L108 133 Z"
+          fill="#070A08"
+          filter="url(#shadow-j-green)"
+        />
+      </svg>
+    </a> 
+  </div>
+  <div>
+    © <span id="annee"></span> – Développeur web expert Shopify à Auch<br><a href="/mentions-legales">Mentions légales</a>
+  </div>
+</footer>
+
+  
+  <script src="assets/theme.js" defer></script>
+  <script>
+// ===================== SELECT CUSTOM =====================
+document.querySelectorAll('.custom-select').forEach(select => {
+  const trigger = select.querySelector('.select-trigger');
+  const options = select.querySelector('.select-options');
+  const hiddenInput = select.querySelector('input[type="hidden"]');
+
+  trigger.addEventListener('click', () => {
+    options.style.display = options.style.display === 'block' ? 'none' : 'block';
+  });
+
+  options.querySelectorAll('li').forEach(option => {
+    option.addEventListener('click', () => {
+      trigger.textContent = option.textContent;
+      hiddenInput.value = option.dataset.value;
+
+      // Ajoute la classe filled si valeur choisie
+      if(hiddenInput.value) select.classList.add('filled');
+
+      // Trigger feedback vert
+      hiddenInput.dispatchEvent(new Event('input', { bubbles: true }));
+
+      options.style.display = 'none';
+      checkForm();
+    });
+  });
+
+  // Clic en dehors ferme la liste
+  document.addEventListener('click', (e) => {
+    if (!select.contains(e.target)) options.style.display = 'none';
+  });
+});
+
+
+// ===================== BOUTON DESACTIVÉ SI FORMULAIRE INCOMPLET =====================
+const form = document.getElementById('contact-form');
+const submitBtn = form.querySelector('button[type="submit"]');
+const inputs = form.querySelectorAll('input[required], textarea[required]');
+
+function checkForm() {
+  const allFilled = Array.from(inputs).every(input => input.value.trim() !== '');
+  submitBtn.disabled = !allFilled;
+}
+
+inputs.forEach(input => {
+  input.addEventListener('input', checkForm);
+});
+
+// ===================== FORMSPREE =====================
+form.addEventListener('submit', async function(e){
+  e.preventDefault();
+  const status = document.getElementById('form-status');
+  const data = new FormData(form);
+
+  try {
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: data,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      status.textContent = "Merci, votre demande a été envoyée à Julien !";
+      // Désactiver le bouton
+      submitBtn.disabled = true;
+      // Réinitialiser le texte du select
+      document.querySelectorAll('.custom-select .select-trigger').forEach(t => t.textContent = 'Type de projet');
+      // Supprimer la classe 'filled' pour enlever la bordure verte
+      document.querySelectorAll('.custom-select').forEach(select => {
+        select.classList.remove('filled');
+      });
+      // Réinitialiser le formulaire
+      form.reset();
+    } else {
+      const result = await response.json();
+      if (result.errors) {
+        status.textContent = result.errors.map(e => e.message).join(", ");
+      } else {
+        status.textContent = "Oops! Problème lors de l'envoi.";
+      }
+    }
+  } catch (err) {
+    status.textContent = "Oops! Problème lors de l'envoi.";
+  }
+});
+
+  </script>
+</body>
+</html>

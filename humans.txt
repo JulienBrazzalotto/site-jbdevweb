@@ -1,0 +1,4 @@
+Site: jbdevweb.fr
+Dev: Julien BRAZZALOTTO
+Tech: HTML / CSS / JS
+Hosting: Hostinger
