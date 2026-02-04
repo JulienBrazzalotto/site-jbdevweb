@@ -1,4 +1,4 @@
 Site: jbdevweb.fr
 Dev: Julien BRAZZALOTTO
 Tech: HTML / CSS / JS
-Hosting: Hostinger
+Hosting: GitHub, Inc. 88 Colin P Kelly Jr St San Francisco, CA 94107 https://github.com
