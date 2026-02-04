@@ -77,17 +77,20 @@
 
   // 4️⃣ Fonction pour init GA4
   function initAnalytics(){
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-34Y7FCRYMK');
-
-    var script = document.createElement('script');
+    const script = document.createElement('script');
     script.async = true;
     script.src = "https://www.googletagmanager.com/gtag/js?id=G-34Y7FCRYMK";
     document.head.appendChild(script);
+
+      window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-34Y7FCRYMK');
   }
 </script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-34Y7FCRYMK"></script>
 
 <nav>
   <a href="/" class="active">Accueil</a>
