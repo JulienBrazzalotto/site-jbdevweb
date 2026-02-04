@@ -116,3 +116,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Appeler la fonction pour mettre à jour l'élément HTML
 afficherAnneeEnCours();
+
+
+
+// ===================== BANNIÈRE COOKIES + GA4 =====================
+// Vérifier si cookies déjà acceptés
+  if(localStorage.getItem('cookiesAccepted') === 'true'){
+    document.getElementById('cookie-banner').style.display = 'none';
+    initAnalytics(); // activer GA
+  }
+
+  // Bouton accepter
+  document.getElementById('accept-cookies').onclick = function() {
+    localStorage.setItem('cookiesAccepted','true');
+    document.getElementById('cookie-banner').style.display = 'none';
+    initAnalytics();
+  }
+
+  // Fonction pour init GA4
+  function initAnalytics(){
+    // Définir dataLayer AVANT de charger le script
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag = gtag; // pour l’utiliser globalement
+
+    gtag('js', new Date());
+    gtag('config', 'G-34Y7FCRYMK');
+
+    // Charger le script GA
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-34Y7FCRYMK";
+    document.head.appendChild(script);
+  }

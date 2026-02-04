@@ -55,42 +55,11 @@
 -->
 
 
-<!-- 1️⃣ Bandeau cookie -->
+<!-- Bandeau cookie -->
 <div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
   Ce site utilise des cookies pour améliorer l'expérience. 
   <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#4CAF50;color:#fff;border:none;cursor:pointer;">Accepter</button>
 </div>
-
-<script>
-  // 2️⃣ Vérifier si cookies déjà acceptés
-  if(localStorage.getItem('cookiesAccepted') === 'true'){
-    document.getElementById('cookie-banner').style.display = 'none';
-    initAnalytics(); // activer GA
-  }
-
-  // 3️⃣ Bouton accepter
-  document.getElementById('accept-cookies').onclick = function() {
-    localStorage.setItem('cookiesAccepted','true');
-    document.getElementById('cookie-banner').style.display = 'none';
-    initAnalytics();
-  }
-
-  // 4️⃣ Fonction pour init GA4
-  function initAnalytics(){
-    const script = document.createElement('script');
-    script.async = true;
-    script.src = "https://www.googletagmanager.com/gtag/js?id=G-34Y7FCRYMK";
-    document.head.appendChild(script);
-
-      window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-34Y7FCRYMK');
-  }
-</script>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-34Y7FCRYMK"></script>
 
 <nav>
   <a href="/" class="active">Accueil</a>
