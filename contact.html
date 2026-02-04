@@ -145,35 +145,49 @@
 
 
   <!-- FORMULAIRE -->
- <section class="alt">
-  <h2>Décrivez-moi votre projet</h2>
-  <p>
-    Plus vous me donnez d’informations, plus je pourrai vous faire
-    un retour pertinent et adapté.
-  </p>
+ <section class="formulaire alt">
+  <div>
+    <h2>Me contacter directement</h2>
 
-  <form id="contact-form" class="contact-form" action="https://formspree.io/f/maqqnnwq" method="POST">
-    
-    <input type="text" name="name" placeholder="Nom / Entreprise" required>
-    <input type="email" name="email" placeholder="Email" required>
-
-    <!-- Select custom -->
-    <div class="custom-select">
-      <input type="hidden" name="project" required>
-      <div class="select-trigger">Type de projet</div>
-      <ul class="select-options">
-        <li data-value="Projet Shopify">Projet Shopify</li>
-        <li data-value="Site vitrine">Site vitrine</li>
-        <li data-value="Autre">Autre</li>
-      </ul>
+    <div class="contact-infos">
+      <p>
+        <a href="mailto:contact@jbdevweb.fr?subject=Demande de contact">contact@jbdevweb.fr</a><br>
+        <a href="tel:+33674466097">06 74 46 60 97</a>
+      </p>
+      <p>Ou utilisez le formulaire a droite &#128073</p>
     </div>
+  </div>
+  <div>
+    <h2>Décrivez-moi votre projet</h2>
+    <p>
+      Plus vous me donnez d’informations, plus je pourrai vous faire
+      un retour pertinent et adapté.
+    </p>
 
-    <textarea name="message" rows="5" placeholder="Parlez-moi de votre projet" required></textarea>
+    <form id="contact-form" class="contact-form" action="https://formspree.io/f/maqqnnwq" method="POST">
+      
+      <input type="text" name="name" placeholder="Nom / Entreprise" required>
+      <input type="email" name="email" placeholder="Email" required>
 
-    <button type="submit" class="cta" disabled>Envoyer ma demande</button>
-    <p id="form-status"></p>
-  </form>
+      <!-- Select custom -->
+      <div class="custom-select">
+        <input type="hidden" name="project" required>
+        <div class="select-trigger">Type de projet</div>
+        <ul class="select-options">
+          <li data-value="Projet Shopify">Projet Shopify</li>
+          <li data-value="Site vitrine">Site vitrine</li>
+          <li data-value="Autre">Autre</li>
+        </ul>
+      </div>
+
+      <textarea name="message" rows="5" placeholder="Parlez-moi de votre projet" required></textarea>
+
+      <button type="submit" class="cta" disabled>Envoyer ma demande</button>
+      <p id="form-status"></p>
+    </form>
+  </div>
 </section>
+
 
 
  <footer>
