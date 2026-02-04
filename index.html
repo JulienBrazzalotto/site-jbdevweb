@@ -54,6 +54,41 @@
 </div>
 -->
 
+
+<!-- 1️⃣ Bandeau cookie -->
+<div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
+  Ce site utilise des cookies pour améliorer l'expérience. 
+  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#4CAF50;color:#fff;border:none;cursor:pointer;">Accepter</button>
+</div>
+
+<script>
+  // 2️⃣ Vérifier si cookies déjà acceptés
+  if(localStorage.getItem('cookiesAccepted') === 'true'){
+    document.getElementById('cookie-banner').style.display = 'none';
+    initAnalytics(); // activer GA
+  }
+
+  // 3️⃣ Bouton accepter
+  document.getElementById('accept-cookies').onclick = function() {
+    localStorage.setItem('cookiesAccepted','true');
+    document.getElementById('cookie-banner').style.display = 'none';
+    initAnalytics();
+  }
+
+  // 4️⃣ Fonction pour init GA4
+  function initAnalytics(){
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-34Y7FCRYMK');
+
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-34Y7FCRYMK";
+    document.head.appendChild(script);
+  }
+</script>
+
 <nav>
   <a href="/" class="active">Accueil</a>
   <a href="/shopify">Shopify</a>
@@ -82,12 +117,12 @@
 <section class="alt">
   <h2>Expert Shopify freelance & développeur web</h2>
   <p>
-    Je suis un développeur web freelance spécialisé Shopify et sites vitrines. 
+    Je suis développeur web freelance spécialisé Shopify et sites vitrines. 
     Je crée des boutiques en ligne performantes, optimisées pour le SEO et la conversion, 
     ainsi que des sites vitrines immersifs et sur mesure.<br>
     Mon approche : comprendre votre métier, vos besoins et vos clients pour livrer des solutions digitales qui fonctionnent vraiment. 
     Basé dans le Gers, je travaille avec des clients partout en France, et je peux m’adapter à des projets internationaux.
-    Disponible, réactif et orienté résultats, je vous accompagne de l’idée à la mise en ligne.
+    Disponible, réactif et orienté résultats, je vous accompagne de l’idée à la mise en ligne. Mon nom est Julien BRAZZALOTTO.
   </p>
 </section>
 
