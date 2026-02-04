@@ -309,6 +309,7 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
