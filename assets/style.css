@@ -503,3 +503,19 @@ footer {
   scrollbar-width: thin;
   scrollbar-color: #00e676 #0b0f14;
 }
+
+.mobile {
+  display: none;
+}
+@media(max-width:768px) {
+  .formulaire {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
