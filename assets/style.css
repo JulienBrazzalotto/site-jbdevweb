@@ -37,9 +37,10 @@ nav a {
   font-weight: 500;
   opacity: .6;
   transition: all 0.3s;
-  padding: 6px 12px;
+  padding: 2px 5px;
   border-radius: 6px;
   box-shadow: 0 0 0 2px transparent;
+  font-size: 12px;
 }
 
 nav a:hover {
