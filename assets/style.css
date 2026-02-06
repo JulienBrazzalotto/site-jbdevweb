@@ -275,6 +275,14 @@ p {
   }
 }
 
+.glow-on-scroll {
+  filter: drop-shadow(0 0 0 rgba(0, 230, 118, 0));
+  transition: filter 0.6s ease, transform 0.6s ease;
+}
+
+.glow-on-scroll.is-active {
+  filter: drop-shadow(0 0 18px rgba(0, 230, 118, 0.6));
+}
 
 /* ===================== PROJETS ===================== */
 .projects {

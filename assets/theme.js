@@ -154,39 +154,39 @@ afficherAnneeEnCours();
 
 
 
+const animatedElements = document.querySelectorAll(
+  '.card, .skill, .service, .project'
+);
 
- const isMobile = window.matchMedia('(hover: none)').matches;
+const isMobile = window.matchMedia('(hover: none)').matches;
 
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (!entry.isIntersecting) return;
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach(entry => {
+      const el = entry.target;
 
-    const el = entry.target;
-
-    // apparition
-    el.classList.add('visible');
-
-    if (isMobile && !el.dataset.animated) {
-      el.dataset.animated = 'true';
-
-      // activation après 2s
-      setTimeout(() => {
+      if (entry.isIntersecting) {
+        // Tempo uniquement à l’entrée
+        el.style.transitionDelay = '0.5s';
         el.classList.add('is-active');
+      } else {
+        // Sortie immédiate
+        el.style.transitionDelay = '0s';
+        el.classList.remove('is-active');
+      }
+    });
+  },
+  {
+    threshold: 0.9
+  }
+);
 
-        // désactivation 2s plus tard
-        setTimeout(() => {
-          el.classList.remove('is-active');
-        }, 1000);
-
-      }, 1000);
-    }
-
-    observer.unobserve(el);
-  });
-}, {
-  threshold: 0.4 // 40% visible pour déclencher l'animation
-});
-
-document.querySelectorAll('.card, .skill, .service').forEach(el => {
+animatedElements.forEach((el, index) => {
   observer.observe(el);
+
+  // Désactiver interaction mobile
+  if (isMobile) {
+    el.style.pointerEvents = 'none';
+  }
 });
+
