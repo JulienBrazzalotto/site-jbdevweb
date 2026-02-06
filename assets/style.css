@@ -233,18 +233,48 @@ p {
   border-radius: 32px;
   transform: translateY(80px) scale(.95);
   opacity: 0;
-  transition: 1s cubic-bezier(.16,1,.3,1);
+  transition: 
+    transform 1s cubic-bezier(.16,1,.3,1),
+    opacity 0.8s ease,
+    box-shadow 0.6s ease;
 }
 
-.card.visible, .skill.visible, .project.visible, .service.visible {
+.card.visible,
+.card.is-active,
+.skill.visible,
+.skill.is-active,
+.project.visible,
+.project.is-active,
+.service.visible,
+.service.is-active {
   transform: none;
   opacity: 1;
 }
 
-.card:hover, .skill:hover, .service:hover {
+.card:hover, .skill:hover, .service:hover,
+.card:hover.is-active, .skill:hover.is-active, .service:hover.is-active {
   transform: translateY(-10px) rotateY(6deg);
   box-shadow: 0 40px 80px rgba(0,230,118,.25);
 }
+@media (hover: hover) {
+  .card:hover,
+  .skill:hover,
+  .service:hover {
+    transform: translateY(-10px) rotateY(6deg);
+    box-shadow: 0 40px 80px rgba(0,230,118,.25);
+  }
+}
+
+/* Mobile auto-hover */
+@media (hover: none) {
+  .card.is-active,
+  .skill.is-active,
+  .service.is-active {
+    transform: translateY(-10px) rotateY(6deg);
+    box-shadow: 0 40px 80px rgba(0,230,118,.25);
+  }
+}
+
 
 /* ===================== PROJETS ===================== */
 .projects {

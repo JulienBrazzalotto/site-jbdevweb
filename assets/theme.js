@@ -149,3 +149,44 @@ afficherAnneeEnCours();
     script.src = "https://www.googletagmanager.com/gtag/js?id=G-34Y7FCRYMK";
     document.head.appendChild(script);
   }
+
+
+
+
+
+
+ const isMobile = window.matchMedia('(hover: none)').matches;
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+
+    const el = entry.target;
+
+    // apparition
+    el.classList.add('visible');
+
+    if (isMobile && !el.dataset.animated) {
+      el.dataset.animated = 'true';
+
+      // activation après 2s
+      setTimeout(() => {
+        el.classList.add('is-active');
+
+        // désactivation 2s plus tard
+        setTimeout(() => {
+          el.classList.remove('is-active');
+        }, 1000);
+
+      }, 1000);
+    }
+
+    observer.unobserve(el);
+  });
+}, {
+  threshold: 0.4 // 40% visible pour déclencher l'animation
+});
+
+document.querySelectorAll('.card, .skill, .service').forEach(el => {
+  observer.observe(el);
+});
