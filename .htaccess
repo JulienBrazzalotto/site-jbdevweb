@@ -1,16 +1,17 @@
 RewriteEngine On
 
-# Forcer HTTPS
+# 1️⃣ Forcer HTTPS (TOUJOURS EN PREMIER)
 RewriteCond %{HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Supprimer .html dans l’URL (visiteur)
+# 2️⃣ Rediriger .html vers URL propre
 RewriteCond %{THE_REQUEST} \s([^.]+)\.html [NC]
-RewriteRule ^ %1 [R=301,L]
+RewriteRule ^ %1 [L,R=301]
 
-# Réécriture interne vers .html
+# 3️⃣ Servir les fichiers .html sans les afficher
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ $1.html [L]
 
-# Page d’accueil
+# 4️⃣ Page d’accueil
 DirectoryIndex index.html
