@@ -190,3 +190,36 @@ animatedElements.forEach((el, index) => {
   }
 });
 
+
+
+// ===================== DARK / LIGHT MODE =====================
+const toggleBtn = document.getElementById('theme-toggle');
+const root = document.documentElement;
+
+toggleBtn.addEventListener('click', () => {
+  const currentTheme = root.getAttribute('data-theme');
+
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  root.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+
+  // 🧠 Tooltip dynamique (BONUS UX)
+  toggleBtn.setAttribute(
+    'title',
+    newTheme === 'dark'
+      ? 'Passer en mode clair'
+      : 'Passer en mode sombre'
+  );
+});
+
+
+const savedTheme = localStorage.getItem('theme') || 'dark';
+root.setAttribute('data-theme', savedTheme);
+
+toggleBtn.setAttribute(
+  'title',
+  savedTheme === 'dark'
+    ? 'Passer en mode clair'
+    : 'Passer en mode sombre'
+);
+
