@@ -1,17 +1,14 @@
 RewriteEngine On
 
-# 1️⃣ Forcer HTTPS (TOUJOURS EN PREMIER)
+# Forcer HTTPS
 RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://jbdevweb.fr%{REQUEST_URI} [L,R=301]
 
-# 2️⃣ Rediriger .html vers URL propre
+# Rediriger .html vers version propre
 RewriteCond %{THE_REQUEST} \s([^.]+)\.html [NC]
 RewriteRule ^ %1 [L,R=301]
 
-# 3️⃣ Servir les fichiers .html sans les afficher
+# Servir les fichiers .html sans l'extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.+)$ $1.html [L]
-
-# 4️⃣ Page d’accueil
-DirectoryIndex index.html
