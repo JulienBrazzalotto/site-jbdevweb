@@ -1,3 +1,5 @@
+Redirect 301 /test-redirect https://jbdevweb.fr/
+
 RewriteEngine On
 
 # 1️⃣ Forcer HTTPS + supprimer www
