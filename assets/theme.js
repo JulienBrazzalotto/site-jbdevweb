@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // ===================== ANIMATION ELEMENTS AU SCROLL =====================
 document.addEventListener('DOMContentLoaded', () => {
-  const animElements = document.querySelectorAll('.card, .skill, .project, .service');
+  const animElements = document.querySelectorAll('.card, .skill, .project, .service, .compare-wrap, .faq-item');
 
   // Observer pour détecter quand l'élément est visible
   const observer = new IntersectionObserver((entries) => {

@@ -336,6 +336,181 @@ p {
   transform: translateY(0);
 }
 
+/* ===================== TABLEAU COMPARATIF (PAGE SHOPIFY) ===================== */
+.compare-intro {
+  max-width: 720px;
+  margin-top: 1.5rem;
+}
+
+.compare-wrap {
+  margin-top: 3rem;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  transform: translateY(80px) scale(0.95);
+  opacity: 0;
+  transition:
+    transform 1s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.8s ease;
+}
+
+.compare-wrap.visible {
+  transform: none;
+  opacity: 1;
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: clamp(0.8rem, 1.35vw, 0.95rem);
+  min-width: 720px;
+  line-height: 1.45;
+}
+
+.compare-table caption {
+  caption-side: bottom;
+  padding: 1rem 1.25rem 1.25rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: left;
+  line-height: 1.5;
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 0.75rem 0.9rem;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid var(--border);
+}
+
+.compare-table thead th {
+  background: rgba(255, 255, 255, 0.04);
+  font-weight: 600;
+}
+
+.compare-table tbody th {
+  font-weight: 600;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.02);
+  width: 14%;
+}
+
+.compare-table .compare-sub {
+  display: block;
+  font-weight: 400;
+  font-size: 0.78em;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+.compare-table .col-shopify,
+.compare-table .col-recommended {
+  background: rgba(0, 230, 118, 0.07);
+  box-shadow: inset 2px 0 0 var(--green);
+}
+
+.compare-table thead .col-shopify,
+.compare-table thead .col-recommended {
+  background: rgba(0, 230, 118, 0.14);
+  box-shadow: inset 2px 0 0 var(--green);
+}
+
+@media (max-width: 768px) {
+  .compare-wrap {
+    margin-left: -2vw;
+    margin-right: -2vw;
+    border-radius: 16px;
+  }
+}
+
+.compare-outro {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--border);
+  max-width: 820px;
+}
+
+.compare-outro h3 {
+  font-size: clamp(1.2rem, 2.4vw, 1.55rem);
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 0 1.5rem;
+  color: var(--text);
+}
+
+.compare-outro p {
+  margin: 0 0 1.35rem;
+}
+
+.compare-outro p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===================== FAQ ===================== */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.faq-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 820px;
+  margin-top: 0;
+}
+
+.faq-item {
+  background: var(--card-bg);
+  padding: 1.5rem 1.75rem;
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  transform: translateY(40px);
+  opacity: 0;
+  transition:
+    transform 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.7s ease;
+}
+
+.faq-item.visible {
+  transform: none;
+  opacity: 1;
+}
+
+.faq-item h3 {
+  font-size: clamp(1.05rem, 2vw, 1.2rem);
+  font-weight: 600;
+  margin: 0 0 0.85rem;
+  color: var(--green);
+  line-height: 1.35;
+}
+
+.faq-item p {
+  margin: 0;
+  max-width: none;
+}
+
+.faq-item a {
+  color: var(--green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.faq-item a:hover {
+  opacity: 0.9;
+}
+
 /* ===================== FOOTER ===================== */
 footer {
   text-align: center;
