@@ -192,6 +192,29 @@ animatedElements.forEach((el, index) => {
 
 
 
+// ===================== HAMBURGER MENU =====================
+const burger = document.querySelector('.nav-burger');
+const panel  = document.querySelector('.nav-panel');
+
+if (burger && panel) {
+  burger.addEventListener('click', () => {
+    const isOpen = burger.classList.toggle('open');
+    panel.classList.toggle('open', isOpen);
+    panel.style.display = isOpen ? 'flex' : 'none';
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+    burger.setAttribute('aria-expanded', isOpen);
+  });
+
+  panel.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      burger.classList.remove('open');
+      panel.classList.remove('open');
+      panel.style.display = 'none';
+      document.body.style.overflow = '';
+    });
+  });
+}
+
 // ===================== DARK / LIGHT MODE =====================
 const toggleBtn = document.getElementById('theme-toggle');
 const root = document.documentElement;
