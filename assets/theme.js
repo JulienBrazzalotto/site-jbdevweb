@@ -155,7 +155,7 @@ afficherAnneeEnCours();
 
 // ===================== ANIMATION SCROLL DES CARTES (mobile) =====================
 const animatedElements = document.querySelectorAll(
-  '.card, .skill, .service, .project'
+  '.card, .skill, .service, .project, .faq-item'
 );
 
 const isMobile = window.matchMedia('(hover: none)').matches;
