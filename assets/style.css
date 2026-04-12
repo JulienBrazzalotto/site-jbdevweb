@@ -917,8 +917,10 @@ html[data-theme="light"] {
 
 #theme-toggle .icon {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 18px;
   line-height: 1;
   pointer-events: none;
@@ -930,23 +932,23 @@ html[data-theme="light"] {
 /* 🌙 ÉTAT PAR DÉFAUT = DARK → on montre la lune */
 html[data-theme="dark"] .moon {
   opacity: 1;
-  transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
 }
 
 html[data-theme="dark"] .sun {
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.4) rotate(120deg);
+  transform: scale(0.4) rotate(120deg);
 }
 
 /* ☀️ LIGHT */
 html[data-theme="light"] .moon {
   opacity: 0;
-  transform: translate(-50%, -50%) scale(0.4) rotate(-120deg);
+  transform: scale(0.4) rotate(-120deg);
 }
 
 html[data-theme="light"] .sun {
   opacity: 1;
-  transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
 }
 
 #theme-toggle:active {
