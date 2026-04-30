@@ -112,3 +112,17 @@ Sur les plans avec support d’expressions avancées, tu peux cibler “chemin s
 | **GSC** | Propriété domaine + réinspection des URL après redirections. |
 
 Les liens internes du site pointent déjà vers `/contact/` (avec slash) pour rester alignés avec le sitemap et les canonical.
+
+---
+
+## 5. Après publication (SEO)
+
+- Vérifier que `https://jbdevweb.fr/sitemap.xml` liste bien `/blog/` et chaque article :
+  - `/blog/stock-transfert-pro-shopify/`
+  - `/blog/tarif-site-shopify-2026/`
+  - `/blog/comparatif-shopify-wix-prestashop-2026/`
+  - `/blog/magasin-physique-boutique-en-ligne/`
+- **Google Search Console** (propriété domaine `jbdevweb.fr`) : menu **Sitemaps** → saisir `sitemap.xml` et envoyer (ou renvoyer si le fichier a changé).
+- Pour chaque nouvelle URL importante : **Inspection de l’URL** → **Demander une indexation**.
+- Les pages du blog incluent des balises **Open Graph** / **Twitter Card** et du **JSON-LD** (Article, FAQ, fil d’Ariane). Pour un aperçu social plus lisible, tu peux plus tard remplacer `og:image` (actuellement le favicon) par une image dédiée 1200×630 px hébergée sur le site.
+- Pas de règle Cloudflare obligatoire pour les chemins `/blog/...` tant que l’URL publique ne change pas. En cas de **renommage** d’article plus tard, ajouter une **301** vers la nouvelle URL pour ne pas perdre le référencement.

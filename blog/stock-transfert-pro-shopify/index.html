@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Transfert Pro : app Shopify transferts multi-emplacements &amp; smart transfers</title>
+  <meta name="description" content="Présentation de Stock Transfert Pro : transferts manuels (brouillon → envoyé → reçu), smart transfers basés sur les ventes ou des cibles de stock, réception POS, journal d'audit et option IA pour les insights." />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jbdevweb.fr/blog/stock-transfert-pro-shopify/">
+  <link rel="stylesheet" href="/assets/style.css">
+  <meta name="google-site-verification" content="MnVIV9FcitbfVqeOFH9QD4CsZlQDlIZJulBPzabxADo" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://jbdevweb.fr/blog/stock-transfert-pro-shopify/">
+  <meta property="og:title" content="Stock Transfert Pro : app Shopify transferts multi-emplacements">
+  <meta property="og:description" content="Transferts brouillon → envoyé → reçu, smart transfers, réception POS, journal d'audit. Alternative à Stocky (2026).">
+  <meta property="og:site_name" content="JB Dev Web">
+  <meta property="og:image" content="https://jbdevweb.fr/assets/images/favicon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Stock Transfert Pro — app Shopify">
+  <meta name="twitter:description" content="Transferts multi-emplacements, smart transfers et réception POS pour Shopify.">
+  <meta name="twitter:image" content="https://jbdevweb.fr/assets/images/favicon.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Stock Transfert Pro : app Shopify pour transferts multi-emplacements",
+    "description": "Transferts manuels avec workflow, smart transfers, réception POS, audit et insights stock.",
+    "inLanguage": "fr-FR",
+    "datePublished": "2026-04-30",
+    "dateModified": "2026-04-30",
+    "author": { "@type": "Person", "name": "Julien Brazzalotto" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "JB Dev Web",
+      "url": "https://jbdevweb.fr/"
+    },
+    "image": "https://jbdevweb.fr/assets/images/favicon.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://jbdevweb.fr/blog/stock-transfert-pro-shopify/"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://jbdevweb.fr/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://jbdevweb.fr/blog/" },
+      { "@type": "ListItem", "position": 3, "name": "Stock Transfert Pro", "item": "https://jbdevweb.fr/blog/stock-transfert-pro-shopify/" }
+    ]
+  }
+  </script>
+</head>
+<body>
+<div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
+  Ce site utilise des cookies pour améliorer l'expérience.
+  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;">Accepter</button>
+</div>
+
+<nav>
+  <button id="theme-toggle" aria-label="Changer le thème">
+    <span class="icon sun" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+    <span class="icon moon theme-toggle-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="16" height="16"><defs><radialGradient id="theme-toggle-sun-core" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="60%" stop-color="#FFE082"/><stop offset="100%" stop-color="#FFB300"/></radialGradient><linearGradient id="theme-toggle-sun-ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE082" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFB300" stop-opacity="0.55"/></linearGradient><filter id="theme-toggle-sun-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(32 32)"><g fill="url(#theme-toggle-sun-ray)"><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(0)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(45)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(90)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(135)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(180)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(225)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(270)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(315)"/></g><circle cx="0" cy="0" r="8.5" fill="url(#theme-toggle-sun-core)" filter="url(#theme-toggle-sun-glow)"/></g></svg></span>
+  </button>
+  <a href="/">Accueil</a>
+  <a href="/shopify/">Shopify</a>
+  <a href="/blog/" class="active">Blog</a>
+  <a href="/sites-vitrines/">Sites vitrines</a>
+  <a href="/faq/">FAQ</a>
+  <a href="/contact/">Contact</a>
+  <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="nav-panel" role="dialog" aria-label="Menu navigation">
+  <a href="/">Accueil</a>
+  <a href="/shopify/">Shopify</a>
+  <a href="/blog/" class="active">Blog</a>
+  <a href="/sites-vitrines/">Sites vitrines</a>
+  <a href="/faq/">FAQ</a>
+  <a href="/contact/">Contact</a>
+</div>
+
+<header>
+  <div class="hero-bg">
+    <div class="hero-blob" style="top:10%;left:20%"></div>
+    <div class="hero-blob"></div>
+    <div class="hero-blob"></div>
+  </div>
+  <div class="hero-text">
+    <h1 id="hero-title">Stock Transfert Pro : transferts <span>Shopify</span> entre emplacements</h1>
+    <p>
+      Alternative à <strong>Stocky</strong> (déjà retiré du Shopify App Store depuis le <strong>2 février 2026</strong>, arrêt total au <strong>31 août 2026</strong>) : transferts manuels avec statuts, suggestions automatiques (ventes ou cibles de stock), réception en magasin et traçabilité complète.
+    </p>
+    <a href="/contact/" class="cta">Parler de votre projet Shopify</a>
+  </div>
+</header>
+
+<main>
+<section class="alt blog-article">
+  <p class="blog-kicker">Ce que fait l'app</p>
+  <h2>Transferts manuels, workflow clair</h2>
+  <p>
+    Chaque transfert relie deux <strong>emplacements Shopify</strong> et suit un cycle lisible :
+    <strong>brouillon</strong> → <strong>envoyé</strong> → <strong>reçu</strong> (avec possibilité d'annulation).
+    À l'envoi, le stock est <strong>retiré</strong> à la source ; à la réception, il est <strong>ajouté</strong> à destination via l'API Admin (ajustements d'inventaire).
+    Les réceptions partielles sont prises en charge : quantités envoyées vs reçues et écarts peuvent être suivis dans le <strong>journal d'audit</strong>.
+  </p>
+</section>
+
+<section class="blog-article">
+  <h2>Smart transfers : moins de calcul à la main</h2>
+  <p>
+    Deux modes complètent le manuel :
+  </p>
+  <ul class="blog-list">
+    <li><strong>Basé sur les ventes</strong> : analyse des commandes sur une période, regroupement par variante, comparaison au stock du magasin cible, puis suggestion d'un brouillon en choisissant la meilleure source (stock disponible).</li>
+    <li><strong>Basé sur une cible de stock</strong> : plafonds par variante et emplacement ; l'app calcule le manque et propose un transfert pour rejoindre la cible.</li>
+  </ul>
+</section>
+
+<section class="alt blog-article">
+  <h2>Réception POS, interface multilingue, insights</h2>
+  <p>
+    Une vue <strong>optimisée mobile</strong> permet au personnel de valider les transferts sur le terrain.
+    L'interface suit la langue de l'admin Shopify, avec prise en charge de <strong>5 langues</strong>.
+    Au-delà des mouvements, le projet inclut des <strong>insights stock</strong> (prévisions, alertes) ; une option permet d'activer des recommandations <strong>IA</strong> par boutique (clé API chiffrée côté serveur), avec repli sur des calculs déterministes si l'IA est désactivée ou indisponible.
+  </p>
+</section>
+
+<section class="blog-article">
+  <p class="blog-kicker">Côté technique</p>
+  <h2>Stack et périmètre</h2>
+  <p>
+    L'app est construite avec <strong>Remix</strong> (template Shopify), <strong>Polaris</strong> et <strong>App Bridge</strong>, persistance <strong>Prisma</strong> (PostgreSQL en production), et GraphQL Admin API.
+    C'est un bon exemple de produit Shopify complet : auth embarquée, webhooks, logique métier stock, et UX orientée équipes terrain.
+  </p>
+</section>
+
+<section class="alt blog-article">
+  <h2>Pour aller plus loin</h2>
+  <p>
+    Si vous découvrez Shopify et que la question du stock se pose pour vous, ces articles complètent le sujet :
+  </p>
+  <ul class="blog-list">
+    <li><a href="/blog/magasin-physique-boutique-en-ligne/">Magasin physique : ouvrir une boutique en ligne sans tout casser</a> — pourquoi le stock unifié change tout pour un point de vente.</li>
+    <li><a href="/blog/comparatif-shopify-wix-prestashop-2026/">Shopify, Wix ou Prestashop en 2026</a> — pour ceux qui n'ont pas encore choisi de plateforme.</li>
+    <li><a href="/blog/tarif-site-shopify-2026/">Tarif d'un site Shopify en 2026</a> — abonnements, commissions, freelance et apps : ce que ça coûte vraiment.</li>
+  </ul>
+  <a class="cta" href="/blog/">Retour au blog Shopify</a>
+</section>
+
+</main>
+<footer>
+  <div>
+    <a href="/" aria-label="Retour à l’accueil – JB Dev Web">
+      <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
+        <defs>
+          <filter id="shadow-j-green" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="0" result="blur"/>
+            <feOffset dx="0" dy="0" result="offsetBlur"/>
+            <feFlood flood-color="#00E676" flood-opacity="0.3" result="color"/>
+            <feComposite in2="offsetBlur" operator="in"/>
+            <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <path d="M78 32 L78 148 C78 176 42 176 42 148" fill="none" stroke="#00E676" stroke-width="18" stroke-linecap="butt" stroke-linejoin="miter" filter="url(#shadow-j-green)" />
+        <path d="M88 32 L88 150 L118 150 C147 150 160 148 160 119 C160 103 155 92 143 92 C150 90 158 86 158 60 C158 36 144 32 118 32 Z M108 50 L118 50 C133 50 137 56 137 65 C137 76 133 82 118 82 L108 82 Z M108 102 L119 102 C133 102 138 107 138 118 C138 130 132 133 120 133 L108 133 Z" fill="#070A08" filter="url(#shadow-j-green)" />
+      </svg>
+    </a>
+  </div>
+  <div>
+    © <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)<br><a href="/mentions-legales/">Mentions légales</a>
+  </div>
+</footer>
+
+<script src="/assets/theme.js" defer></script>
+</body>
+</html>
