@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadence — la prochaine app Shopify pour orchestrer votre boutique (en développement)</title>
+  <meta name="description" content="Cadence, la prochaine app Shopify pour programmer le rythme de votre boutique : promotions, lancements, bascules saisonnières. En développement (70%), sortie attendue d'ici l'été 2026." />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://jbdevweb.fr/blog/cadence/">
+  <link rel="stylesheet" href="/assets/style.css">
+  <meta name="google-site-verification" content="MnVIV9FcitbfVqeOFH9QD4CsZlQDlIZJulBPzabxADo" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://jbdevweb.fr/blog/cadence/">
+  <meta property="og:title" content="Cadence — la prochaine app Shopify pour orchestrer votre boutique">
+  <meta property="og:description" content="Programmer les promotions, les lancements et les bascules saisonnières sans rester debout à minuit. En développement (70%), sortie d'ici l'été 2026.">
+  <meta property="og:site_name" content="JB Dev Web">
+  <meta property="og:image" content="https://jbdevweb.fr/assets/images/favicon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cadence — prochaine app Shopify d'orchestration">
+  <meta name="twitter:description" content="Programmer le rythme de votre boutique Shopify. En développement, sortie d'ici l'été 2026.">
+  <meta name="twitter:image" content="https://jbdevweb.fr/assets/images/favicon.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cadence — la prochaine app Shopify pour orchestrer votre boutique",
+    "description": "Annonce de Cadence, future app Shopify d'orchestration et de programmation de changements (promotions, lancements, bascules saisonnières). Avancement 70%, sortie estimée été 2026.",
+    "inLanguage": "fr-FR",
+    "datePublished": "2026-06-03",
+    "dateModified": "2026-06-03",
+    "author": { "@type": "Person", "name": "Julien Brazzalotto" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "JB Dev Web",
+      "url": "https://jbdevweb.fr/"
+    },
+    "image": "https://jbdevweb.fr/assets/images/favicon.png",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://jbdevweb.fr/blog/cadence/"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://jbdevweb.fr/" },
+      { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://jbdevweb.fr/blog/" },
+      { "@type": "ListItem", "position": 3, "name": "Cadence", "item": "https://jbdevweb.fr/blog/cadence/" }
+    ]
+  }
+  </script>
+</head>
+<body>
+<div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
+  Ce site utilise des cookies pour améliorer l'expérience.
+  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;">Accepter</button>
+</div>
+
+<nav>
+  <button id="theme-toggle" aria-label="Changer le thème">
+    <span class="icon sun" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+    <span class="icon moon theme-toggle-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="16" height="16"><defs><radialGradient id="theme-toggle-sun-core" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="60%" stop-color="#FFE082"/><stop offset="100%" stop-color="#FFB300"/></radialGradient><linearGradient id="theme-toggle-sun-ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE082" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFB300" stop-opacity="0.55"/></linearGradient><filter id="theme-toggle-sun-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(32 32)"><g fill="url(#theme-toggle-sun-ray)"><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(0)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(45)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(90)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(135)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(180)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(225)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(270)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(315)"/></g><circle cx="0" cy="0" r="8.5" fill="url(#theme-toggle-sun-core)" filter="url(#theme-toggle-sun-glow)"/></g></svg></span>
+  </button>
+  <a href="/">Accueil</a>
+  <a href="/shopify/">Shopify</a>
+  <a href="/blog/" class="active">Blog</a>
+  <a href="/sites-vitrines/">Sites vitrines</a>
+  <a href="/faq/">FAQ</a>
+  <a href="/contact/">Contact</a>
+  <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="nav-panel" role="dialog" aria-label="Menu navigation">
+  <a href="/">Accueil</a>
+  <a href="/shopify/">Shopify</a>
+  <a href="/blog/" class="active">Blog</a>
+  <a href="/sites-vitrines/">Sites vitrines</a>
+  <a href="/faq/">FAQ</a>
+  <a href="/contact/">Contact</a>
+</div>
+
+<header>
+  <div class="hero-bg">
+    <div class="hero-blob" style="top:10%;left:20%"></div>
+    <div class="hero-blob"></div>
+    <div class="hero-blob"></div>
+  </div>
+  <div class="hero-text">
+    <h1 id="hero-title"><span>Cadence</span> — la prochaine app Shopify pour orchestrer votre boutique</h1>
+    <p>
+      Une nouvelle app Shopify en cours de développement, pour <strong>programmer les changements de votre boutique</strong> à l'avance — et arrêter de mettre un réveil à 23h55 pour passer une promo. Sortie estimée d'ici l'<strong>été 2026</strong>.
+    </p>
+    <div class="progress-block" style="max-width:520px">
+      <div class="progress-meta">
+        <span>Avancement du développement</span>
+        <strong>70%</strong>
+      </div>
+      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Avancement du développement de Cadence">
+        <div class="progress-bar-fill" style="width:70%"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="alt blog-article">
+  <p class="blog-kicker">Le pourquoi</p>
+  <h2>Une boutique en ligne, c'est aussi une question de timing</h2>
+  <p>
+    Un site e-commerce sérieux ne change pas seulement à la main, au fil de l'inspiration. Il change à <strong>des moments précis</strong> : une promo qui démarre le vendredi à 9h00, une collection capsule qui s'ouvre à minuit, des prix qui montent dès le retour de saison, une bannière Black Friday qui doit s'afficher pile au bon moment — et disparaître à la fin de l'opération sans rien oublier.
+  </p>
+  <p>
+    Dans la vraie vie, ces transitions sont gérées <strong>à la main</strong>. On reste devant l'écran à 23h55. On note dans un coin du carnet « ne pas oublier de repasser les 40 produits saisonniers en brouillon ». On change le thème en urgence parce qu'on a oublié la veille. Et chaque opération devient un petit stress, multiplié par le nombre d'événements de l'année.
+  </p>
+  <p>
+    Pour les très gros marchands, des outils internes ou des outils premium réservés aux <strong>plans Shopify Plus</strong> existent depuis longtemps. Pour tous les autres — la grande majorité des marchands Shopify — c'est encore de l'<strong>artisanat manuel</strong>.
+  </p>
+</section>
+
+<section class="blog-article">
+  <p class="blog-kicker">L'idée</p>
+  <h2>Cadence : programmer le rythme, pas seulement réagir</h2>
+  <p>
+    Le nom n'est pas anodin. <strong>Cadence</strong>, c'est le tempo, le rythme, la régularité d'un mouvement. C'est exactement ce qui manque à beaucoup de boutiques : un endroit unique où l'on définit <strong>quand</strong> les choses doivent changer, et où ces changements se déclenchent <strong>automatiquement</strong> au bon moment.
+  </p>
+  <p>
+    L'idée n'est pas de remplacer le travail de fond du marchand. C'est de retirer de ses épaules les <strong>bascules temporelles</strong> qui devraient être l'affaire d'une machine — pour qu'il se concentre sur la stratégie, le produit, les clients.
+  </p>
+  <p>
+    Sans rentrer dans le détail (l'app n'est pas encore publique), Cadence couvre plusieurs types d'actions programmées sur la boutique, dans une logique d'<strong>orchestration</strong> : un événement, plusieurs changements coordonnés, un retour à l'état précédent automatique en fin d'opération.
+  </p>
+</section>
+
+<section class="alt blog-article">
+  <p class="blog-kicker">À qui c'est destiné</p>
+  <h2>Pas réservé aux gros marchands</h2>
+  <p>
+    Le pari de Cadence, c'est de mettre ce niveau d'orchestration <strong>à la portée de toutes les boutiques Shopify</strong> — pas seulement celles qui ont le budget d'un plan haut de gamme et d'une équipe e-commerce dédiée.
+  </p>
+  <p>
+    L'app vise particulièrement :
+  </p>
+  <ul class="blog-list">
+    <li><strong>Marchands saisonniers</strong> qui ouvrent et ferment des collections plusieurs fois par an.</li>
+    <li><strong>Retail à promos récurrentes</strong> (déstockages, ventes flash, opérations week-end).</li>
+    <li><strong>Boutiques événementielles</strong> (Black Friday, soldes, Noël, Saint-Valentin, fêtes locales).</li>
+    <li><strong>Lancements de produits</strong> où plusieurs éléments doivent basculer en même temps.</li>
+    <li><strong>Marchands solo</strong> ou très petites équipes qui ne peuvent pas se permettre de rester devant l'écran à minuit, encore moins le week-end.</li>
+  </ul>
+  <p>
+    Si vous vous êtes déjà mis un réveil pour 23h55 un dimanche soir « juste pour activer la promo », Cadence est pensée pour vous.
+  </p>
+</section>
+
+<section class="blog-article">
+  <p class="blog-kicker">Avancement</p>
+  <h2>Où j'en suis : 70%</h2>
+  <p>
+    Le projet est en <strong>développement actif</strong> depuis plusieurs mois. Le cœur fonctionnel est en place, la phase actuelle se concentre sur l'expérience utilisateur, les cas limites et la fiabilité des planifications.
+  </p>
+  <div class="progress-block">
+    <div class="progress-meta">
+      <span>Avancement global</span>
+      <strong>70%</strong>
+    </div>
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Avancement global de Cadence">
+      <div class="progress-bar-fill" style="width:70%"></div>
+    </div>
+  </div>
+  <ul class="roadmap-list">
+    <li class="done"><strong>Architecture &amp; cœur métier</strong> — moteur de planification, persistance, intégration Shopify Admin API.</li>
+    <li class="done"><strong>Auth embarquée &amp; conformité App Store</strong> — App Bridge, scopes, gestion des sessions.</li>
+    <li class="done"><strong>Premières actions programmées</strong> — l'essentiel des bascules ciblées est opérationnel en interne.</li>
+    <li class="doing"><strong>UX et tableau de bord</strong> — calendrier, vue de planification, alertes en cas de conflit.</li>
+    <li class="doing"><strong>Tests réels sur boutiques pilotes</strong> — robustesse des déclenchements, gestion des fuseaux horaires, reprises sur erreur.</li>
+    <li class="todo"><strong>Plans tarifaires et page App Store</strong> — derniers arbitrages avant soumission.</li>
+    <li class="todo"><strong>Soumission Shopify App Store</strong> — review officielle puis publication.</li>
+  </ul>
+</section>
+
+<section class="alt blog-article">
+  <p class="blog-kicker">Pourquoi en parler maintenant</p>
+  <h2>Avancer publiquement, sans tout dévoiler</h2>
+  <p>
+    Je travaille en solo, sans budget marketing. Annoncer un produit en cours, même partiellement, c'est un moyen honnête de <strong>commencer à exister</strong> avant le jour J — et de croiser, déjà, les marchands à qui le produit pourrait servir.
+  </p>
+  <p>
+    Le détail des fonctionnalités, le positionnement précis, les plans tarifaires et la date exacte seront communiqués <strong>au lancement</strong>, sur la page Shopify App Store de Cadence. D'ici là, cette page sera mise à jour à mesure que le projet avance.
+  </p>
+  <p>
+    Vous suivez le blog ou vous voulez être averti quand Cadence sort ? La meilleure manière reste de <a href="/contact/">me contacter directement</a> — j'ai une mini-liste de marchands intéressés que je préviendrai en avant-première du lancement.
+  </p>
+</section>
+
+<section class="blog-article">
+  <h2>Pour aller plus loin</h2>
+  <p>
+    En attendant Cadence, d'autres lectures Shopify sur le blog :
+  </p>
+  <ul class="blog-list">
+    <li><a href="/blog/stock-transfert-pro-shopify/">Stock Transfert Pro</a> — ma première app, déjà disponible sur le Shopify App Store, pour les transferts entre emplacements.</li>
+    <li><a href="/blog/tarif-site-shopify-2026/">Tarif Shopify France 2026</a> — abonnements, commissions, freelance et apps : ce que ça coûte vraiment.</li>
+    <li><a href="/blog/comparatif-shopify-wix-prestashop-2026/">Shopify, Wix ou Prestashop en 2026</a> — bien choisir avant d'engager le budget.</li>
+    <li><a href="/blog/magasin-physique-boutique-en-ligne/">Magasin physique en ligne sur Shopify</a> — passer au web sans tout casser.</li>
+  </ul>
+  <a class="cta" href="/blog/">Retour au blog</a>
+</section>
+
+</main>
+<footer>
+  <div>
+    <a href="/" aria-label="Retour à l’accueil – JB Dev Web">
+      <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
+        <defs>
+          <filter id="shadow-j-green" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="0" result="blur"/>
+            <feOffset dx="0" dy="0" result="offsetBlur"/>
+            <feFlood flood-color="#00E676" flood-opacity="0.3" result="color"/>
+            <feComposite in2="offsetBlur" operator="in"/>
+            <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+          </filter>
+        </defs>
+        <path d="M78 32 L78 148 C78 176 42 176 42 148" fill="none" stroke="#00E676" stroke-width="18" stroke-linecap="butt" stroke-linejoin="miter" filter="url(#shadow-j-green)" />
+        <path d="M88 32 L88 150 L118 150 C147 150 160 148 160 119 C160 103 155 92 143 92 C150 90 158 86 158 60 C158 36 144 32 118 32 Z M108 50 L118 50 C133 50 137 56 137 65 C137 76 133 82 118 82 L108 82 Z M108 102 L119 102 C133 102 138 107 138 118 C138 130 132 133 120 133 L108 133 Z" fill="#070A08" filter="url(#shadow-j-green)" />
+      </svg>
+    </a>
+  </div>
+  <div>
+    © <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)<br><a href="/mentions-legales/">Mentions légales</a>
+  </div>
+</footer>
+
+<script src="/assets/theme.js" defer></script>
+</body>
+</html>

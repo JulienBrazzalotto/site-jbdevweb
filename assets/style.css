@@ -425,6 +425,99 @@ h1 span {
   .pricing-grid { grid-template-columns: 1fr; }
 }
 
+/* ===================== PROGRESS BAR (WIP) ===================== */
+.progress-block {
+  margin: 1.5rem 0;
+}
+
+.progress-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.progress-meta strong {
+  color: var(--green);
+  font-size: 1.1rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(0, 230, 118, 0.25);
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--green-dark), var(--green));
+  border-radius: 999px;
+  position: relative;
+  box-shadow: 0 0 14px rgba(0, 230, 118, 0.45);
+  animation: progress-pulse 2.4s ease-in-out infinite alternate;
+}
+
+@keyframes progress-pulse {
+  0%   { box-shadow: 0 0 10px rgba(0, 230, 118, 0.25); }
+  100% { box-shadow: 0 0 22px rgba(0, 230, 118, 0.65); }
+}
+
+/* ===================== ROADMAP CHECKLIST ===================== */
+.roadmap-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.roadmap-list li {
+  position: relative;
+  padding-left: 2rem;
+  line-height: 1.55;
+}
+
+.roadmap-list li::before {
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.roadmap-list li.done::before {
+  content: "✓";
+  background: var(--green);
+  color: #000;
+}
+
+.roadmap-list li.doing::before {
+  content: "•";
+  background: rgba(255, 153, 0, 0.85);
+  color: #000;
+  animation: progress-pulse 2s ease-in-out infinite alternate;
+}
+
+.roadmap-list li.todo::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
 /* ===================== SECTIONS ===================== */
 section {
   padding: 8rem 8vw;
