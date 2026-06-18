@@ -137,6 +137,38 @@
 
 <footer>
   <div>
+    <a href="/" aria-label="Retour à l’accueil – JB Dev Web">
+      <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
+        <defs>
+          <filter id="shadow-j-green" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="0" result="blur"/>
+            <feOffset dx="0" dy="0" result="offsetBlur"/>
+            <feFlood flood-color="#00E676" flood-opacity="0.3" result="color"/>
+            <feComposite in2="offsetBlur" operator="in"/>
+            <feMerge>
+              <feMergeNode/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+        </defs>
+        <path
+          d="M78 32 L78 148 C78 176 42 176 42 148"
+          fill="none"
+          stroke="#00E676"
+          stroke-width="18"
+          stroke-linecap="butt"
+          stroke-linejoin="miter"
+          filter="url(#shadow-j-green)"
+        />
+        <path
+          d="M88 32 L88 150 L118 150 C147 150 160 148 160 119 C160 103 155 92 143 92 C150 90 158 86 158 60 C158 36 144 32 118 32 Z M108 50 L118 50 C133 50 137 56 137 65 C137 76 133 82 118 82 L108 82 Z M108 102 L119 102 C133 102 138 107 138 118 C138 130 132 133 120 133 L108 133 Z"
+          fill="#070A08"
+          filter="url(#shadow-j-green)"
+        />
+      </svg>
+    </a>
+  </div>
+  <div>
     © <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)<br><a href="/mentions-legales/">Mentions légales</a>
   </div>
 </footer>

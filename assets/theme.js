@@ -88,8 +88,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // ===================== Animation de l'ombre du logo =====================
-  const blurNode = document.querySelector('#shadow-j-green feGaussianBlur');
-  const floodNode = document.querySelector('#shadow-j-green feFlood');
+const blurNode = document.querySelector('#shadow-j-green feGaussianBlur');
+const floodNode = document.querySelector('#shadow-j-green feFlood');
+
+if (blurNode && floodNode) {
   const duration = 4000; // cycle complet pour la pulsation
   let startTime;
 
@@ -106,6 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   requestAnimationFrame(animate);
+}
 
 
 
