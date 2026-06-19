@@ -102,12 +102,53 @@ Sur les plans avec support d’expressions avancées, tu peux cibler “chemin s
 
 ---
 
+## 6. En-têtes de sécurité (HSTS, X-Content-Type-Options)
+
+GitHub Pages ne permet pas d’ajouter des en-têtes HTTP personnalisés depuis le dépôt. Comme le trafic passe par **Cloudflare**, c’est là qu’il faut les configurer.
+
+### HSTS (Strict-Transport-Security)
+
+1. [Cloudflare Dashboard](https://dash.cloudflare.com) → **jbdevweb.fr**
+2. **SSL/TLS** → **Edge Certificates**
+3. Section **HTTP Strict Transport Security (HSTS)** → **Enable HSTS**
+4. Paramètres recommandés :
+   - **Max Age** : `31536000` (12 mois)
+   - **Include subdomains** : activé
+   - **Preload** : optionnel (à activer seulement si tu es sûr de garder HTTPS partout longtemps)
+
+### X-Content-Type-Options (et autres en-têtes utiles)
+
+1. **Rules** → **Transform Rules** → **Modify Response Header** → **Create rule**
+2. **Rule name :** `Security headers`
+3. **When :** `All incoming requests` (ou filtre `http.host eq "jbdevweb.fr" or http.host eq "www.jbdevweb.fr"`)
+4. **Then** — ajouter ces en-têtes (action **Set static**) :
+
+| Header | Valeur |
+|--------|--------|
+| `X-Content-Type-Options` | `nosniff` |
+| `X-Frame-Options` | `SAMEORIGIN` |
+| `Referrer-Policy` | `strict-origin-when-cross-origin` |
+| `Permissions-Policy` | `camera=(), microphone=(), geolocation=()` |
+
+5. **Deploy**
+
+Vérification après déploiement (PowerShell ou terminal) :
+
+```bash
+curl -sI https://jbdevweb.fr/ | findstr /i "strict-transport-security x-content-type-options"
+```
+
+Tu dois voir les deux en-têtes dans la réponse.
+
+---
+
 ## Récap
 
 | Où | Quoi |
 |----|------|
 | **Hostinger** | Domaine + DNS : nameservers ou enregistrements pour que le trafic passe par Cloudflare. |
 | **Cloudflare** | Redirect Rules : www → non-www (301) et éventuellement trailing slash (301). |
+| **Cloudflare** | HSTS (SSL/TLS) + en-têtes de sécurité (Transform Rules). |
 | **GitHub Pages** | Custom domain = jbdevweb.fr ; pas de _redirects. |
 | **GSC** | Propriété domaine + réinspection des URL après redirections. |
 

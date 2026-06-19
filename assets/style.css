@@ -18,13 +18,21 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: clip;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   background: var(--bg);
   color: var(--text);
-  overflow-x: hidden;
+  overflow-x: clip;
   cursor: default;
+}
+
+p, li, td, th {
+  overflow-wrap: anywhere;
 }
 
 a {
@@ -545,7 +553,7 @@ p {
 /* ===================== CARDS / SKILLS ===================== */
 .cards, .skills, .services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
   gap: 3rem;
   margin-top: 4rem;
 }
@@ -593,7 +601,7 @@ p {
   .card.is-active,
   .skill.is-active,
   .service.is-active {
-    transform: translateY(-10px) rotateY(6deg);
+    transform: translateY(-10px);
     box-shadow: 0 40px 80px rgba(0,230,118,.25);
   }
 }
@@ -610,7 +618,7 @@ p {
 /* ===================== PROJETS ===================== */
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
   gap: 2.5rem;
   margin-top: 4rem;
 }
@@ -691,6 +699,8 @@ p {
 
 .compare-wrap {
   margin-top: 3rem;
+  width: 100%;
+  min-width: 0;
   max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -768,8 +778,8 @@ p {
 
 @media (max-width: 768px) {
   .compare-wrap {
-    margin-left: -2vw;
-    margin-right: -2vw;
+    margin-left: 0;
+    margin-right: 0;
     border-radius: 16px;
   }
 }
@@ -979,6 +989,17 @@ p {
 
 .blog-list li {
   margin-bottom: 0.75rem;
+}
+
+/* ===================== COOKIE BANNER ===================== */
+#cookie-banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* ===================== FOOTER ===================== */
