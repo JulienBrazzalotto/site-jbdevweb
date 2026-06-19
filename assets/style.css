@@ -20,6 +20,7 @@
 
 html {
   overflow-x: clip;
+  max-width: 100%;
 }
 
 body {
@@ -28,7 +29,17 @@ body {
   background: var(--bg);
   color: var(--text);
   overflow-x: clip;
+  max-width: 100%;
   cursor: default;
+}
+
+img, svg, video, canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+main, section, header, footer, nav, .nav-panel {
+  max-width: 100%;
 }
 
 p, li, td, th {
@@ -49,6 +60,7 @@ nav {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
+  max-width: calc(100% - 20px);
 }
 
 nav a {
@@ -207,6 +219,7 @@ header {
   position: absolute;
   inset: 0;
   z-index: 0;
+  overflow: hidden;
 }
 
 .hero-blob {
@@ -703,6 +716,8 @@ p {
   min-width: 0;
   max-width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
+  contain: inline-size;
   -webkit-overflow-scrolling: touch;
   border-radius: 24px;
   border: 1px solid var(--border);
@@ -998,8 +1013,18 @@ p {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+  left: 0;
+  right: 0;
+}
+
+footer #logo {
+  display: block;
+  max-width: min(220px, 70vw);
+  height: auto;
+  margin: 0 auto;
 }
 
 /* ===================== FOOTER ===================== */
@@ -1016,6 +1041,43 @@ footer {
     padding: 6rem 6vw;
   }
   nav { right: 20px; }
+}
+
+@media (max-width: 768px) {
+  .hero-blob {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-blob:nth-child(2) {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-blob:nth-child(3) {
+    width: 260px;
+    height: 260px;
+  }
+
+  @keyframes blobMove {
+    from { transform: translate(0, 0) scale(1); }
+    to { transform: translate(30px, -20px) scale(1.05); }
+  }
+
+  .card.is-active,
+  .skill.is-active,
+  .service.is-active,
+  .project.is-active {
+    transform: translateY(-6px);
+  }
+
+  .project {
+    overflow: hidden;
+  }
+
+  #theme-toggle {
+    overflow: hidden;
+  }
 }
 
 
