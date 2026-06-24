@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shopify, Wix ou Prestashop en 2026 : comparatif pour commerçants</title>
-  <meta name="description" content="Shopify, Wix ou Prestashop : critères de choix, coût sur 3 ans, POS et stock, SEO et maintenance. Retour terrain d'un freelance e-commerce pour tout commerçant." />
+  <title data-i18n="meta./blog/comparatif-shopify-wix-prestashop-2026/.title">Shopify, Wix ou Prestashop en 2026 : comparatif pour commerçants</title>
+  <meta name="description" data-i18n="meta./blog/comparatif-shopify-wix-prestashop-2026/.description" content="Shopify, Wix ou Prestashop : critères de choix, coût sur 3 ans, POS et stock, SEO et maintenance. Retour terrain d'un freelance e-commerce pour tout commerçant." />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://jbdevweb.fr/blog/comparatif-shopify-wix-prestashop-2026/">
@@ -89,35 +89,37 @@
     ]
   }
   </script>
+
+  <script src="/assets/i18n.js" defer></script>
 </head>
 <body>
 <div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
-  Ce site utilise des cookies pour améliorer l'expérience.
-  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;">Accepter</button>
+  <span data-i18n="cookie.message">Ce site utilise des cookies pour améliorer l'expérience.</span> 
+  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;"><span data-i18n="cookie.accept">Accepter</span></button>
 </div>
 
 <nav>
-  <button id="theme-toggle" aria-label="Changer le thème">
+  <button id="theme-toggle" data-i18n-attr="aria-label" data-i18n="nav.theme_toggle" aria-label="Changer le thème">
     <span class="icon sun" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
     <span class="icon moon theme-toggle-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="16" height="16"><defs><radialGradient id="theme-toggle-sun-core" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="60%" stop-color="#FFE082"/><stop offset="100%" stop-color="#FFB300"/></radialGradient><linearGradient id="theme-toggle-sun-ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE082" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFB300" stop-opacity="0.55"/></linearGradient><filter id="theme-toggle-sun-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(32 32)"><g fill="url(#theme-toggle-sun-ray)"><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(0)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(45)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(90)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(135)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(180)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(225)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(270)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(315)"/></g><circle cx="0" cy="0" r="8.5" fill="url(#theme-toggle-sun-core)" filter="url(#theme-toggle-sun-glow)"/></g></svg></span>
   </button>
-  <a href="/">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/" class="active">Blog</a>
-  <a href="/contact/">Contact</a>
-  <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
+  <a href="/" data-i18n="nav.home">Accueil</a>
+  <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+  <a href="/sites-vitrines/" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+  <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+  <a href="/blog/" class="active" data-i18n="nav.blog">Blog</a>
+  <a href="/contact/" data-i18n="nav.contact">Contact</a>
+  <button class="nav-burger" data-i18n-attr="aria-label" data-i18n="nav.burger" aria-label="Ouvrir le menu" aria-expanded="false">
     <span></span><span></span><span></span>
   </button>
 </nav>
-<div class="nav-panel" role="dialog" aria-label="Menu navigation">
-  <a href="/">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/" class="active">Blog</a>
-  <a href="/contact/">Contact</a>
+<div class="nav-panel" role="dialog" data-i18n-attr="aria-label" data-i18n="nav.panel" aria-label="Menu navigation">
+  <a href="/" data-i18n="nav.home">Accueil</a>
+  <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+  <a href="/sites-vitrines/" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+  <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+  <a href="/blog/" class="active" data-i18n="nav.blog">Blog</a>
+  <a href="/contact/" data-i18n="nav.contact">Contact</a>
 </div>
 
 <header>
@@ -127,37 +129,37 @@
     <div class="hero-blob"></div>
   </div>
   <div class="hero-text">
-    <h1 id="hero-title">Shopify, Wix ou Prestashop : quelle plateforme en <span>2026</span> ?</h1>
-    <p>
+    <h1 data-i18n="blog.comparatif.hero.title" data-i18n-html id="hero-title">Shopify, Wix ou Prestashop : quelle plateforme en <span>2026</span> ?</h1>
+    <p data-i18n="blog.comparatif.hero.text">
       Que vous soyez en centre-ville, en zone commerciale ou en ligne uniquement, la question revient souvent : sur quoi construire sa boutique ?
       Voici un comparatif orienté terrain — temps, stock, coût réel et maintenance — pour trancher sans marketing creux.
     </p>
-    <a href="/contact/" class="cta">Discuter de votre contexte</a>
+    <a data-i18n="blog.comparatif.hero.cta" href="/contact/" class="cta">Discuter de votre contexte</a>
   </div>
 </header>
 
 <main>
 <section class="alt blog-article">
-  <p class="blog-kicker">Avant les logos</p>
-  <h2>Les quatre critères qui comptent vraiment</h2>
-  <p>
+  <p data-i18n="blog.comparatif.s1.kicker" class="blog-kicker">Avant les logos</p>
+  <h2 data-i18n="blog.comparatif.s1.title">Les quatre critères qui comptent vraiment</h2>
+  <p data-i18n="blog.comparatif.s1.p1">
     Avant de comparer les fonctionnalités, quatre questions pratiques tranchent souvent seules :
   </p>
   <ul class="blog-list">
-    <li><strong>Temps disponible</strong> : combien d'heures par semaine vous pouvez consacrer au site, aux commandes et aux mises à jour.</li>
-    <li><strong>Volume visé</strong> : catalogue restreint ou centaines de références, France uniquement ou export.</li>
-    <li><strong>Magasin physique</strong> : besoin d'un <strong>stock unifié</strong> et d'un <strong>point de vente</strong> (caisse, retrait) ou non.</li>
-    <li><strong>Qui vous aide quand ça bloque</strong> : communauté, agence, freelance, ou personne — cela change tout sur Prestashop en particulier.</li>
+    <li data-i18n="blog.comparatif.s1.li1" data-i18n-html><strong>Temps disponible</strong> : combien d'heures par semaine vous pouvez consacrer au site, aux commandes et aux mises à jour.</li>
+    <li data-i18n="blog.comparatif.s1.li2" data-i18n-html><strong>Volume visé</strong> : catalogue restreint ou centaines de références, France uniquement ou export.</li>
+    <li data-i18n="blog.comparatif.s1.li3" data-i18n-html><strong>Magasin physique</strong> : besoin d'un <strong>stock unifié</strong> et d'un <strong>point de vente</strong> (caisse, retrait) ou non.</li>
+    <li data-i18n="blog.comparatif.s1.li4" data-i18n-html><strong>Qui vous aide quand ça bloque</strong> : communauté, agence, freelance, ou personne — cela change tout sur Prestashop en particulier.</li>
   </ul>
 </section>
 
 <section class="blog-article">
-  <h2>Wix : pour qui ça marche, pour qui ça coince</h2>
-  <p>
+  <h2 data-i18n="blog.comparatif.s2.title">Wix : pour qui ça marche, pour qui ça coince</h2>
+  <p data-i18n="blog.comparatif.s2.p1" data-i18n-html>
     <strong>Wix</strong> excelle pour aller vite : interface claire, beaucoup de gabarits, prix d'entrée attractif.
     Pour une vitrine avec peu de produits ou un test marché, c'est souvent suffisant.
   </p>
-  <p>
+  <p data-i18n="blog.comparatif.s2.p2" data-i18n-html>
     Les limites apparaissent quand le chiffre d'affaires web grimpe : <strong>SEO</strong> encore en retard sur des scénarios avancés,
     écosystème d'<strong>apps métiers</strong> moins riche que sur Shopify, et <strong>POS / omnicanal</strong> moins naturel pour un vrai magasin avec inventaire synchronisé.
     L'export des données n'est pas toujours trivial si vous changez de plateforme plus tard — à anticiper.
@@ -165,20 +167,20 @@
 </section>
 
 <section class="alt blog-article">
-  <h2>Prestashop : la fausse bonne idée pour beaucoup de PME</h2>
-  <p>
+  <h2 data-i18n="blog.comparatif.s3.title">Prestashop : la fausse bonne idée pour beaucoup de PME</h2>
+  <p data-i18n="blog.comparatif.s3.p1" data-i18n-html>
     <strong>Prestashop</strong> est open source : vous « possédez » le code, la communauté française est active, et on peut tout théoriquement personnaliser.
     Le revers : <strong>hébergement</strong>, <strong>sécurité</strong>, <strong>mises à jour</strong>, conflits entre <strong>modules payants</strong>, et dette technique qui s'accumule si personne ne pilote la stack.
   </p>
-  <p>
+  <p data-i18n="blog.comparatif.s3.p2" data-i18n-html>
     En 2026, Prestashop reste pertinent si vous avez déjà une <strong>équipe technique</strong> ou des contraintes très spécifiques (connecteurs rares, logique métier lourde).
     Pour une structure sans développeur dédié, le coût caché dépasse souvent l'abonnement SaaS d'une solution hébergée.
   </p>
 </section>
 
 <section class="blog-article">
-  <h2>Shopify : pourquoi je le recommande dans la majorité des cas</h2>
-  <p>
+  <h2 data-i18n="blog.comparatif.s4.title">Shopify : pourquoi je le recommande dans la majorité des cas</h2>
+  <p data-i18n="blog.comparatif.s4.p" data-i18n-html>
     <strong>Shopify</strong> regroupe hébergement, paiement (Shopify Payments ou autre), sécurité et évolutions produit dans un cycle régulier.
     L'<strong>App Store</strong> couvre TVA, transporteurs, comptabilité, avis clients, etc.
     Le <strong>POS Shopify</strong> permet un catalogue et un stock cohérents entre magasin et site — point décisif pour tout commerçant physique.
@@ -187,37 +189,37 @@
 </section>
 
 <section class="alt blog-article">
-  <p class="blog-kicker">Budget</p>
-  <h2>Le vrai prix sur trois ans (ordre de grandeur)</h2>
-  <p>
+  <p data-i18n="blog.comparatif.s5.kicker" class="blog-kicker">Budget</p>
+  <h2 data-i18n="blog.comparatif.s5.title">Le vrai prix sur trois ans (ordre de grandeur)</h2>
+  <p data-i18n="blog.comparatif.s5.p1">
     Le prix affiché n'est jamais le prix total. En pratique :
   </p>
   <ul class="blog-list">
-    <li><strong>Wix</strong> : abonnement « business » + éventuelles apps ou prestations pour le SEO ou les flux produits.</li>
-    <li><strong>Prestashop</strong> : hébergement, thème, modules (souvent payants), mises à jour, corrections après conflits — ligne souvent sous-estimée.</li>
-    <li><strong>Shopify</strong> : abonnement (Basic ou supérieur), commissions de paiement, 2–3 apps utiles, parfois un thème premium ou une petite évolution sur mesure.</li>
+    <li data-i18n="blog.comparatif.s5.li1" data-i18n-html><strong>Wix</strong> : abonnement « business » + éventuelles apps ou prestations pour le SEO ou les flux produits.</li>
+    <li data-i18n="blog.comparatif.s5.li2" data-i18n-html><strong>Prestashop</strong> : hébergement, thème, modules (souvent payants), mises à jour, corrections après conflits — ligne souvent sous-estimée.</li>
+    <li data-i18n="blog.comparatif.s5.li3" data-i18n-html><strong>Shopify</strong> : abonnement (Basic ou supérieur), commissions de paiement, 2–3 apps utiles, parfois un thème premium ou une petite évolution sur mesure.</li>
   </ul>
-  <p>
+  <p data-i18n="blog.comparatif.s5.p2" data-i18n-html>
     Pour une vision chiffrée détaillée (prestation freelance comprise), voir l'article dédié <a href="/blog/tarif-site-shopify-2026/">Tarif d'un site Shopify en 2026</a> ; l'important est de comparer le <strong>coût total de possession</strong>, pas seulement la première facture mensuelle.
   </p>
 </section>
 
 <section class="blog-article">
-  <h2>Trois profils types</h2>
-  <p>
+  <h2 data-i18n="blog.comparatif.s6.title">Trois profils types</h2>
+  <p data-i18n="blog.comparatif.s6.p1" data-i18n-html>
     <strong>Créateur ou artisan, petit catalogue, parfois un point de vente</strong> : Shopify ou Wix au démarrage ; bascule Shopify si le magasin et le web doivent partager le même stock proprement.
   </p>
-  <p>
+  <p data-i18n="blog.comparatif.s6.p2" data-i18n-html>
     <strong>Marque en croissance, beaucoup de références, plusieurs canaux</strong> : Shopify en général ; Prestashop seulement si le cahier des charges l'impose vraiment.
   </p>
-  <p>
+  <p data-i18n="blog.comparatif.s6.p3" data-i18n-html>
     <strong>Site Prestashop « hérité », modules empilés, peur de toucher aux mises à jour</strong> : audit puis migration vers Shopify ou refonte maîtrisée — sinon le risque sécurité et la lenteur finissent par coûter plus cher que la migration.
   </p>
 </section>
 
 <section class="alt blog-article">
-  <h2>Quand Shopify n'est pas la bonne réponse</h2>
-  <p>
+  <h2 data-i18n="blog.comparatif.s7.title">Quand Shopify n'est pas la bonne réponse</h2>
+  <p data-i18n="blog.comparatif.s7.p" data-i18n-html>
     Être honnête renforce la confiance : Shopify n'est pas optimal pour tous les <strong>B2B sur devis</strong> ultra-complexes,
     certains <strong>configurateurs</strong> lourds, ou les <strong>marketplaces multi-vendeurs</strong> sans architecture adaptée.
     Dans ces cas, il faut consulter un expert avant de promettre une date de mise en ligne.
@@ -225,42 +227,42 @@
 </section>
 
 <section class="blog-article">
-  <h2>Questions fréquentes</h2>
+  <h2 data-i18n="blog.comparatif.s8.title">Questions fréquentes</h2>
   <p>
-    <strong>Shopify est canadien : est-ce un problème pour la TVA en France ?</strong><br>
-    Non : <strong>Shopify Inc.</strong> est une entreprise <strong>canadienne</strong>, fondée en 2006 et basée à <strong>Ottawa</strong>. Cela ne pose pas de blocage en soi pour la TVA : ce qui compte, c'est la bonne configuration de votre boutique (règles UE, OSS selon les cas), éventuellement des apps ou un accompagnement, et le suivi comptable.
+    <strong data-i18n="blog.comparatif.s8.q1">Shopify est canadien : est-ce un problème pour la TVA en France ?</strong><br>
+    <span data-i18n="blog.comparatif.s8.a1" data-i18n-html>Non : <strong>Shopify Inc.</strong> est une entreprise <strong>canadienne</strong>, fondée en 2006 et basée à <strong>Ottawa</strong>. Cela ne pose pas de blocage en soi pour la TVA : ce qui compte, c'est la bonne configuration de votre boutique (règles UE, OSS selon les cas), éventuellement des apps ou un accompagnement, et le suivi comptable.</span>
   </p>
   <p>
-    <strong>Puis-je migrer depuis Wix sans perdre mon référencement ?</strong><br>
-    Oui, avec des <strong>redirections 301</strong>, une cartographie des URL et une reprise des contenus stratégiques. Une migration bâclée peut faire chuter le trafic : mieux vaut la planifier.
+    <strong data-i18n="blog.comparatif.s8.q2">Puis-je migrer depuis Wix sans perdre mon référencement ?</strong><br>
+    <span data-i18n="blog.comparatif.s8.a2" data-i18n-html>Oui, avec des <strong>redirections 301</strong>, une cartographie des URL et une reprise des contenus stratégiques. Une migration bâclée peut faire chuter le trafic : mieux vaut la planifier.</span>
   </p>
   <p>
-    <strong>Ai-je besoin d'un développeur pour Shopify ?</strong><br>
-    Pas pour démarrer. Utile pour migration, thème sur mesure, intégrations, performance et cas avancés.
+    <strong data-i18n="blog.comparatif.s8.q3">Ai-je besoin d'un développeur pour Shopify ?</strong><br>
+    <span data-i18n="blog.comparatif.s8.a3" data-i18n-html>Pas pour démarrer. Utile pour migration, thème sur mesure, intégrations, performance et cas avancés.</span>
   </p>
 </section>
 
 <section class="alt blog-article">
-  <h2>Pour aller plus loin</h2>
-  <p>
+  <h2 data-i18n="blog.comparatif.s9.title">Pour aller plus loin</h2>
+  <p data-i18n="blog.comparatif.s9.p" data-i18n-html>
     Le passage au web se joue autant sur le <strong>stock</strong> et le <strong>click &amp; collect</strong> que sur le choix CMS.
     Quelques articles complémentaires :
   </p>
   <ul class="blog-list">
-    <li><a href="/blog/tarif-site-shopify-2026/">Tarif d'un site Shopify en 2026</a> — abonnement, commissions et fourchettes freelance.</li>
-    <li><a href="/blog/magasin-physique-boutique-en-ligne/">Magasin physique : ouvrir une boutique en ligne sans tout casser</a> — point de vente et e-commerce alignés.</li>
-    <li><a href="/blog/stock-transfert-pro-shopify/">Stock Transfert Pro</a> — alternative à Stocky pour les transferts d'inventaire.</li>
+    <li data-i18n="blog.comparatif.s9.li1" data-i18n-html><a href="/blog/tarif-site-shopify-2026/">Tarif d'un site Shopify en 2026</a> — abonnement, commissions et fourchettes freelance.</li>
+    <li data-i18n="blog.comparatif.s9.li2" data-i18n-html><a href="/blog/magasin-physique-boutique-en-ligne/">Magasin physique : ouvrir une boutique en ligne sans tout casser</a> — point de vente et e-commerce alignés.</li>
+    <li data-i18n="blog.comparatif.s9.li3" data-i18n-html><a href="/blog/stock-transfert-pro-shopify/">Stock Transfert Pro</a> — alternative à Stocky pour les transferts d'inventaire.</li>
   </ul>
-  <p>
+  <p data-i18n="blog.comparatif.s9.p2" data-i18n-html>
     Côté terrain, j'accompagne des commerçants partout en France ; je suis basé à <strong>Auch (Gers)</strong>, mais les enjeux décrits ici sont les mêmes, que votre boutique soit en métropole ou en zone rurale.
   </p>
-  <a class="cta" href="/blog/">Retour au blog</a>
+  <a data-i18n="blog.comparatif.s9.cta" class="cta" href="/blog/">Retour au blog</a>
 </section>
 
 </main>
 <footer>
   <div>
-    <a href="/" aria-label="Retour à l’accueil – JB Dev Web">
+    <a href="/" data-i18n-attr="aria-label" data-i18n="footer.logo" aria-label="Retour à l'accueil – JB Dev Web">
       <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
         <defs>
           <filter id="shadow-j-green" x="-50%" y="-50%" width="200%" height="200%">
@@ -277,10 +279,11 @@
     </a>
   </div>
   <div>
-    © <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)<br><a href="/mentions-legales/">Mentions légales</a>
+    <span data-i18n="footer.copyright" data-i18n-html>© <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)</span><br><a href="/mentions-legales/" data-i18n="footer.legal">Mentions légales</a>
   </div>
 </footer>
 
 <script src="/assets/theme.js" defer></script>
+
 </body>
 </html>

@@ -84,6 +84,50 @@ nav a.active {
   opacity: 1;
 }
 
+/* ---- Language switcher ---- */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 26px;
+  padding: 2px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: rgba(255,255,255,.06);
+  cursor: pointer;
+  line-height: 0;
+  opacity: .75;
+  transition: opacity .25s, border-color .25s, transform .2s, background .25s, box-shadow .25s;
+  overflow: hidden;
+}
+
+.lang-btn .lang-flag {
+  display: block;
+  width: 22px;
+  height: 15px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.25);
+}
+
+.lang-btn:hover {
+  opacity: 1;
+  transform: scale(1.08);
+  border-color: var(--green);
+  box-shadow: 0 0 0 1px var(--accent-soft);
+}
+
+.lang-btn:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
 /* ---- Hamburger bouton ---- */
 .nav-burger {
   display: none;

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magasin physique en ligne sur Shopify : ouvrir sans tout casser</title>
-  <meta name="description" content="Passer son magasin physique en ligne sur Shopify : stock unifié, click & collect, SEO local et erreurs à éviter. Guide pour tout commerçant avec point de vente." />
+  <title data-i18n="meta./blog/magasin-physique-boutique-en-ligne/.title">Magasin physique en ligne sur Shopify : ouvrir sans tout casser</title>
+  <meta name="description" data-i18n="meta./blog/magasin-physique-boutique-en-ligne/.description" content="Passer son magasin physique en ligne sur Shopify : stock unifié, click & collect, SEO local et erreurs à éviter. Guide pour tout commerçant avec point de vente." />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://jbdevweb.fr/blog/magasin-physique-boutique-en-ligne/">
@@ -89,35 +89,37 @@
     ]
   }
   </script>
+
+  <script src="/assets/i18n.js" defer></script>
 </head>
 <body>
 <div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
-  Ce site utilise des cookies pour améliorer l'expérience.
-  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;">Accepter</button>
+  <span data-i18n="cookie.message">Ce site utilise des cookies pour améliorer l'expérience.</span> 
+  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;"><span data-i18n="cookie.accept">Accepter</span></button>
 </div>
 
 <nav>
-  <button id="theme-toggle" aria-label="Changer le thème">
+  <button id="theme-toggle" data-i18n-attr="aria-label" data-i18n="nav.theme_toggle" aria-label="Changer le thème">
     <span class="icon sun" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
     <span class="icon moon theme-toggle-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="16" height="16"><defs><radialGradient id="theme-toggle-sun-core" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="60%" stop-color="#FFE082"/><stop offset="100%" stop-color="#FFB300"/></radialGradient><linearGradient id="theme-toggle-sun-ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE082" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFB300" stop-opacity="0.55"/></linearGradient><filter id="theme-toggle-sun-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(32 32)"><g fill="url(#theme-toggle-sun-ray)"><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(0)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(45)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(90)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(135)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(180)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(225)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(270)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(315)"/></g><circle cx="0" cy="0" r="8.5" fill="url(#theme-toggle-sun-core)" filter="url(#theme-toggle-sun-glow)"/></g></svg></span>
   </button>
-  <a href="/">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/" class="active">Blog</a>
-  <a href="/contact/">Contact</a>
-  <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
+  <a href="/" data-i18n="nav.home">Accueil</a>
+  <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+  <a href="/sites-vitrines/" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+  <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+  <a href="/blog/" class="active" data-i18n="nav.blog">Blog</a>
+  <a href="/contact/" data-i18n="nav.contact">Contact</a>
+  <button class="nav-burger" data-i18n-attr="aria-label" data-i18n="nav.burger" aria-label="Ouvrir le menu" aria-expanded="false">
     <span></span><span></span><span></span>
   </button>
 </nav>
-<div class="nav-panel" role="dialog" aria-label="Menu navigation">
-  <a href="/">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/" class="active">Blog</a>
-  <a href="/contact/">Contact</a>
+<div class="nav-panel" role="dialog" data-i18n-attr="aria-label" data-i18n="nav.panel" aria-label="Menu navigation">
+  <a href="/" data-i18n="nav.home">Accueil</a>
+  <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+  <a href="/sites-vitrines/" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+  <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+  <a href="/blog/" class="active" data-i18n="nav.blog">Blog</a>
+  <a href="/contact/" data-i18n="nav.contact">Contact</a>
 </div>
 
 <header>
@@ -127,50 +129,50 @@
     <div class="hero-blob"></div>
   </div>
   <div class="hero-text">
-    <h1 id="hero-title">Magasin physique en ligne sur <span>Shopify</span> : ouvrir sans tout casser</h1>
-    <p>
+    <h1 data-i18n="blog.magasin.hero.title" data-i18n-html id="hero-title">Magasin physique en ligne sur <span>Shopify</span> : ouvrir sans tout casser</h1>
+    <p data-i18n="blog.magasin.hero.text" data-i18n-html>
       Vous avez déjà des clients qui franchissent la porte : passer son magasin physique en ligne ne remplace pas la boutique, ça la prolonge.
       Voici une trame réaliste — stock unifié, click &amp; collect, visibilité locale — pour ouvrir une boutique en ligne sur Shopify quand on a déjà un point de vente, quelle que soit la ville.
     </p>
-    <a href="/contact/" class="cta">En parler ensemble</a>
+    <a data-i18n="blog.magasin.hero.cta" href="/contact/" class="cta">En parler ensemble</a>
   </div>
 </header>
 
 <main>
 <section class="alt blog-article">
-  <p class="blog-kicker">Pourquoi maintenant</p>
-  <h2>Le web nourrit aussi le magasin</h2>
-  <p>
+  <p data-i18n="blog.magasin.s1.kicker" class="blog-kicker">Pourquoi maintenant</p>
+  <h2 data-i18n="blog.magasin.s1.title">Le web nourrit aussi le magasin</h2>
+  <p data-i18n="blog.magasin.s1.p1" data-i18n-html>
     Beaucoup de commerçants pensent que le e-commerce est « un autre métier ». En réalité, les clients <strong>cherchent en ligne</strong> avant d'acheter,
     parfois le même jour en magasin (parcours <strong>web-to-store</strong>). Sans présence sérieuse, ils achètent ailleurs — y compris pour des produits que vous avez en rayon.
   </p>
-  <p>
+  <p data-i18n="blog.magasin.s1.p2" data-i18n-html>
     L'enjeu n'est pas de tout industrialiser du jour au lendemain, mais d'ouvrir un canal qui <strong>fidélise</strong> et <strong>élargit la zone</strong> sans doubler la charge mentale.
   </p>
 </section>
 
 <section class="blog-article">
-  <h2>Trois modèles : lequel vous ressemble ?</h2>
-  <p>
+  <h2 data-i18n="blog.magasin.s2.title">Trois modèles : lequel vous ressemble ?</h2>
+  <p data-i18n="blog.magasin.s2.p1" data-i18n-html>
     <strong>1. Vitrine + catalogue + prise de contact</strong> — Budget modeste, peu de références, besoin surtout d'être trouvé et de présenter l'offre.
   </p>
-  <p>
+  <p data-i18n="blog.magasin.s2.p2" data-i18n-html>
     <strong>2. Vitrine + click &amp; collect</strong> — Le site sert à <strong>réserver</strong> ou payer en ligne et à <strong>retirer en magasin</strong> ; c'est souvent le meilleur compromis pour un premier pas.
   </p>
-  <p>
+  <p data-i18n="blog.magasin.s2.p3" data-i18n-html>
     <strong>3. E-commerce complet + livraison</strong> — Quand le catalogue est prêt, la logistique suit, et vous voulez adresser au-delà de votre bassin habituel.
   </p>
-  <p>
+  <p data-i18n="blog.magasin.s2.p4">
     Le bon choix dépend du nombre de références, du temps disponible et du type de produit (périssable, sur mesure, saisonnier).
   </p>
 </section>
 
 <section class="alt blog-article">
-  <h2>Stock : l'erreur qui coûte le plus cher</h2>
-  <p>
+  <h2 data-i18n="blog.magasin.s3.title">Stock : l'erreur qui coûte le plus cher</h2>
+  <p data-i18n="blog.magasin.s3.p1" data-i18n-html>
     Le scénario classique : une vente en ligne sur un article déjà vendu en caisse le même matin. D'où l'intérêt d'un <strong>inventaire unifié</strong> entre le site et le point de vente — typiquement avec un <strong>POS</strong> branché sur la même base que la boutique en ligne (sur Shopify, le POS et le canal en ligne partagent le catalogue).
   </p>
-  <p>
+  <p data-i18n="blog.magasin.s3.p2" data-i18n-html>
     Si vous utilisiez des outils type <strong>Stocky</strong>, notez le calendrier officiel : <strong>retrait du Shopify App Store le 2 février 2026</strong> (plus d'installation possible) et <strong>arrêt complet le 31 août 2026</strong>. Anticipez une alternative pour les transferts et la réception magasin ;
     j'en présente une approche dans l'article
     <a href="/blog/stock-transfert-pro-shopify/">Stock Transfert Pro</a> (app en cours de finalisation).
@@ -178,15 +180,15 @@
 </section>
 
 <section class="blog-article">
-  <h2>Click &amp; collect : un levier sous-estimé</h2>
-  <p>
+  <h2 data-i18n="blog.magasin.s4.title">Click &amp; collect : un levier sous-estimé</h2>
+  <p data-i18n="blog.magasin.s4.p" data-i18n-html>
     Le client réserve ou règle en ligne, passe en magasin, et repart souvent avec un panier élargi. Ça fonctionne en centre-ville comme en périphérie : la clé est la <strong>clarté des créneaux</strong>, la préparation en back-office et un message simple sur le site et la fiche Google.
   </p>
 </section>
 
 <section class="alt blog-article">
-  <h2>SEO local : votre avantage face aux pure players</h2>
-  <p>
+  <h2 data-i18n="blog.magasin.s5.title">SEO local : votre avantage face aux pure players</h2>
+  <p data-i18n="blog.magasin.s5.p" data-i18n-html>
     Les grandes places de marché ne sont pas optimisées pour « [votre produit] + [votre ville] » comme vous pouvez l'être.
     Mettez à jour votre <strong>fiche Google Business Profile</strong> (horaires, photos, lien vers le site), sollicitez des <strong>avis</strong>, et assurez la cohérence NAP (nom, adresse, téléphone) entre site et annuaires.
     Même sans agence, ces gestes rapprochent les recherches locales de votre porte — ou de votre page commande.
@@ -194,9 +196,9 @@
 </section>
 
 <section class="blog-article">
-  <p class="blog-kicker">Budget</p>
-  <h2>Combien prévoir (sans promesse irréaliste)</h2>
-  <p>
+  <p data-i18n="blog.magasin.s6.kicker" class="blog-kicker">Budget</p>
+  <h2 data-i18n="blog.magasin.s6.title">Combien prévoir (sans promesse irréaliste)</h2>
+  <p data-i18n="blog.magasin.s6.p" data-i18n-html>
     Tout dépend du périmètre : thème, nombre de produits à intégrer, moyens de paiement, transporteurs, retrait magasin, traductions éventuelles.
     Une fourchette honnête se construit au cas par cas ; pour le choix de plateforme voir le comparatif
     <a href="/blog/comparatif-shopify-wix-prestashop-2026/">Shopify, Wix ou Prestashop en 2026</a>,
@@ -206,66 +208,66 @@
 </section>
 
 <section class="alt blog-article">
-  <h2>Cinq erreurs fréquentes</h2>
+  <h2 data-i18n="blog.magasin.s7.title">Cinq erreurs fréquentes</h2>
   <ul class="blog-list">
-    <li>Changer de nom ou de logo en ligne sans assurer la continuité avec le magasin reconnu localement.</li>
-    <li>Publier 500 fiches d'un coup au lieu de commencer par les <strong>best-sellers</strong> bien photographiés.</li>
-    <li>Photos prises au téléphone sans lumière ni composition soignée — le taux de conversion s'en ressent immédiatement.</li>
-    <li>Paramétrage TVA ou livraison approximatif — source de litiges et de charge support.</li>
-    <li>Pas de règle de stock unique — <strong>surventes</strong> et déception client.</li>
+    <li data-i18n="blog.magasin.s7.li1">Changer de nom ou de logo en ligne sans assurer la continuité avec le magasin reconnu localement.</li>
+    <li data-i18n="blog.magasin.s7.li2" data-i18n-html>Publier 500 fiches d'un coup au lieu de commencer par les <strong>best-sellers</strong> bien photographiés.</li>
+    <li data-i18n="blog.magasin.s7.li3">Photos prises au téléphone sans lumière ni composition soignée — le taux de conversion s'en ressent immédiatement.</li>
+    <li data-i18n="blog.magasin.s7.li4">Paramétrage TVA ou livraison approximatif — source de litiges et de charge support.</li>
+    <li data-i18n="blog.magasin.s7.li5" data-i18n-html>Pas de règle de stock unique — <strong>surventes</strong> et déception client.</li>
   </ul>
 </section>
 
 <section class="blog-article">
-  <h2>Par quoi commencer cette semaine ?</h2>
+  <h2 data-i18n="blog.magasin.s8.title">Par quoi commencer cette semaine ?</h2>
   <ul class="blog-list">
-    <li>Lister les 20 produits les plus vendus en magasin.</li>
-    <li>Ouvrir un compte d'essai sur la plateforme retenue (souvent Shopify pour l'omnicanal).</li>
-    <li>Produire une dizaine de photos nettes (même avec un smartphone et une lumière du jour correcte).</li>
-    <li>Bloquer un créneau pour préparer le projet avec un freelance ou votre équipe.</li>
+    <li data-i18n="blog.magasin.s8.li1">Lister les 20 produits les plus vendus en magasin.</li>
+    <li data-i18n="blog.magasin.s8.li2">Ouvrir un compte d'essai sur la plateforme retenue (souvent Shopify pour l'omnicanal).</li>
+    <li data-i18n="blog.magasin.s8.li3">Produire une dizaine de photos nettes (même avec un smartphone et une lumière du jour correcte).</li>
+    <li data-i18n="blog.magasin.s8.li4">Bloquer un créneau pour préparer le projet avec un freelance ou votre équipe.</li>
   </ul>
 </section>
 
 <section class="alt blog-article">
-  <h2>Questions fréquentes</h2>
+  <h2 data-i18n="blog.magasin.s9.title">Questions fréquentes</h2>
   <p>
-    <strong>Combien de temps pour ouvrir une boutique en ligne quand on a déjà un magasin ?</strong><br>
-    Souvent <strong>trois à six semaines</strong> pour un premier périmètre propre. Un gros catalogue ou des intégrations spécifiques allongent le délai.
+    <strong data-i18n="blog.magasin.s9.q1">Combien de temps pour ouvrir une boutique en ligne quand on a déjà un magasin ?</strong><br>
+    <span data-i18n="blog.magasin.s9.a1" data-i18n-html>Souvent <strong>trois à six semaines</strong> pour un premier périmètre propre. Un gros catalogue ou des intégrations spécifiques allongent le délai.</span>
   </p>
   <p>
-    <strong>Faut-il un salarié à temps plein pour le site ?</strong><br>
-    Non : quelques heures par semaine au début, si le périmètre reste réaliste.
+    <strong data-i18n="blog.magasin.s9.q2">Faut-il un salarié à temps plein pour le site ?</strong><br>
+    <span data-i18n="blog.magasin.s9.a2" data-i18n-html>Non : quelques heures par semaine au début, si le périmètre reste réaliste.</span>
   </p>
   <p>
-    <strong>Le click &amp; collect a-t-il du sens hors des grandes villes ?</strong><br>
-    Oui, tant que le retrait est clair et que le magasin tient ses engagements sur les créneaux.
+    <strong data-i18n="blog.magasin.s9.q3">Le click &amp; collect a-t-il du sens hors des grandes villes ?</strong><br>
+    <span data-i18n="blog.magasin.s9.a3" data-i18n-html>Oui, tant que le retrait est clair et que le magasin tient ses engagements sur les créneaux.</span>
   </p>
   <p>
-    <strong>Dois-je fermer mon ancien site tout de suite ?</strong><br>
-    Pas nécessairement : on peut planifier une bascule avec <strong>redirections</strong> pour ne pas perdre le référencement.
+    <strong data-i18n="blog.magasin.s9.q4">Dois-je fermer mon ancien site tout de suite ?</strong><br>
+    <span data-i18n="blog.magasin.s9.a4" data-i18n-html>Pas nécessairement : on peut planifier une bascule avec <strong>redirections</strong> pour ne pas perdre le référencement.</span>
   </p>
 </section>
 
 <section class="blog-article">
-  <h2>Pour aller plus loin</h2>
-  <p>
+  <h2 data-i18n="blog.magasin.s10.title">Pour aller plus loin</h2>
+  <p data-i18n="blog.magasin.s10.p">
     Le bon plan n'est pas de « copier Amazon », mais d'aligner site et magasin sur les mêmes règles de stock et de service. Articles complémentaires :
   </p>
   <ul class="blog-list">
-    <li><a href="/blog/comparatif-shopify-wix-prestashop-2026/">Shopify, Wix ou Prestashop en 2026</a> — choix de plateforme honnête.</li>
-    <li><a href="/blog/tarif-site-shopify-2026/">Tarif d'un site Shopify en 2026</a> — abonnement, commissions et fourchettes freelance.</li>
-    <li><a href="/blog/stock-transfert-pro-shopify/">Stock Transfert Pro</a> — alternative à Stocky pour gérer les transferts entre magasin et entrepôt.</li>
+    <li data-i18n="blog.magasin.s10.li1" data-i18n-html><a href="/blog/comparatif-shopify-wix-prestashop-2026/">Shopify, Wix ou Prestashop en 2026</a> — choix de plateforme honnête.</li>
+    <li data-i18n="blog.magasin.s10.li2" data-i18n-html><a href="/blog/tarif-site-shopify-2026/">Tarif d'un site Shopify en 2026</a> — abonnement, commissions et fourchettes freelance.</li>
+    <li data-i18n="blog.magasin.s10.li3" data-i18n-html><a href="/blog/stock-transfert-pro-shopify/">Stock Transfert Pro</a> — alternative à Stocky pour gérer les transferts entre magasin et entrepôt.</li>
   </ul>
-  <p>
+  <p data-i18n="blog.magasin.s10.p2" data-i18n-html>
     Je travaille avec des commerçants partout en France ; je suis installé à <strong>Auch (Gers)</strong>, ce qui n'enlève rien à la pertinence de ces étapes pour un commerce situé n'importe où. Pour un accompagnement ou un audit rapide, <a href="/contact/">contactez-moi</a>.
   </p>
-  <a class="cta" href="/blog/">Retour au blog</a>
+  <a data-i18n="blog.magasin.s10.cta" class="cta" href="/blog/">Retour au blog</a>
 </section>
 
 </main>
 <footer>
   <div>
-    <a href="/" aria-label="Retour à l’accueil – JB Dev Web">
+    <a href="/" data-i18n-attr="aria-label" data-i18n="footer.logo" aria-label="Retour à l'accueil – JB Dev Web">
       <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
         <defs>
           <filter id="shadow-j-green" x="-50%" y="-50%" width="200%" height="200%">
@@ -282,10 +284,11 @@
     </a>
   </div>
   <div>
-    © <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)<br><a href="/mentions-legales/">Mentions légales</a>
+    <span data-i18n="footer.copyright" data-i18n-html>© <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)</span><br><a href="/mentions-legales/" data-i18n="footer.legal">Mentions légales</a>
   </div>
 </footer>
 
 <script src="/assets/theme.js" defer></script>
+
 </body>
 </html>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact développeur web Auch | Devis Shopify, site vitrine &amp; e-commerce</title>
-  <meta name="description" content="Contactez un freelance développeur web à Auch (32) : devis gratuit pour boutique Shopify, création de site vitrine ou refonte. Réponse rapide. Gers &amp; Occitanie.">
+  <title data-i18n="meta./contact/.title">Contact développeur web Auch | Devis Shopify, site vitrine &amp; e-commerce</title>
+  <meta name="description" data-i18n="meta./contact/.description" content="Contactez un freelance développeur web à Auch (32) : devis gratuit pour boutique Shopify, création de site vitrine ou refonte. Réponse rapide. Gers &amp; Occitanie.">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://jbdevweb.fr/contact/">
@@ -54,39 +54,41 @@
   "openingHours": "Mo-Fr 09:00-18:00"
 }
 </script>
+
+  <script src="/assets/i18n.js" defer></script>
 </head>
 
 <body>
 
   <!-- Bandeau cookie -->
 <div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
-  Ce site utilise des cookies pour améliorer l'expérience. 
-  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;">Accepter</button>
+  <span data-i18n="cookie.message">Ce site utilise des cookies pour améliorer l'expérience.</span> 
+  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;"><span data-i18n="cookie.accept">Accepter</span></button>
 </div>
 
   <!-- Navigation -->
   <nav>
-    <button id="theme-toggle" aria-label="Changer le thème">
+    <button id="theme-toggle" data-i18n-attr="aria-label" data-i18n="nav.theme_toggle" aria-label="Changer le thème">
     <span class="icon sun" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
     <span class="icon moon theme-toggle-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="16" height="16"><defs><radialGradient id="theme-toggle-sun-core" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="60%" stop-color="#FFE082"/><stop offset="100%" stop-color="#FFB300"/></radialGradient><linearGradient id="theme-toggle-sun-ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE082" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFB300" stop-opacity="0.55"/></linearGradient><filter id="theme-toggle-sun-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(32 32)"><g fill="url(#theme-toggle-sun-ray)"><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(0)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(45)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(90)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(135)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(180)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(225)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(270)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(315)"/></g><circle cx="0" cy="0" r="8.5" fill="url(#theme-toggle-sun-core)" filter="url(#theme-toggle-sun-glow)"/></g></svg></span>
     </button>
-    <a href="/">Accueil</a>
-    <a href="/shopify/">Shopify</a>
-    <a href="/sites-vitrines/">Sites vitrines</a>
-    <a href="/faq/">FAQ</a>
-    <a href="/blog/">Blog</a>
-    <a href="/contact/" class="active">Contact</a>
-    <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
+    <a href="/" data-i18n="nav.home">Accueil</a>
+    <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+    <a href="/sites-vitrines/" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+    <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+    <a href="/blog/" data-i18n="nav.blog">Blog</a>
+    <a href="/contact/" class="active" data-i18n="nav.contact">Contact</a>
+    <button class="nav-burger" data-i18n-attr="aria-label" data-i18n="nav.burger" aria-label="Ouvrir le menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </nav>
-  <div class="nav-panel" role="dialog" aria-label="Menu navigation">
-    <a href="/">Accueil</a>
-    <a href="/shopify/">Shopify</a>
-    <a href="/sites-vitrines/">Sites vitrines</a>
-    <a href="/faq/">FAQ</a>
-    <a href="/blog/">Blog</a>
-    <a href="/contact/" class="active">Contact</a>
+  <div class="nav-panel" role="dialog" data-i18n-attr="aria-label" data-i18n="nav.panel" aria-label="Menu navigation">
+    <a href="/" data-i18n="nav.home">Accueil</a>
+    <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+    <a href="/sites-vitrines/" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+    <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+    <a href="/blog/" data-i18n="nav.blog">Blog</a>
+    <a href="/contact/" class="active" data-i18n="nav.contact">Contact</a>
   </div>
 
   <!-- HERO -->
@@ -97,8 +99,8 @@
         <div class="hero-blob"></div>
     </div>
     <div>
-        <h1 id="hero-title">Contact développeur web à <span>Auch</span> – devis Shopify &amp; site vitrine</h1>
-        <p>Boutique <strong>Shopify</strong>, <strong>création de site internet</strong> ou refonte&nbsp;? Décrivez votre projet&nbsp;: réponse personnalisée sous 24 à 48&nbsp;h, sans engagement, pour les pros du <strong>Gers</strong> et d’<strong>Occitanie</strong>.</p>
+        <h1 id="hero-title" data-i18n="contact.hero.title" data-i18n-html>Contact développeur web à <span>Auch</span> – devis Shopify &amp; site vitrine</h1>
+        <p data-i18n="contact.hero.text" data-i18n-html>Boutique <strong>Shopify</strong>, <strong>création de site internet</strong> ou refonte&nbsp;? Décrivez votre projet&nbsp;: réponse personnalisée sous 24 à 48&nbsp;h, sans engagement, pour les pros du <strong>Gers</strong> et d’<strong>Occitanie</strong>.</p>
     </div>
     
   </header>
@@ -107,28 +109,28 @@
 
   <!-- CONFIANCE -->
   <section class="alt">
-  <h2>Pourquoi me contacter ?</h2>
+  <h2 data-i18n="contact.why.title">Pourquoi me contacter ?</h2>
 
   <div class="cards">
     <div class="card">
-      <h3>Un échange clair et honnête</h3>
-      <p>
+      <h3 data-i18n="contact.why.card1.title">Un échange clair et honnête</h3>
+      <p data-i18n="contact.why.card1.text">
         Je prends le temps de comprendre votre activité, vos objectifs
         et vos contraintes avant de proposer quoi que ce soit.
       </p>
     </div>
 
     <div class="card">
-      <h3>Une réponse rapide</h3>
-      <p>
+      <h3 data-i18n="contact.why.card2.title">Une réponse rapide</h3>
+      <p data-i18n="contact.why.card2.text">
         Pas de formulaire qui tombe dans le vide. Je vous réponds sous 24 à 48h,
         directement, sans intermédiaire.
       </p>
     </div>
 
     <div class="card">
-      <h3>Un accompagnement sur mesure</h3>
-      <p>
+      <h3 data-i18n="contact.why.card3.title">Un accompagnement sur mesure</h3>
+      <p data-i18n="contact.why.card3.text">
         Chaque projet est différent. Pas de solution générique, pas de promesses
         floues, uniquement du concret.
       </p>
@@ -137,24 +139,24 @@
 </section>
 
 <section >
-  <h2>Comment ça se passe ?</h2>
+  <h2 data-i18n="contact.process.title">Comment ça se passe ?</h2>
 
   <div class="services">
     <div class="service">
-      <h3>1. Prise de contact</h3>
-      <p>
+      <h3 data-i18n="contact.process.step1.title">1. Prise de contact</h3>
+      <p data-i18n="contact.process.step1.text">
         Vous m’expliquez votre besoin via le formulaire.
         Je reviens vers vous rapidement pour échanger.
       </p>
     </div>
 
     <div class="service">
-      <h3>2. Analyse & proposition</h3>
-      <p>
+      <h3 data-i18n="contact.process.step2.title">2. Analyse & proposition</h3>
+      <p data-i18n="contact.process.step2.p1">
         J’analyse votre projet, vos objectifs et je vous propose
         une solution claire, avec un devis transparent.
       </p>
-      <p>
+      <p data-i18n="contact.process.step2.p2">
         Chaque projet est conçu sur mesure.
         Le niveau de personnalisation, les fonctionnalités et les animations
         s’adaptent à vos objectifs… et à votre budget.
@@ -164,8 +166,8 @@
     </div>
 
     <div class="service">
-      <h3>3. Production & suivi</h3>
-      <p>
+      <h3 data-i18n="contact.process.step3.title">3. Production & suivi</h3>
+      <p data-i18n="contact.process.step3.text">
         Une fois validé, je m’occupe de tout et je reste disponible
         même après la mise en ligne.
       </p>
@@ -177,43 +179,43 @@
   <!-- FORMULAIRE -->
  <section class="formulaire alt">
   <div>
-    <h2>Me contacter directement</h2>
+    <h2 data-i18n="contact.direct.title">Me contacter directement</h2>
 
     <div class="contact-infos">
       <p>
         <a href="mailto:contact@jbdevweb.fr?subject=Demande de contact">contact@jbdevweb.fr</a><br>
         <a href="tel:+33674466097">06 74 46 60 97</a>
       </p>
-      <p class="desktop">Ou utilisez le formulaire a droite &#128073</p>
-      <p class="mobile">Ou utilisez le formulaire ci-dessous &#128071</p>
+      <p class="desktop" data-i18n="contact.direct.hint_desktop" data-i18n-html>Ou utilisez le formulaire a droite &#128073</p>
+      <p class="mobile" data-i18n="contact.direct.hint_mobile" data-i18n-html>Ou utilisez le formulaire ci-dessous &#128071</p>
     </div>
   </div>
   <div>
-    <h2>Décrivez-moi votre projet</h2>
-    <p>
+    <h2 data-i18n="contact.form.title">Décrivez-moi votre projet</h2>
+    <p data-i18n="contact.form.intro">
       Plus vous me donnez d’informations, plus je pourrai vous faire
       un retour pertinent et adapté.
     </p>
 
     <form id="contact-form" class="contact-form" action="https://formspree.io/f/maqqnnwq" method="POST">
       
-      <input type="text" name="name" placeholder="Nom / Entreprise" required>
-      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="name" data-i18n="contact.form.placeholder.name" data-i18n-placeholder placeholder="Nom / Entreprise" required>
+      <input type="email" name="email" data-i18n="contact.form.placeholder.email" data-i18n-placeholder placeholder="Email" required>
 
       <!-- Select custom -->
       <div class="custom-select">
         <input type="hidden" name="project" required>
-        <div class="select-trigger">Type de projet</div>
+        <div class="select-trigger" data-i18n="contact.form.placeholder.project">Type de projet</div>
         <ul class="select-options">
-          <li data-value="Projet Shopify">Projet Shopify</li>
-          <li data-value="Site vitrine">Site vitrine</li>
-          <li data-value="Autre">Autre</li>
+          <li data-value="Projet Shopify" data-i18n="contact.form.option.shopify">Projet Shopify</li>
+          <li data-value="Site vitrine" data-i18n="contact.form.option.vitrine">Site vitrine</li>
+          <li data-value="Autre" data-i18n="contact.form.option.other">Autre</li>
         </ul>
       </div>
 
-      <textarea name="message" rows="5" placeholder="Parlez-moi de votre projet" required></textarea>
+      <textarea name="message" data-i18n="contact.form.placeholder.message" data-i18n-placeholder rows="5" placeholder="Parlez-moi de votre projet" required></textarea>
 
-      <button type="submit" class="cta" disabled>Envoyer ma demande</button>
+      <button type="submit" class="cta" disabled data-i18n="contact.form.submit">Envoyer ma demande</button>
       <p id="form-status"></p>
     </form>
   </div>
@@ -224,7 +226,7 @@
 </main>
  <footer>
   <div>
-   <a href="/" aria-label="Retour à l’accueil – JB Dev Web">
+   <a href="/" data-i18n-attr="aria-label" data-i18n="footer.logo" aria-label="Retour à l'accueil – JB Dev Web">
       <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
         <defs>
           <!-- Filtre pour l’ombre animée -->
@@ -264,12 +266,12 @@
     </a> 
   </div>
   <div>
-    © <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)<br><a href="/mentions-legales/">Mentions légales</a>
+    <span data-i18n="footer.copyright" data-i18n-html>© <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)</span><br><a href="/mentions-legales/" data-i18n="footer.legal">Mentions légales</a>
   </div>
 </footer>
 
   
-  <script src="/assets/theme.js" defer></script>
+<script src="/assets/theme.js" defer></script>
   <script>
 // ===================== SELECT CUSTOM =====================
 document.querySelectorAll('.custom-select').forEach(select => {
@@ -332,11 +334,12 @@ form.addEventListener('submit', async function(e){
     });
 
     if (response.ok) {
-      status.textContent = "Merci, votre demande a été envoyée à Julien !";
+      status.textContent = window.JBDevWebI18n.t('contact.form.success') || "Merci, votre demande a été envoyée à Julien !";
       // Désactiver le bouton
       submitBtn.disabled = true;
       // Réinitialiser le texte du select
-      document.querySelectorAll('.custom-select .select-trigger').forEach(t => t.textContent = 'Type de projet');
+      const ph = window.JBDevWebI18n.t('contact.form.placeholder.project');
+      document.querySelectorAll('.custom-select .select-trigger').forEach(t => t.textContent = ph || t.dataset.i18nDefault || 'Type de projet');
       // Supprimer la classe 'filled' pour enlever la bordure verte
       document.querySelectorAll('.custom-select').forEach(select => {
         select.classList.remove('filled');
@@ -348,11 +351,11 @@ form.addEventListener('submit', async function(e){
       if (result.errors) {
         status.textContent = result.errors.map(e => e.message).join(", ");
       } else {
-        status.textContent = "Oops! Problème lors de l'envoi.";
+        status.textContent = window.JBDevWebI18n.t('contact.form.error') || "Oops! Problème lors de l'envoi.";
       }
     }
   } catch (err) {
-    status.textContent = "Oops! Problème lors de l'envoi.";
+    status.textContent = window.JBDevWebI18n.t('contact.form.error') || "Oops! Problème lors de l'envoi.";
   }
 });
 

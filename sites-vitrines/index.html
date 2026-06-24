@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Concepteur de site vitrine à Auch | Freelance web designer &amp; SEO local</title>
-  <meta name="description" content="Concepteur de site vitrine à Auch (32) : freelance web designer pour création de site internet sur mesure, rapide, responsive et optimisé SEO local dans le Gers." />
+  <title data-i18n="meta./sites-vitrines/.title">Concepteur de site vitrine à Auch | Freelance web designer &amp; SEO local</title>
+  <meta name="description" data-i18n="meta./sites-vitrines/.description" content="Concepteur de site vitrine à Auch (32) : freelance web designer pour création de site internet sur mesure, rapide, responsive et optimisé SEO local dans le Gers." />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://jbdevweb.fr/sites-vitrines/">
@@ -54,37 +54,39 @@
   "openingHours": "Mo-Fr 09:00-18:00"
 }
 </script>
+
+  <script src="/assets/i18n.js" defer></script>
 </head>
 <body>
 
   <!-- Bandeau cookie -->
 <div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
-  Ce site utilise des cookies pour améliorer l'expérience. 
-  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;">Accepter</button>
+  <span data-i18n="cookie.message">Ce site utilise des cookies pour améliorer l'expérience.</span> 
+  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;"><span data-i18n="cookie.accept">Accepter</span></button>
 </div>
 
 <nav>
-  <button id="theme-toggle" aria-label="Changer le thème">
+  <button id="theme-toggle" data-i18n-attr="aria-label" data-i18n="nav.theme_toggle" aria-label="Changer le thème">
     <span class="icon sun" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
     <span class="icon moon theme-toggle-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="16" height="16"><defs><radialGradient id="theme-toggle-sun-core" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="60%" stop-color="#FFE082"/><stop offset="100%" stop-color="#FFB300"/></radialGradient><linearGradient id="theme-toggle-sun-ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE082" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFB300" stop-opacity="0.55"/></linearGradient><filter id="theme-toggle-sun-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(32 32)"><g fill="url(#theme-toggle-sun-ray)"><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(0)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(45)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(90)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(135)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(180)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(225)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(270)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(315)"/></g><circle cx="0" cy="0" r="8.5" fill="url(#theme-toggle-sun-core)" filter="url(#theme-toggle-sun-glow)"/></g></svg></span>
   </button>
-  <a href="/">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/" class="active">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/">Blog</a>
-  <a href="/contact/">Contact</a>
-  <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
+  <a href="/" data-i18n="nav.home">Accueil</a>
+  <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+  <a href="/sites-vitrines/" class="active" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+  <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+  <a href="/blog/" data-i18n="nav.blog">Blog</a>
+  <a href="/contact/" data-i18n="nav.contact">Contact</a>
+  <button class="nav-burger" data-i18n-attr="aria-label" data-i18n="nav.burger" aria-label="Ouvrir le menu" aria-expanded="false">
     <span></span><span></span><span></span>
   </button>
 </nav>
-<div class="nav-panel" role="dialog" aria-label="Menu navigation">
-  <a href="/">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/" class="active">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/">Blog</a>
-  <a href="/contact/">Contact</a>
+<div class="nav-panel" role="dialog" data-i18n-attr="aria-label" data-i18n="nav.panel" aria-label="Menu navigation">
+  <a href="/" data-i18n="nav.home">Accueil</a>
+  <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+  <a href="/sites-vitrines/" class="active" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+  <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+  <a href="/blog/" data-i18n="nav.blog">Blog</a>
+  <a href="/contact/" data-i18n="nav.contact">Contact</a>
 </div>
 
 <header>
@@ -94,129 +96,129 @@
     <div class="hero-blob"></div>
   </div>
   <div class="hero-text">
-    <h1 id="hero-title">Concepteur de site vitrine à <span>Auch</span> : design, SEO &amp; performance</h1>
-    <p>Freelance web à <strong>Auch</strong> et dans le <strong>Gers</strong> : sites vitrines élégants, rapides et optimisés pour le <strong>référencement local</strong>, vos prises de contact et votre crédibilité en ligne.</p>
-    <a href="/contact/" class="cta">Parler de votre projet</a>
+    <h1 data-i18n="sites_vitrines.hero.title" data-i18n-html id="hero-title">Concepteur de site vitrine à <span>Auch</span> : design, SEO &amp; performance</h1>
+    <p data-i18n="sites_vitrines.hero.text" data-i18n-html>Freelance web à <strong>Auch</strong> et dans le <strong>Gers</strong> : sites vitrines élégants, rapides et optimisés pour le <strong>référencement local</strong>, vos prises de contact et votre crédibilité en ligne.</p>
+    <a data-i18n="sites_vitrines.hero.cta" href="/contact/" class="cta">Parler de votre projet</a>
   </div>
 </header>
 
 <main>
 <section class="alt">
   <div>
-  <h2>Des sites vitrines pensés pour convaincre</h2>
+  <h2 data-i18n="sites_vitrines.services.title">Des sites vitrines pensés pour convaincre</h2>
     
   </div>
   <div class="services">
-    <div class="service"><h3>Design immersif</h3><p>Un design sur mesure, aligné avec votre image de marque, pour créer une première impression forte et mémorable.</p></div>
-    <div class="service"><h3>SEO local</h3><p>Une structure propre et optimisée pour être comprise par Google et visible par vos futurs clients.</p></div>
-    <div class="service"><h3>Animations avancées</h3><p>Des animations légères et élégantes pour donner du rythme, sans nuire à la performance ou à la lisibilité.</p></div>
-    <div class="service"><h3>Responsive & Mobile</h3><p>Un site parfaitement adapté à tous les écrans, pensé d’abord pour une navigation mobile fluide.</p></div>
+    <div class="service"><h3 data-i18n="sites_vitrines.services.design.title">Design immersif</h3><p data-i18n="sites_vitrines.services.design.text" data-i18n-html>Un design sur mesure, aligné avec votre image de marque, pour créer une première impression forte et mémorable.</p></div>
+    <div class="service"><h3 data-i18n="sites_vitrines.services.seo.title">SEO local</h3><p data-i18n="sites_vitrines.services.seo.text" data-i18n-html>Une structure propre et optimisée pour être comprise par Google et visible par vos futurs clients.</p></div>
+    <div class="service"><h3 data-i18n="sites_vitrines.services.animations.title">Animations avancées</h3><p data-i18n="sites_vitrines.services.animations.text" data-i18n-html>Des animations légères et élégantes pour donner du rythme, sans nuire à la performance ou à la lisibilité.</p></div>
+    <div class="service"><h3 data-i18n="sites_vitrines.services.responsive.title" data-i18n-html>Responsive & Mobile</h3><p data-i18n="sites_vitrines.services.responsive.text" data-i18n-html>Un site parfaitement adapté à tous les écrans, pensé d’abord pour une navigation mobile fluide.</p></div>
   </div>
 </section>
 
 <section>
-  <h2>Pourquoi un site vitrine sur mesure plutôt qu’un autre modèle&nbsp;?</h2>
-  <p class="compare-intro">
+  <h2 data-i18n="sites_vitrines.compare.title" data-i18n-html>Pourquoi un site vitrine sur mesure plutôt qu’un autre modèle&nbsp;?</h2>
+  <p data-i18n="sites_vitrines.compare.intro" data-i18n-html class="compare-intro">
     Une vitrine n’a pas les mêmes contraintes qu’une boutique en ligne&nbsp;: l’enjeu est souvent la
     <strong>clarté</strong>, la <strong>vitesse</strong> et la <strong>crédibilité</strong>, sans la charge d’un gros CMS.
     Dans le tableau, les colonnes vont du <strong>sur mesure</strong> puis des <strong>outils no-code avancés</strong> (Webflow, Framer),
     jusqu’aux approches les plus répandues en fin de ligne&nbsp;: <strong>WordPress</strong> puis <strong>Wix / Squarespace</strong>.
     À adapter à votre secteur et à votre rythme de mise à jour.
   </p>
-  <div class="compare-wrap" role="region" aria-label="Tableau comparatif des approches pour un site vitrine">
+  <div class="compare-wrap" role="region" data-i18n-attr="aria-label" data-i18n="sites_vitrines.compare.region" aria-label="Tableau comparatif des approches pour un site vitrine">
     <table class="compare-table">
-      <caption>
+      <caption data-i18n="sites_vitrines.compare.caption">
         Synthèse indicative pour indépendants, artisans et structures locales ; votre projet peut combiner plusieurs approches dans le temps.
       </caption>
       <thead>
         <tr>
-          <th scope="col">Critère</th>
-          <th scope="col" class="col-recommended">Site statique sur mesure</th>
-          <th scope="col">Webflow / Framer <span class="compare-sub">no-code avancé</span></th>
-          <th scope="col">WordPress <span class="compare-sub">+ thème / page builder</span></th>
-          <th scope="col">Wix / Squarespace <span class="compare-sub">constructeurs</span></th>
+          <th data-i18n="sites_vitrines.compare.th.criterion" scope="col">Critère</th>
+          <th data-i18n="sites_vitrines.compare.th.custom" scope="col" class="col-recommended">Site statique sur mesure</th>
+          <th data-i18n="sites_vitrines.compare.th.webflow" scope="col">Webflow / Framer <span data-i18n="sites_vitrines.compare.th.webflow_sub" class="compare-sub">no-code avancé</span></th>
+          <th data-i18n="sites_vitrines.compare.th.wordpress" scope="col">WordPress <span data-i18n="sites_vitrines.compare.th.wordpress_sub" class="compare-sub">+ thème / page builder</span></th>
+          <th data-i18n="sites_vitrines.compare.th.wix" scope="col">Wix / Squarespace <span data-i18n="sites_vitrines.compare.th.wix_sub" class="compare-sub">constructeurs</span></th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th scope="row">Philosophie</th>
-          <td class="col-recommended">HTML, CSS et JavaScript ciblés&nbsp;: le strict nécessaire pour votre message</td>
-          <td>Design poussé dans un éditeur visuel, export ou hébergement lié à l’outil</td>
-          <td>Site dynamique avec base de données et écosystème d’extensions</td>
-          <td>Tout-en-un hébergé, gabarits et modules intégrés à la plateforme</td>
+          <th data-i18n="sites_vitrines.compare.row.philosophy" scope="row">Philosophie</th>
+          <td data-i18n="sites_vitrines.compare.row.philosophy.custom" data-i18n-html class="col-recommended">HTML, CSS et JavaScript ciblés&nbsp;: le strict nécessaire pour votre message</td>
+          <td data-i18n="sites_vitrines.compare.row.philosophy.webflow" data-i18n-html>Design poussé dans un éditeur visuel, export ou hébergement lié à l’outil</td>
+          <td data-i18n="sites_vitrines.compare.row.philosophy.wordpress" data-i18n-html>Site dynamique avec base de données et écosystème d’extensions</td>
+          <td data-i18n="sites_vitrines.compare.row.philosophy.wix" data-i18n-html>Tout-en-un hébergé, gabarits et modules intégrés à la plateforme</td>
         </tr>
         <tr>
-          <th scope="row">Performance</th>
-          <td class="col-recommended">Très rapide&nbsp;: peu de requêtes, pas de moteur PHP au chargement</td>
-          <td>Bonne si bien optimisée, mais charge JS/CSS souvent élevée</td>
-          <td>Variable&nbsp;: dépend du thème, du nombre de plugins et du cache</td>
-          <td>Souvent correcte, parfois limitée par le gabarit et les scripts de la plateforme</td>
+          <th data-i18n="sites_vitrines.compare.row.performance" scope="row">Performance</th>
+          <td data-i18n="sites_vitrines.compare.row.performance.custom" data-i18n-html class="col-recommended">Très rapide&nbsp;: peu de requêtes, pas de moteur PHP au chargement</td>
+          <td data-i18n="sites_vitrines.compare.row.performance.webflow">Bonne si bien optimisée, mais charge JS/CSS souvent élevée</td>
+          <td data-i18n="sites_vitrines.compare.row.performance.wordpress">Variable&nbsp;: dépend du thème, du nombre de plugins et du cache</td>
+          <td data-i18n="sites_vitrines.compare.row.performance.wix" data-i18n-html>Souvent correcte, parfois limitée par le gabarit et les scripts de la plateforme</td>
         </tr>
         <tr>
-          <th scope="row">Sécurité &amp; maintenance</th>
-          <td class="col-recommended">Surface d’attaque minimale&nbsp;: pas de connexion admin exposée par défaut</td>
-          <td>Dépend de la plateforme ; veille sur les projets et abonnements</td>
-          <td>Mises à jour WP, thème et plugins à suivre sous peine de failles</td>
-          <td>Gérée par l’éditeur, moins de contrôle sur la stack</td>
+          <th data-i18n="sites_vitrines.compare.row.security" scope="row">Sécurité &amp; maintenance</th>
+          <td data-i18n="sites_vitrines.compare.row.security.custom" data-i18n-html class="col-recommended">Surface d’attaque minimale&nbsp;: pas de connexion admin exposée par défaut</td>
+          <td data-i18n="sites_vitrines.compare.row.security.webflow" data-i18n-html>Dépend de la plateforme ; veille sur les projets et abonnements</td>
+          <td data-i18n="sites_vitrines.compare.row.security.wordpress" data-i18n-html>Mises à jour WP, thème et plugins à suivre sous peine de failles</td>
+          <td data-i18n="sites_vitrines.compare.row.security.wix" data-i18n-html>Gérée par l’éditeur, moins de contrôle sur la stack</td>
         </tr>
         <tr>
-          <th scope="row">Coût dans le temps</th>
-          <td class="col-recommended">Hébergement léger (souvent très abordable) sans abonnement «&nbsp;moteur&nbsp;»</td>
-          <td>Abonnements éditeur souvent élevés pour le site + la collaboration</td>
-          <td>Hébergement + extensions payantes + temps passé aux mises à jour</td>
-          <td>Forfaits mensuels ou annuels, options souvent facturées à la chaîne</td>
+          <th data-i18n="sites_vitrines.compare.row.cost" scope="row">Coût dans le temps</th>
+          <td data-i18n="sites_vitrines.compare.row.cost.custom" data-i18n-html class="col-recommended">Hébergement léger (souvent très abordable) sans abonnement «&nbsp;moteur&nbsp;»</td>
+          <td data-i18n="sites_vitrines.compare.row.cost.webflow" data-i18n-html>Abonnements éditeur souvent élevés pour le site + la collaboration</td>
+          <td data-i18n="sites_vitrines.compare.row.cost.wordpress" data-i18n-html>Hébergement + extensions payantes + temps passé aux mises à jour</td>
+          <td data-i18n="sites_vitrines.compare.row.cost.wix" data-i18n-html>Forfaits mensuels ou annuels, options souvent facturées à la chaîne</td>
         </tr>
         <tr>
-          <th scope="row">SEO &amp; structure</th>
-          <td class="col-recommended">Balises et contenu maîtrisés de bout en bout, sans surcouche inutile</td>
-          <td>Contrôle fin possible, mais discipline nécessaire dans l’éditeur</td>
-          <td>Très bon si bien configuré ; risque de lenteur ou de duplication</td>
-          <td>Correct pour l’essentiel, parfois moins flexible sur le technique fin</td>
+          <th data-i18n="sites_vitrines.compare.row.seo" scope="row">SEO &amp; structure</th>
+          <td data-i18n="sites_vitrines.compare.row.seo.custom" data-i18n-html class="col-recommended">Balises et contenu maîtrisés de bout en bout, sans surcouche inutile</td>
+          <td data-i18n="sites_vitrines.compare.row.seo.webflow" data-i18n-html>Contrôle fin possible, mais discipline nécessaire dans l’éditeur</td>
+          <td data-i18n="sites_vitrines.compare.row.seo.wordpress" data-i18n-html>Très bon si bien configuré ; risque de lenteur ou de duplication</td>
+          <td data-i18n="sites_vitrines.compare.row.seo.wix" data-i18n-html>Correct pour l’essentiel, parfois moins flexible sur le technique fin</td>
         </tr>
         <tr>
-          <th scope="row">Liberté de design</th>
-          <td class="col-recommended">Design unique, sans être enfermé dans un thème générique</td>
-          <td>Très créatif dans l’outil, parfois au prix d’une courbe d’apprentissage</td>
-          <td>Large choix de thèmes ; personnalisation poussée = dette technique</td>
-          <td>Limitée aux blocs et styles proposés par le constructeur</td>
+          <th data-i18n="sites_vitrines.compare.row.design" scope="row">Liberté de design</th>
+          <td data-i18n="sites_vitrines.compare.row.design.custom" data-i18n-html class="col-recommended">Design unique, sans être enfermé dans un thème générique</td>
+          <td data-i18n="sites_vitrines.compare.row.design.webflow" data-i18n-html>Très créatif dans l’outil, parfois au prix d’une courbe d’apprentissage</td>
+          <td data-i18n="sites_vitrines.compare.row.design.wordpress" data-i18n-html>Large choix de thèmes ; personnalisation poussée = dette technique</td>
+          <td data-i18n="sites_vitrines.compare.row.design.wix">Limitée aux blocs et styles proposés par le constructeur</td>
         </tr>
         <tr>
-          <th scope="row">Propriété &amp; portabilité</th>
-          <td class="col-recommended">Vous possédez les fichiers&nbsp;: changement d’hébergeur sans «&nbsp;déverrouiller&nbsp;» un CMS</td>
-          <td>Souvent lié à l’écosystème de l’outil ou export partiel</td>
-          <td>Export possible mais migration souvent délicate</td>
-          <td>Lock-in fort&nbsp;: quitter la plateforme = souvent tout reconstruire</td>
+          <th data-i18n="sites_vitrines.compare.row.ownership" scope="row">Propriété &amp; portabilité</th>
+          <td data-i18n="sites_vitrines.compare.row.ownership.custom" data-i18n-html class="col-recommended">Vous possédez les fichiers&nbsp;: changement d’hébergeur sans «&nbsp;déverrouiller&nbsp;» un CMS</td>
+          <td data-i18n="sites_vitrines.compare.row.ownership.webflow" data-i18n-html>Souvent lié à l’écosystème de l’outil ou export partiel</td>
+          <td data-i18n="sites_vitrines.compare.row.ownership.wordpress">Export possible mais migration souvent délicate</td>
+          <td data-i18n="sites_vitrines.compare.row.ownership.wix" data-i18n-html>Lock-in fort&nbsp;: quitter la plateforme = souvent tout reconstruire</td>
         </tr>
         <tr>
-          <th scope="row">Mise à jour des contenus</th>
-          <td class="col-recommended">Pas de tableau de bord intégré&nbsp;: idéal si la vitrine évolue peu ou par missions ponctuelles</td>
-          <td>Édition dans l’outil ; collaboration possible selon l’offre</td>
-          <td>Interface d’édition riche ; chaque extension ajoute de la complexité</td>
-          <td>Édition visuelle simple pour les textes et images courants</td>
+          <th data-i18n="sites_vitrines.compare.row.updates" scope="row">Mise à jour des contenus</th>
+          <td data-i18n="sites_vitrines.compare.row.updates.custom" data-i18n-html class="col-recommended">Pas de tableau de bord intégré&nbsp;: idéal si la vitrine évolue peu ou par missions ponctuelles</td>
+          <td data-i18n="sites_vitrines.compare.row.updates.webflow" data-i18n-html>Édition dans l’outil ; collaboration possible selon l’offre</td>
+          <td data-i18n="sites_vitrines.compare.row.updates.wordpress" data-i18n-html>Interface d’édition riche ; chaque extension ajoute de la complexité</td>
+          <td data-i18n="sites_vitrines.compare.row.updates.wix">Édition visuelle simple pour les textes et images courants</td>
         </tr>
         <tr>
-          <th scope="row">Cas d’usage typique</th>
-          <td class="col-recommended">Image de marque, offre claire, pages léger, contact / prise de RDV</td>
-          <td>Équipes design qui itèrent souvent sur le site dans l’éditeur</td>
-          <td>Blog actif, nombreuses pages, besoin de plugins spécifiques</td>
-          <td>Mise en ligne très rapide avec peu d’exigence technique</td>
+          <th data-i18n="sites_vitrines.compare.row.usecase" data-i18n-html scope="row">Cas d’usage typique</th>
+          <td data-i18n="sites_vitrines.compare.row.usecase.custom" data-i18n-html class="col-recommended">Image de marque, offre claire, pages léger, contact / prise de RDV</td>
+          <td data-i18n="sites_vitrines.compare.row.usecase.webflow" data-i18n-html>Équipes design qui itèrent souvent sur le site dans l’éditeur</td>
+          <td data-i18n="sites_vitrines.compare.row.usecase.wordpress" data-i18n-html>Blog actif, nombreuses pages, besoin de plugins spécifiques</td>
+          <td data-i18n="sites_vitrines.compare.row.usecase.wix" data-i18n-html>Mise en ligne très rapide avec peu d’exigence technique</td>
         </tr>
       </tbody>
     </table>
   </div>
 
   <div class="compare-outro">
-    <h3>Une vitrine qui vous appartient — sans dette technique ni prison d’éditeur</h3>
-    <p>
+    <h3 data-i18n="sites_vitrines.compare.outro.title" data-i18n-html>Une vitrine qui vous appartient — sans dette technique ni prison d’éditeur</h3>
+    <p data-i18n="sites_vitrines.compare.outro.p1" data-i18n-html>
       Avec un site statique sur mesure, l’idée n’est pas de vous enfermer dans du code obscur, mais de <strong>retirer ce qui ne sert pas votre activité</strong>&nbsp;:
       pas de tableau de bord WordPress à surveiller, pas de plugins qui se désactivent après une mise à jour, pas d’abonnement à un constructeur pour débloquer une option «&nbsp;premium&nbsp;».
       Vous gardez la maîtrise de votre présence en ligne&nbsp;: les fichiers sont les vôtres, l’hébergement reste simple, et la performance suit naturellement — ce qui renforce la crédibilité auprès de vos visiteurs comme de Google.
     </p>
-    <p>
+    <p data-i18n="sites_vitrines.compare.outro.p2" data-i18n-html>
       Pour les textes, visuels ou sections nouvelles, deux approches cohabitent bien&nbsp;: des <strong>mises à jour ponctuelles à la demande</strong> avec un interlocuteur qui connaît déjà votre site,
       ou une organisation où vous centralisez vos contenus (documents, photos) et je les intègre proprement — sans vous obliger à devenir administrateur système d’un CMS lourd pour une vitrine qui, souvent, évolue par à-coups.
     </p>
-    <p>
+    <p data-i18n="sites_vitrines.compare.outro.p3" data-i18n-html>
       En résumé&nbsp;: vous n’êtes pas <strong>dépendant d’une plateforme</strong> qui augmente ses tarifs ou change ses règles du jour au lendemain, ni d’une chaîne de plugins à maintenir pour afficher une page correctement.
       Le développeur intervient là où il apporte le plus de valeur — conception, intégration, performance, accessibilité — et laisse votre message respirer, sans couche logicielle superflue entre vous et vos clients.
     </p>
@@ -224,35 +226,35 @@
 </section>
 
 <section>
-  <h2>Quelques projets récents</h2>
+  <h2 data-i18n="sites_vitrines.projects.title">Quelques projets récents</h2>
   <div class="projects">
     <div class="project">
-      <img width="100%" height="100%" src="/assets/images/site-les-mains-nomades.webp" alt="Projet 2">
+      <img width="100%" height="100%" src="/assets/images/site-les-mains-nomades.webp" data-i18n-attr="alt" data-i18n="sites_vitrines.projects.card1.alt" alt="Projet 2">
       <div class="project-info">
-        <h3>Les mains nomades</h3>
-        <p>Développement d’un site vitrine optimisé pour la visibilité locale, combinant design moderne, performances techniques et structure SEO efficace.</p>
+        <h3 data-i18n="sites_vitrines.projects.card1.title">Les mains nomades</h3>
+        <p data-i18n="sites_vitrines.projects.card1.text" data-i18n-html>Développement d’un site vitrine optimisé pour la visibilité locale, combinant design moderne, performances techniques et structure SEO efficace.</p>
       </div>
     </div>
   </div>
 </section>
 
 <section class="alt">
-  <h2>Ils m’ont fait confiance</h2>
+  <h2 data-i18n="sites_vitrines.testimonials.title">Ils m’ont fait confiance</h2>
   <div class="testimonials">
-    <p>"Un site clair, moderne et professionnel qui reflète parfaitement mon activité."</p>
-    <p>"Très bonne compréhension de mes besoins et un rendu final au-dessus de mes attentes."</p>
+    <p data-i18n="sites_vitrines.testimonials.t1">"Un site clair, moderne et professionnel qui reflète parfaitement mon activité."</p>
+    <p data-i18n="sites_vitrines.testimonials.t2">"Très bonne compréhension de mes besoins et un rendu final au-dessus de mes attentes."</p>
   </div>
 </section>
 
 <section>
-  <h2>Envie d’un site vitrine qui fait la différence ?</h2>
-  <a href="/contact/" class="cta">Discutons de votre projet</a>
+  <h2 data-i18n="sites_vitrines.cta.title">Envie d’un site vitrine qui fait la différence ?</h2>
+  <a data-i18n="sites_vitrines.cta.button" href="/contact/" class="cta">Discutons de votre projet</a>
 </section>
 
 </main>
 <footer>
   <div>
-   <a href="/" aria-label="Retour à l’accueil – JB Dev Web">
+   <a href="/" data-i18n-attr="aria-label" data-i18n="footer.logo" aria-label="Retour à l'accueil – JB Dev Web">
       <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
         <defs>
           <!-- Filtre pour l’ombre animée -->
@@ -292,10 +294,11 @@
     </a> 
   </div>
   <div>
-    © <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)<br><a href="/mentions-legales/">Mentions légales</a>
+    <span data-i18n="footer.copyright" data-i18n-html>© <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)</span><br><a href="/mentions-legales/" data-i18n="footer.legal">Mentions légales</a>
   </div>
 </footer>
 
 <script src="/assets/theme.js" defer></script>
+
 </body>
 </html>

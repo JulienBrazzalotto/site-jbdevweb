@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Concepteur de site internet à Auch (Gers) | Développeur web freelance &amp; Shopify</title>
-  <meta name="description" content="Concepteur de site internet et développeur web freelance à Auch (32) : création de site vitrine, boutique Shopify, refonte et SEO local pour artisans, TPE et indépendants. Devis gratuit." />
+  <title data-i18n="meta./.title">Concepteur de site internet à Auch (Gers) | Développeur web freelance &amp; Shopify</title>
+  <meta name="description" data-i18n="meta./.description" content="Concepteur de site internet et développeur web freelance à Auch (32) : création de site vitrine, boutique Shopify, refonte et SEO local pour artisans, TPE et indépendants. Devis gratuit." />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://jbdevweb.fr/">
@@ -74,46 +74,39 @@
   ]
 }
 </script>
-  
 
+  <script src="assets/i18n.js" defer></script>
 </head>
 <body>
 
-  <!-- Page transition effect 
-<div class="page-transition">
-  <span></span><span></span><span></span>
-</div>
--->
-
-
 <!-- Bandeau cookie -->
 <div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
-  Ce site utilise des cookies pour améliorer l'expérience. 
-  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;">Accepter</button>
+  <span data-i18n="cookie.message">Ce site utilise des cookies pour améliorer l'expérience.</span>
+  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;"><span data-i18n="cookie.accept">Accepter</span></button>
 </div>
 
 <nav>
-  <button id="theme-toggle" aria-label="Changer le thème">
+  <button id="theme-toggle" data-i18n-attr="aria-label" data-i18n="nav.theme_toggle" aria-label="Changer le thème">
     <span class="icon sun" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
     <span class="icon moon theme-toggle-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="16" height="16"><defs><radialGradient id="theme-toggle-sun-core" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="60%" stop-color="#FFE082"/><stop offset="100%" stop-color="#FFB300"/></radialGradient><linearGradient id="theme-toggle-sun-ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE082" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFB300" stop-opacity="0.55"/></linearGradient><filter id="theme-toggle-sun-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(32 32)"><g fill="url(#theme-toggle-sun-ray)"><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(0)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(45)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(90)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(135)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(180)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(225)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(270)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(315)"/></g><circle cx="0" cy="0" r="8.5" fill="url(#theme-toggle-sun-core)" filter="url(#theme-toggle-sun-glow)"/></g></svg></span>
   </button>
-  <a href="/" class="active">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/">Blog</a>
-  <a href="/contact/">Contact</a>
-  <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
+  <a href="/" class="active"><span data-i18n="nav.home">Accueil</span></a>
+  <a href="/shopify/"><span data-i18n="nav.shopify">Shopify</span></a>
+  <a href="/sites-vitrines/"><span data-i18n="nav.sites_vitrines">Sites vitrines</span></a>
+  <a href="/faq/"><span data-i18n="nav.faq">FAQ</span></a>
+  <a href="/blog/"><span data-i18n="nav.blog">Blog</span></a>
+  <a href="/contact/"><span data-i18n="nav.contact">Contact</span></a>
+  <button class="nav-burger" data-i18n-attr="aria-label" data-i18n="nav.burger" aria-label="Ouvrir le menu" aria-expanded="false">
     <span></span><span></span><span></span>
   </button>
 </nav>
-<div class="nav-panel" role="dialog" aria-label="Menu navigation">
-  <a href="/" class="active">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/">Blog</a>
-  <a href="/contact/">Contact</a>
+<div class="nav-panel" role="dialog" data-i18n-attr="aria-label" data-i18n="nav.panel" aria-label="Menu navigation">
+  <a href="/" class="active"><span data-i18n="nav.home">Accueil</span></a>
+  <a href="/shopify/"><span data-i18n="nav.shopify">Shopify</span></a>
+  <a href="/sites-vitrines/"><span data-i18n="nav.sites_vitrines">Sites vitrines</span></a>
+  <a href="/faq/"><span data-i18n="nav.faq">FAQ</span></a>
+  <a href="/blog/"><span data-i18n="nav.blog">Blog</span></a>
+  <a href="/contact/"><span data-i18n="nav.contact">Contact</span></a>
 </div>
 
 <header>
@@ -123,87 +116,87 @@
     <div class="hero-blob"></div>
   </div>
   <div class="hero-text">
-    <h1 id="hero-title">Développeur web freelance à <span>Auch</span> : Shopify, e-commerce &amp; création de site vitrine</h1>
-    <p>
+    <h1 id="hero-title" data-i18n="home.hero.title" data-i18n-html>Développeur web freelance à <span>Auch</span> : Shopify, e-commerce &amp; création de site vitrine</h1>
+    <p data-i18n="home.hero.text" data-i18n-html>
     Vous êtes artisan, commerçant ou indépendant dans le Gers ou en Occitanie et vous cherchez un <strong>créateur de site internet</strong> ou une <strong>boutique en ligne Shopify</strong>&nbsp;?
     Je conçois des boutiques e-commerce performantes (conversion, SEO), ainsi que des sites vitrines modernes et sur-mesure.<br>
     Chaque projet est adapté à vos besoins et à votre budget, avec un niveau de personnalisation modulable selon la complexité souhaitée.<br>
     Mon objectif : vous offrir une solution digitale qui attire vos clients, renforce votre image et booste vos ventes.
     </p>
-    <a href="/contact/" class="cta">Lancer votre projet et obtenir un devis gratuit</a>
+    <a href="/contact/" class="cta" data-i18n="home.hero.cta">Lancer votre projet et obtenir un devis gratuit</a>
   </div>
 </header>
 
 <main>
 <section class="alt">
-  <h2>Expert Shopify &amp; développeur web freelance (Auch, Gers)</h2>
-  <p>
+  <h2 data-i18n="home.section1.title" data-i18n-html>Expert Shopify &amp; développeur web freelance (Auch, Gers)</h2>
+  <p data-i18n="home.section1.text" data-i18n-html>
     Je suis <strong>développeur web freelance</strong> basé à <strong>Auch</strong>, spécialisé <strong>Shopify</strong>, <strong>e-commerce</strong> et <strong>sites vitrines</strong>.
     Je crée des boutiques en ligne optimisées pour le référencement naturel (SEO) et la conversion,
     ainsi que des sites vitrines immersifs et sur mesure pour les TPE et marques locales.<br>
     Mon approche : comprendre votre métier, vos besoins et vos clients pour livrer des solutions digitales qui fonctionnent vraiment. 
-    Basé dans le Gers, je travaille avec des clients partout en France, et je peux m’adapter à des projets internationaux.
-    Disponible, réactif et orienté résultats, je vous accompagne de l’idée à la mise en ligne. Mon nom est Julien BRAZZALOTTO.
+    Basé dans le Gers, je travaille avec des clients partout en France, et je peux m'adapter à des projets internationaux.
+    Disponible, réactif et orienté résultats, je vous accompagne de l'idée à la mise en ligne. Mon nom est Julien BRAZZALOTTO.
   </p>
 </section>
 
 <section>
-  <h2>Site vitrine, boutique en ligne ou refonte : ce que la plupart des clients cherchent</h2>
-  <p>
+  <h2 data-i18n="home.section2.title" data-i18n-html>Site vitrine, boutique en ligne ou refonte : ce que la plupart des clients cherchent</h2>
+  <p data-i18n="home.section2.p1" data-i18n-html>
     Pour une activité locale, on distingue souvent deux besoins&nbsp;: une <strong>vitrine</strong> pour être trouvé sur <strong>Google</strong>,
     présenter son métier et rassurer, ou une <strong>boutique en ligne</strong> pour vendre au-delà du magasin. Dans les deux cas,
     un <strong>site internet</strong> professionnel doit être <strong>adapté mobile</strong> (responsive), rapide, en <strong>HTTPS</strong>,
     avec un moyen de vous contacter et des <a href="/mentions-legales/">mentions légales</a> à jour.
   </p>
-  <p>
-    Pour l’<strong>e-commerce</strong>, je recommande souvent <a href="/shopify/">Shopify</a> — solution stable et évolutive, sans la charge technique d’un site à héberger et patcher soi-même.
-    Pour une <strong>création de site vitrine</strong> sobre et performante, un <strong>développement sur mesure</strong> évite la lourdeur d’un CMS inutile.
+  <p data-i18n="home.section2.p2" data-i18n-html>
+    Pour l'<strong>e-commerce</strong>, je recommande souvent <a href="/shopify/" data-i18n="nav.shopify">Shopify</a> — solution stable et évolutive, sans la charge technique d'un site à héberger et patcher soi-même.
+    Pour une <strong>création de site vitrine</strong> sobre et performante, un <strong>développement sur mesure</strong> évite la lourdeur d'un CMS inutile.
     Une <strong>refonte de site internet</strong> est pertinente si le vôtre est lent, peu lisible sur téléphone ou ne reflète plus votre offre&nbsp;: on repart sur des bases propres pour le <strong>référencement naturel</strong>.
   </p>
-  <p>
-    Choisir entre une <strong>agence web</strong> et un <strong>développeur freelance</strong> dépend du budget et du mode d’échange souhaité&nbsp;:
+  <p data-i18n="home.section2.p3" data-i18n-html>
+    Choisir entre une <strong>agence web</strong> et un <strong>développeur freelance</strong> dépend du budget et du mode d'échange souhaité&nbsp;:
     en freelance, vous avez en général un <strong>interlocuteur unique</strong> de la conception à la mise en ligne.
-    Les questions de <strong>prix site vitrine</strong>, délais ou contenus sont détaillées dans la <a href="/faq/">FAQ</a>&nbsp;;
+    Les questions de <strong>prix site vitrine</strong>, délais ou contenus sont détaillées dans la <a href="/faq/" data-i18n="nav.faq">FAQ</a>&nbsp;;
     pour votre cas précis, <a href="/contact/">demandez un devis</a>.
   </p>
 </section>
 
 <section class="alt">
-  <h2>Concepteur de site internet et freelance web designer : pour quels besoins ?</h2>
-  <p>
+  <h2 data-i18n="home.section3.title" data-i18n-html>Concepteur de site internet et freelance web designer : pour quels besoins ?</h2>
+  <p data-i18n="home.section3.p1" data-i18n-html>
     Beaucoup de prospects recherchent un <strong>concepteur de site internet</strong> pour lancer une activité rapidement,
-    ou un <strong>freelance web designer</strong> pour moderniser l’image d’une entreprise déjà existante.
+    ou un <strong>freelance web designer</strong> pour moderniser l'image d'une entreprise déjà existante.
     Mon accompagnement couvre les deux aspects : la structure technique du site (performance, SEO, responsive)
     et la partie visuelle (hiérarchie des contenus, lisibilité, crédibilité de marque).
   </p>
-  <p>
-    L’objectif reste le même : transformer des visites Google en demandes de contact qualifiées, avec un site clair,
+  <p data-i18n="home.section3.p2" data-i18n-html>
+    L'objectif reste le même : transformer des visites Google en demandes de contact qualifiées, avec un site clair,
     rapide et orienté conversion. Si vous hésitez entre plusieurs solutions, je peux vous orienter vers la plus pertinente
     selon votre budget, vos délais et vos objectifs commerciaux.
   </p>
 </section>
 
 <section class="accueil-services">
-  <h2>Mes services pour booster votre activité</h2>
+  <h2 data-i18n="home.services.title" data-i18n-html>Mes services pour booster votre activité</h2>
   <div class="cards">
     <div class="card">
-      <h3>Boutiques Shopify sur-mesure</h3>
-      <p>Développement complet de votre boutique en ligne, intégration de paiements, gestion des stocks, et optimisation SEO.</p>
+      <h3 data-i18n="home.services.card1.title" data-i18n-html>Boutiques Shopify sur-mesure</h3>
+      <p data-i18n="home.services.card1.text" data-i18n-html>Développement complet de votre boutique en ligne, intégration de paiements, gestion des stocks, et optimisation SEO.</p>
     </div>
     <div class="card">
-      <h3>Sites vitrines immersifs</h3>
-      <p>Création de sites vitrines design, responsives et performants pour présenter vos produits et services avec impact.</p>
+      <h3 data-i18n="home.services.card2.title" data-i18n-html>Sites vitrines immersifs</h3>
+      <p data-i18n="home.services.card2.text" data-i18n-html>Création de sites vitrines design, responsives et performants pour présenter vos produits et services avec impact.</p>
     </div>
     <div class="card">
-      <h3>Accompagnement personnalisé</h3>
-      <p>Conseils digitaux, optimisation UX, maintenance et mise à jour régulière pour garantir la réussite de votre projet.</p>
+      <h3 data-i18n="home.services.card3.title" data-i18n-html>Accompagnement personnalisé</h3>
+      <p data-i18n="home.services.card3.text" data-i18n-html>Conseils digitaux, optimisation UX, maintenance et mise à jour régulière pour garantir la réussite de votre projet.</p>
     </div>
   </div>
 </section>
 
 <section>
-  <h2>Sur le blog : guides Shopify et retail</h2>
-  <p>
+  <h2 data-i18n="home.blog.title" data-i18n-html>Sur le blog : guides Shopify et retail</h2>
+  <p data-i18n="home.blog.text" data-i18n-html>
     Articles pour marchands et indépendants&nbsp;:
     <a href="/blog/cadence/">Cadence</a> (ma prochaine app Shopify, en développement à 70%),
     <a href="/blog/stock-transfert-pro-shopify/">Stock Transfert Pro</a> (mon app Shopify, dispo sur l'App Store),
@@ -217,10 +210,9 @@
 </main>
 <footer>
   <div>
-    <a href="/" aria-label="Retour à l’accueil – JB Dev Web">
+    <a href="/" data-i18n-attr="aria-label" data-i18n="footer.logo" aria-label="Retour à l'accueil – JB Dev Web">
       <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
         <defs>
-          <!-- Filtre pour l’ombre animée -->
           <filter id="shadow-j-green" x="-50%" y="-50%" width="200%" height="200%">
             <feGaussianBlur in="SourceAlpha" stdDeviation="0" result="blur"/>
             <feOffset dx="0" dy="0" result="offsetBlur"/>
@@ -232,8 +224,6 @@
             </feMerge>
           </filter>
         </defs>
-
-        <!-- J -->
         <path
           d="M78 32 L78 148 C78 176 42 176 42 148"
           fill="none"
@@ -243,8 +233,6 @@
           stroke-linejoin="miter"
           filter="url(#shadow-j-green)"
         />
-
-        <!-- B -->
         <path
           d="M88 32 L88 150 L118 150 C147 150 160 148 160 119 C160 103 155 92 143 92 
             C150 90 158 86 158 60 C158 36 144 32 118 32 Z 
@@ -257,7 +245,7 @@
     </a> 
   </div>
   <div>
-    © <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)<br><a href="/mentions-legales/">Mentions légales</a>
+    <span data-i18n="footer.copyright" data-i18n-html>© <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)</span><br><a href="/mentions-legales/" data-i18n="footer.legal">Mentions légales</a>
   </div>
 </footer>
 

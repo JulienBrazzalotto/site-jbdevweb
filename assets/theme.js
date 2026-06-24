@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
         h1.appendChild(document.createTextNode(" "));
       });
 
-      // Toujours attendre que l'overlay ait disparu
       const startAnimation = () => {
         const spans = h1.querySelectorAll(".word");
         spans.forEach(span => {
@@ -45,7 +44,6 @@ document.addEventListener("DOMContentLoaded", () => {
       };
 
       if (pageTransition) {
-        // On vérifie régulièrement si l'overlay est caché
         const checkVisible = setInterval(() => {
           const style = getComputedStyle(pageTransition);
           if (style.display === "none" || style.opacity === "0") {
@@ -54,13 +52,13 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         }, 50);
       } else {
-        // Pas de transition, on anime directement
         requestAnimationFrame(startAnimation);
       }
     });
   }
 
   animateHeroWords();
+  document.addEventListener("langChanged", () => animateHeroWords());
 });
 
 
@@ -222,30 +220,33 @@ if (burger && panel) {
 const toggleBtn = document.getElementById('theme-toggle');
 const root = document.documentElement;
 
-toggleBtn.addEventListener('click', () => {
-  const currentTheme = root.getAttribute('data-theme');
+function updateThemeTooltip() {
+  if (!toggleBtn) return;
+  const theme = root.getAttribute('data-theme') || 'dark';
+  const lang = window.JBDevWebI18n?.getLang?.() || 'fr';
+  const tipKey = theme === 'dark' ? 'theme.light' : 'theme.dark';
+  const ariaKey = tipKey + '_aria';
+  if (lang === 'en' && window.I18N_EN) {
+    toggleBtn.setAttribute('title', window.I18N_EN[tipKey] || '');
+    toggleBtn.setAttribute('aria-label', window.I18N_EN[ariaKey] || window.I18N_EN[tipKey] || '');
+  } else {
+    toggleBtn.setAttribute('title', theme === 'dark' ? 'Passer en mode clair' : 'Passer en mode sombre');
+    toggleBtn.setAttribute('aria-label', 'Changer le thème');
+  }
+}
 
-  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-  root.setAttribute('data-theme', newTheme);
-  localStorage.setItem('theme', newTheme);
+if (toggleBtn) {
+  toggleBtn.addEventListener('click', () => {
+    const currentTheme = root.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeTooltip();
+  });
 
-  // 🧠 Tooltip dynamique (BONUS UX)
-  toggleBtn.setAttribute(
-    'title',
-    newTheme === 'dark'
-      ? 'Passer en mode clair'
-      : 'Passer en mode sombre'
-  );
-});
-
-
-const savedTheme = localStorage.getItem('theme') || 'dark';
-root.setAttribute('data-theme', savedTheme);
-
-toggleBtn.setAttribute(
-  'title',
-  savedTheme === 'dark'
-    ? 'Passer en mode clair'
-    : 'Passer en mode sombre'
-);
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  root.setAttribute('data-theme', savedTheme);
+  updateThemeTooltip();
+  document.addEventListener('langChanged', updateThemeTooltip);
+}
 

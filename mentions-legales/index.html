@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mentions légales | JB Dev Web – développeur web Auch</title>
-  <meta name="description" content="Mentions légales du site jbdevweb.fr : éditeur Julien Brazzalotto, hébergement, cookies et données personnelles. Développeur web freelance à Auch (Gers).">
+  <title data-i18n="meta./mentions-legales/.title">Mentions légales | JB Dev Web – développeur web Auch</title>
+  <meta name="description" data-i18n="meta./mentions-legales/.description" content="Mentions légales du site jbdevweb.fr : éditeur Julien Brazzalotto, hébergement, cookies et données personnelles. Développeur web freelance à Auch (Gers).">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://jbdevweb.fr/mentions-legales/">
   <link rel="stylesheet" href="/assets/style.css">
@@ -20,37 +20,38 @@
   <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
 
+  <script src="/assets/i18n.js" defer></script>
 </head>
 <body>
 
   <!-- Bandeau cookie -->
 <div id="cookie-banner" style="position:fixed;bottom:0;left:0;width:100%;background:#222;color:#fff;padding:15px;text-align:center;font-family:sans-serif;z-index:9999;">
-  Ce site utilise des cookies pour améliorer l'expérience. 
-  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;">Accepter</button>
+  <span data-i18n="cookie.message">Ce site utilise des cookies pour améliorer l'expérience.</span> 
+  <button id="accept-cookies" style="margin-left:10px;padding:5px 10px;background:#fff;color:#000;border-radius: 5px;border:none;cursor:pointer;"><span data-i18n="cookie.accept">Accepter</span></button>
 </div>
 
 <nav>
-  <button id="theme-toggle" aria-label="Changer le thème">
+  <button id="theme-toggle" data-i18n-attr="aria-label" data-i18n="nav.theme_toggle" aria-label="Changer le thème">
     <span class="icon sun" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
     <span class="icon moon theme-toggle-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="16" height="16"><defs><radialGradient id="theme-toggle-sun-core" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFFDE7"/><stop offset="60%" stop-color="#FFE082"/><stop offset="100%" stop-color="#FFB300"/></radialGradient><linearGradient id="theme-toggle-sun-ray" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFE082" stop-opacity="0.85"/><stop offset="100%" stop-color="#FFB300" stop-opacity="0.55"/></linearGradient><filter id="theme-toggle-sun-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g transform="translate(32 32)"><g fill="url(#theme-toggle-sun-ray)"><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(0)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(45)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(90)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(135)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(180)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(225)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(270)"/><path d="M0 -13 C3 -18.5 3.2 -24.5 0 -29 C-3.2 -24.5 -3 -18.5 0 -13" transform="rotate(315)"/></g><circle cx="0" cy="0" r="8.5" fill="url(#theme-toggle-sun-core)" filter="url(#theme-toggle-sun-glow)"/></g></svg></span>
   </button>
-  <a href="/">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/">Blog</a>
-  <a href="/contact/">Contact</a>
-  <button class="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
+  <a href="/" data-i18n="nav.home">Accueil</a>
+  <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+  <a href="/sites-vitrines/" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+  <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+  <a href="/blog/" data-i18n="nav.blog">Blog</a>
+  <a href="/contact/" data-i18n="nav.contact">Contact</a>
+  <button class="nav-burger" data-i18n-attr="aria-label" data-i18n="nav.burger" aria-label="Ouvrir le menu" aria-expanded="false">
     <span></span><span></span><span></span>
   </button>
 </nav>
-<div class="nav-panel" role="dialog" aria-label="Menu navigation">
-  <a href="/">Accueil</a>
-  <a href="/shopify/">Shopify</a>
-  <a href="/sites-vitrines/">Sites vitrines</a>
-  <a href="/faq/">FAQ</a>
-  <a href="/blog/">Blog</a>
-  <a href="/contact/">Contact</a>
+<div class="nav-panel" role="dialog" data-i18n-attr="aria-label" data-i18n="nav.panel" aria-label="Menu navigation">
+  <a href="/" data-i18n="nav.home">Accueil</a>
+  <a href="/shopify/" data-i18n="nav.shopify">Shopify</a>
+  <a href="/sites-vitrines/" data-i18n="nav.sites_vitrines">Sites vitrines</a>
+  <a href="/faq/" data-i18n="nav.faq">FAQ</a>
+  <a href="/blog/" data-i18n="nav.blog">Blog</a>
+  <a href="/contact/" data-i18n="nav.contact">Contact</a>
 </div>
 
 <!-- HERO -->
@@ -61,8 +62,8 @@
         <div class="hero-blob"></div>
     </div>
     <div>
-        <h1 id="hero-title">Mentions légales</h1>
-        <p>Merci de lire attentivement les modalités d’utilisation du site avant d’y naviguer. En vous connectant, vous acceptez ces conditions.</p>
+        <h1 data-i18n="mentions_legales.hero.title" id="hero-title">Mentions légales</h1>
+        <p data-i18n="mentions_legales.hero.text">Merci de lire attentivement les modalités d’utilisation du site avant d’y naviguer. En vous connectant, vous acceptez ces conditions.</p>
     </div>
     
   </header>
@@ -70,8 +71,8 @@
 <main class="legal-content">
   
   <section class="alt">
-    <h2>Éditeur du site</h2>
-    <p><strong>Julien BRAZZALOTTO</strong><br>
+    <h2 data-i18n="mentions_legales.editor.title">Éditeur du site</h2>
+    <p data-i18n="mentions_legales.editor.text" data-i18n-html><strong>Julien BRAZZALOTTO</strong><br>
        Numéro de SIRET : 91222774100010<br>
        Responsable éditorial : Julien BRAZZALOTTO<br>
        Téléphone : +33 6 74 46 60 97<br>
@@ -81,8 +82,8 @@
   </section>
 
   <section>
-    <h2>Hébergement</h2>
-    <p><strong>GitHub, Inc.</strong><br>
+    <h2 data-i18n="mentions_legales.hosting.title">Hébergement</h2>
+    <p data-i18n="mentions_legales.hosting.text" data-i18n-html><strong>GitHub, Inc.</strong><br>
     88 Colin P Kelly Jr St
     San Francisco, CA 94107
     https://github.com
@@ -90,54 +91,54 @@
   </section>
 
   <section class="alt">
-    <h2>Développement</h2>
-    <p><strong>Brazzalotto Julien</strong><br>
+    <h2 data-i18n="mentions_legales.development.title">Développement</h2>
+    <p data-i18n="mentions_legales.development.text" data-i18n-html><strong>Brazzalotto Julien</strong><br>
        Site Web : www.jbdevweb.fr
     </p>
   </section>
 
   <section>
-    <h2>Conditions d’utilisation</h2>
-    <p>Le site www.jbdevweb.fr est proposé en différents langages web pour un meilleur confort d’utilisation et un graphisme agréable. Nous recommandons d’utiliser des navigateurs modernes (Chrome, Firefox, Safari…). Les informations sont fournies à titre indicatif et peuvent évoluer sans préavis.</p>
-    <p><strong>Cookies :</strong> Le site peut vous demander l’acceptation des cookies pour des besoins statistiques et d’affichage. Certaines parties du site ne fonctionnent pas sans acceptation.</p>
-    <p><strong>Liens hypertextes :</strong> Le site de Julien Brazzalotto peut contenir des liens vers d’autres sites. Julien Brazzalotto n’est pas responsable de ces sites externes. Toute mise en place d’un lien vers ce site nécessite une autorisation préalable.</p>
+    <h2 data-i18n="mentions_legales.terms.title">Conditions d’utilisation</h2>
+    <p data-i18n="mentions_legales.terms.p1">Le site www.jbdevweb.fr est proposé en différents langages web pour un meilleur confort d’utilisation et un graphisme agréable. Nous recommandons d’utiliser des navigateurs modernes (Chrome, Firefox, Safari…). Les informations sont fournies à titre indicatif et peuvent évoluer sans préavis.</p>
+    <p data-i18n="mentions_legales.terms.cookies" data-i18n-html><strong>Cookies :</strong> Le site peut vous demander l’acceptation des cookies pour des besoins statistiques et d’affichage. Certaines parties du site ne fonctionnent pas sans acceptation.</p>
+    <p data-i18n="mentions_legales.terms.links" data-i18n-html><strong>Liens hypertextes :</strong> Le site de Julien Brazzalotto peut contenir des liens vers d’autres sites. Julien Brazzalotto n’est pas responsable de ces sites externes. Toute mise en place d’un lien vers ce site nécessite une autorisation préalable.</p>
   </section>
 
   <section class="alt">
-    <h2>Services fournis</h2>
-    <p>Les informations sur le site sont données sous réserve de modifications. Les photos sont non contractuelles et les renseignements peuvent évoluer.</p>
+    <h2 data-i18n="mentions_legales.services.title">Services fournis</h2>
+    <p data-i18n="mentions_legales.services.text">Les informations sur le site sont données sous réserve de modifications. Les photos sont non contractuelles et les renseignements peuvent évoluer.</p>
   </section>
 
   <section>
-    <h2>Limitation contractuelles sur les données</h2>
-    <p>Les informations sont fournies aussi précisément que possible mais peuvent contenir des erreurs ou omissions. L’utilisateur est responsable de vérifier l’exactitude et utilise le site à ses risques.</p>
+    <h2 data-i18n="mentions_legales.data_limit.title">Limitation contractuelles sur les données</h2>
+    <p data-i18n="mentions_legales.data_limit.text">Les informations sont fournies aussi précisément que possible mais peuvent contenir des erreurs ou omissions. L’utilisateur est responsable de vérifier l’exactitude et utilise le site à ses risques.</p>
   </section>
 
   <section class="alt">
-    <h2>Propriété intellectuelle</h2>
-    <p>Tout contenu (textes, images, logos, vidéos, animations) est la propriété exclusive de Julien BRAZZALOTTO, sauf mention contraire. Toute reproduction, distribution ou modification est interdite sans accord écrit.</p>
+    <h2 data-i18n="mentions_legales.ip.title">Propriété intellectuelle</h2>
+    <p data-i18n="mentions_legales.ip.text">Tout contenu (textes, images, logos, vidéos, animations) est la propriété exclusive de Julien BRAZZALOTTO, sauf mention contraire. Toute reproduction, distribution ou modification est interdite sans accord écrit.</p>
   </section>
 
   <section>
-    <h2>Déclaration à la CNIL</h2>
-    <p>Conformément à la loi informatique et libertés, ce site n’a pas fait l’objet d’une déclaration auprès de la CNIL.</p>
+    <h2 data-i18n="mentions_legales.cnil.title">Déclaration à la CNIL</h2>
+    <p data-i18n="mentions_legales.cnil.text">Conformément à la loi informatique et libertés, ce site n’a pas fait l’objet d’une déclaration auprès de la CNIL.</p>
   </section>
 
   <section class="alt">
-    <h2>Litiges</h2>
-    <p>Le site est soumis aux lois françaises. Tout litige sera de la compétence exclusive des tribunaux dont dépend le siège social.</p>
+    <h2 data-i18n="mentions_legales.disputes.title">Litiges</h2>
+    <p data-i18n="mentions_legales.disputes.text">Le site est soumis aux lois françaises. Tout litige sera de la compétence exclusive des tribunaux dont dépend le siège social.</p>
   </section>
 
   <section>
-    <h2>Données personnelles</h2>
-    <p>Des données peuvent être collectées automatiquement pour des statistiques internes (zones visitées, IP, navigateur, temps d’accès…). Ces données sont protégées par la loi du 1er juillet 1998 relative à la protection des bases de données.</p>
+    <h2 data-i18n="mentions_legales.privacy.title">Données personnelles</h2>
+    <p data-i18n="mentions_legales.privacy.text">Des données peuvent être collectées automatiquement pour des statistiques internes (zones visitées, IP, navigateur, temps d’accès…). Ces données sont protégées par la loi du 1er juillet 1998 relative à la protection des bases de données.</p>
   </section>
 
 </main>
 
 <footer>
   <div>
-    <a href="/" aria-label="Retour à l’accueil – JB Dev Web">
+    <a href="/" data-i18n-attr="aria-label" data-i18n="footer.logo" aria-label="Retour à l'accueil – JB Dev Web">
       <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="220" height="200" viewBox="0 0 220 200">
         <defs>
           <filter id="shadow-j-green" x="-50%" y="-50%" width="200%" height="200%">
@@ -169,11 +170,11 @@
     </a>
   </div>
   <div>
-    © <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)<br><a href="/mentions-legales/">Mentions légales</a>
+    <span data-i18n="footer.copyright" data-i18n-html>© <span id="annee"></span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch (Gers)</span><br><a href="/mentions-legales/" data-i18n="footer.legal">Mentions légales</a>
   </div>
 </footer>
 
-  <script src="/assets/theme.js" defer></script>
+<script src="/assets/theme.js" defer></script>
 
 </body>
 </html>
