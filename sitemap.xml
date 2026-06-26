@@ -3,14 +3,14 @@
 
   <url>
     <loc>https://jbdevweb.fr/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://jbdevweb.fr/shopify/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -20,6 +20,13 @@
     <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://jbdevweb.fr/creation-site-internet-auch/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
@@ -66,7 +73,7 @@
 
   <url>
     <loc>https://jbdevweb.fr/blog/tarif-site-shopify-2026/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

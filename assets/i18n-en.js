@@ -29,11 +29,14 @@ window.I18N_EN = {
   "theme.dark_aria": "Switch to dark mode",
 
   /* ── Meta titles & descriptions ── */
-  "meta./.title": "Website designer in Auch (Gers) | Freelance web developer & Shopify",
-  "meta./.description": "Website designer and freelance web developer in Auch (32): showcase websites, Shopify stores, redesigns and local SEO for artisans, small businesses and independents. Free quote.",
+  "meta./.title": "Freelance web developer Auch | Shopify & showcase sites",
+  "meta./.description": "Freelance web in Auch (Gers): showcase websites, Shopify stores, redesigns and local SEO. Artisans and small businesses. Free quote.",
 
-  "meta./contact/.title": "Contact web developer Auch | Shopify, showcase site & e-commerce quote",
-  "meta./contact/.description": "Contact a freelance web developer in Auch (32): free quote for Shopify store, showcase website or redesign. Fast response. Gers & Occitanie.",
+  "meta./contact/.title": "Contact & free quote | JB Dev Web",
+  "meta./contact/.description": "Contact JB Dev Web: describe your project (Shopify, showcase site, redesign). Fast reply. Freelance web developer based in Auch.",
+
+  "meta./creation-site-internet-auch/.title": "Website creation in Auch (Gers) | Freelance web",
+  "meta./creation-site-internet-auch/.description": "Website creation in Auch and the Gers: showcase sites, Shopify, redesign and local SEO. Freelance web for artisans and retailers. Free quote.",
 
   "meta./faq/.title": "Website designer FAQ: pricing, Shopify, SEO, freelance web designer",
   "meta./faq/.description": "Website designer FAQ: showcase site pricing, Shopify store, redesign, SEO, agency or freelance web designer. Clear answers for prospects in Auch and the Gers.",
@@ -57,7 +60,7 @@ window.I18N_EN = {
   "meta./blog/stock-transfert-pro-shopify/.description": "Stock Transfert Pro, available on the Shopify App Store since 3 June 2026: location transfers (draft → sent → received), smart drafts based on sales or stock targets, POS receiving, forecasts and alerts. From $12/month, 14-day free trial.",
 
   "meta./blog/tarif-site-shopify-2026/.title": "Shopify pricing France 2026: costs, fees and freelance rates",
-  "meta./blog/tarif-site-shopify-2026/.description": "Shopify pricing France 2026: Basic (€33), Grow (€88), Advanced (€384/month) plans, Shopify Payments fees and freelance rate ranges. Shopify pricing France 2026, fees and freelance rates.",
+  "meta./blog/tarif-site-shopify-2026/.description": "Shopify pricing France 2026: Basic €33, Grow €88, Advanced €384/month. Shopify Payments fees and freelance budgets. Summary table.",
 
   "meta./blog/comparatif-shopify-wix-prestashop-2026/.title": "Shopify, Wix or Prestashop in 2026: comparison for merchants",
   "meta./blog/comparatif-shopify-wix-prestashop-2026/.description": "Shopify, Wix or Prestashop: selection criteria, 3-year cost, POS and inventory, SEO and maintenance. Field insights from a freelance e-commerce developer for every merchant.",
@@ -89,6 +92,10 @@ window.I18N_EN = {
   "home.services.card2.text": "Design-forward, responsive, high-performing showcase sites to present your products and services with impact.",
   "home.services.card3.title": "Personalized support",
   "home.services.card3.text": "Digital consulting, UX optimization, maintenance and regular updates to ensure your project's success.",
+
+  "home.local.title": "Website creation in Auch and the Gers",
+  "home.local.p1": "Looking for a <strong>website creator in Auch</strong>, a <strong>web agency in the Gers</strong> or a <strong>freelancer for local SEO</strong>? I support artisans, retailers and independents across the Gers and Occitanie: showcase sites, <a href=\"/shopify/\">Shopify stores</a>, redesigns and Google optimization. A dedicated page details my <a href=\"/creation-site-internet-auch/\">website creation in Auch</a> offer (process, timelines, local SEO).",
+  "home.local.p2": "<strong>Organic search in Auch</strong>: beyond code, a high-performing site combines local content (city, trade, testimonials), an up-to-date Google Business Profile and clean technical structure (HTTPS, mobile, structured data). Queries like <em>website creation Auch</em> or <em>SEO Gers</em> take time; I build solid foundations from launch.",
 
   "home.blog.title": "On the blog: Shopify and retail guides",
   "home.blog.text": "Articles for merchants and independents: <a href=\"/blog/cadence/\">Cadence</a> (my upcoming Shopify app, 70% complete), <a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a> (my Shopify app, available on the App Store), <a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a>, <a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix or Prestashop in 2026</a>, <a href=\"/blog/magasin-physique-boutique-en-ligne/\">brick-and-mortar store and online shop</a> — see <a href=\"/blog/\">the full blog</a>.",
@@ -282,7 +289,7 @@ window.I18N_EN = {
 
   /* ── Showcase sites ── */
   "sites_vitrines.hero.title": "Showcase website designer in <span>Auch</span>: design, SEO &amp; performance",
-  "sites_vitrines.hero.text": "Freelance web in <strong>Auch</strong> and the <strong>Gers</strong>: elegant, fast showcase sites optimized for <strong>local search ranking</strong>, contact generation and online credibility.",
+  "sites_vitrines.hero.text": "Freelance web in <strong>Auch</strong> and the <strong>Gers</strong>: elegant, fast showcase sites optimized for <strong>local search ranking</strong>, contact generation and online credibility. See also <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
   "sites_vitrines.hero.cta": "Talk about your project",
 
   "sites_vitrines.services.title": "Showcase sites designed to convince",
@@ -593,13 +600,8 @@ window.I18N_EN = {
 
   "blog.tarif.s1.kicker": "Quick overview",
   "blog.tarif.s1.title": "Shopify pricing France 2026 — plan summary",
-  "blog.tarif.s1.p1": "<strong>Shopify pricing France 2026</strong> with monthly billing (roughly -25% with annual commitment):",
-  "blog.tarif.s1.li1": "<strong>Starter</strong> — €5/month",
-  "blog.tarif.s1.li2": "<strong>Basic</strong> — €33/month",
-  "blog.tarif.s1.li3": "<strong>Grow</strong> — €88/month",
-  "blog.tarif.s1.li4": "<strong>Advanced</strong> — €384/month",
-  "blog.tarif.s1.li5": "<strong>Plus</strong> — from €2,100/month",
-  "blog.tarif.s1.p2": "<strong>Shopify Payments</strong> in France: ~1.0% + €0.25 on domestic / EEA cards, ~2.3% + €0.25 on international cards and American Express. <strong>Freelance Shopify rates</strong> in France: €2,500–5,000 for a basic scoped site, €5,000–12,000 for custom work, €15,000+ for complex projects.",
+  "blog.tarif.s1.p1": "<strong>Shopify pricing France 2026</strong> (monthly billing, ~25% off annually) — source: <a href=\"https://www.shopify.com/fr/tarifs\" rel=\"noopener noreferrer\">official Shopify pricing page</a>:",
+  "blog.tarif.s1.p2": "<strong>Shopify Payments</strong> in France: ~1.0% + €0.25 on domestic / EEA cards, ~2.3% + €0.25 on international and Amex cards (see <a href=\"https://www.shopify.com/fr/tarifs\" rel=\"noopener noreferrer\">Shopify documentation</a>). <strong>Freelance Shopify rates</strong> in France: €2,500–5,000 for a basic scoped site, €5,000–12,000 for custom work, €15,000+ for complex projects.",
 
   "blog.tarif.s2.kicker": "Before the numbers",
   "blog.tarif.s2.title": "How to read Shopify pricing honestly",
