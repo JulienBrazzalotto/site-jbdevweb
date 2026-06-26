@@ -92,8 +92,8 @@ window.I18N_EN = {
   "meta./shopify/.title": "Shopify designer in Auch | Freelance e-commerce",
   "meta./shopify/.description": "Shopify designer in Auch (32): freelance e-commerce, Liquid themes, SEO and conversion. Custom quote.",
 
-  "meta./sites-vitrines/.title": "Showcase website designer in Auch | Freelance web designer & local SEO",
-  "meta./sites-vitrines/.description": "Showcase website designer in Auch (32): freelance web designer for custom, fast, responsive websites optimized for local SEO in the Gers.",
+  "meta./sites-vitrines/.title": "Showcase site in Auch | Freelance web designer & SEO",
+  "meta./sites-vitrines/.description": "Showcase website designer in Auch (32): freelance web designer, custom responsive site and local SEO in the Gers. Free quote.",
 
   "meta./mentions-legales/.title": "Legal notice | JB Dev Web – web developer Auch",
   "meta./mentions-legales/.description": "Legal notice for jbdevweb.fr: publisher Julien Brazzalotto, hosting, cookies and personal data. Freelance web developer in Auch (Gers).",
@@ -383,6 +383,10 @@ window.I18N_EN = {
   "sites_vitrines.hero.text": "Freelance web in <strong>Auch</strong> and the <strong>Gers</strong>: elegant, fast showcase sites optimized for <strong>local search ranking</strong>, contact generation and online credibility. See also <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
   "sites_vitrines.hero.cta": "Talk about your project",
 
+  "sites_vitrines.intro": "<strong>Freelance showcase website designer in Auch</strong>: I build custom <strong>showcase sites</strong> for artisans and small businesses in the <strong>Gers</strong>.",
+  "sites_vitrines.stats.title": "Indicative ranges for 2026",
+  "sites_vitrines.stats.list": "<li><strong>Custom showcase site</strong>: about <strong>€1,500 to €4,000</strong></li><li><strong>Static hosting</strong>: often <strong>€5 to €15/month</strong></li><li><strong>Average timeline</strong>: <strong>3 to 6 weeks</strong> depending on content</li><li><strong>Performance target</strong>: LCP &lt; 2.5s on mobile</li>",
+
   "sites_vitrines.services.title": "Showcase sites designed to convince",
   "sites_vitrines.services.design.title": "Immersive design",
   "sites_vitrines.services.design.text": "Custom design aligned with your brand image for a strong, memorable first impression.",
@@ -394,7 +398,8 @@ window.I18N_EN = {
   "sites_vitrines.services.responsive.text": "A site perfectly adapted to all screens, designed first for smooth mobile navigation.",
 
   "sites_vitrines.compare.title": "Why a custom showcase site rather than another approach?",
-  "sites_vitrines.compare.intro": "A showcase site doesn't have the same constraints as an online store: the stakes are often <strong>clarity</strong>, <strong>speed</strong> and <strong>credibility</strong>, without the weight of a large CMS. In the table, columns run from <strong>custom build</strong> through <strong>advanced no-code tools</strong> (Webflow, Framer) to the most common approaches at the end: <strong>WordPress</strong> then <strong>Wix / Squarespace</strong>. Adapt to your sector and update rhythm.",
+  "sites_vitrines.compare.intro": "A showcase site doesn't have the same constraints as an online store: the stakes are <strong>clarity</strong>, <strong>speed</strong> and <strong>credibility</strong>.",
+  "sites_vitrines.compare.intro2": "The table compares <strong>custom build</strong>, no-code tools (Webflow, Framer), <strong>WordPress</strong> and <strong>Wix / Squarespace</strong>. Adapt to your sector and update rhythm.",
   "sites_vitrines.compare.caption": "Indicative summary for independents, artisans and local businesses; your project may combine several approaches over time.",
   "sites_vitrines.compare.region": "Showcase website approach comparison table",
   "sites_vitrines.compare.th.criterion": "Criterion",
@@ -451,19 +456,28 @@ window.I18N_EN = {
   "sites_vitrines.compare.row.usecase.wordpress": "Active blog, many pages, need for specific plugins",
   "sites_vitrines.compare.row.usecase.wix": "Very fast launch with few technical requirements",
 
-  "sites_vitrines.compare.outro.title": "A showcase that belongs to you — without technical debt or editor lock-in",
-  "sites_vitrines.compare.outro.p1": "With a custom static site, the idea isn't to trap you in obscure code, but to <strong>remove what doesn't serve your business</strong>: no WordPress dashboard to monitor, no plugins that break after an update, no builder subscription to unlock a \"premium\" option. You keep control of your online presence: the files are yours, hosting stays simple, and performance follows naturally — which strengthens credibility with visitors and Google alike.",
-  "sites_vitrines.compare.outro.p2": "For new text, visuals or sections, two approaches work well: <strong>on-demand occasional updates</strong> with someone who already knows your site, or an arrangement where you centralize content (documents, photos) and I integrate it cleanly — without forcing you to become a CMS system administrator for a showcase that often evolves in bursts.",
-  "sites_vitrines.compare.outro.p3": "In short: you are not <strong>dependent on a platform</strong> that raises prices or changes rules overnight, nor on a chain of plugins to display a page correctly. The developer intervenes where they add the most value — design, integration, performance, accessibility — and lets your message breathe, without superfluous software between you and your clients.",
+  "sites_vitrines.compare.outro.title": "A showcase that belongs to you, without technical debt",
+  "sites_vitrines.compare.outro.p1": "With a custom static site, the idea is to <strong>remove what doesn't serve your business</strong>: no WordPress to monitor, no plugins that break after an update.",
+  "sites_vitrines.compare.outro.p1b": "You keep control of your online presence: your files, simple hosting, natural performance for visitors and Google.",
+  "sites_vitrines.compare.outro.p2": "For new text or visuals, two approaches work: <strong>occasional on-demand updates</strong> with someone who knows your site, or you centralize content and I integrate it cleanly.",
+  "sites_vitrines.compare.outro.p2b": "No need to become administrator of a heavy CMS for a showcase that evolves in bursts.",
+  "sites_vitrines.compare.outro.p3": "In short: you are not <strong>dependent on a platform</strong> that changes pricing overnight.",
+  "sites_vitrines.compare.outro.p3b": "The developer handles design, integration and performance, then your message breathes without superfluous software layers.",
 
   "sites_vitrines.projects.title": "Recent projects",
   "sites_vitrines.projects.card1.title": "Les mains nomades",
-  "sites_vitrines.projects.card1.text": "Development of a showcase site optimized for local visibility, combining modern design, technical performance and effective SEO structure.",
-  "sites_vitrines.projects.card1.alt": "Project 2",
+  "sites_vitrines.projects.card1.text": "Showcase site optimized for local visibility: modern design, performance and SEO structure.",
+  "sites_vitrines.projects.card1.alt": "Les Mains Nomades showcase site, web creation Gers",
 
   "sites_vitrines.testimonials.title": "They trusted me",
-  "sites_vitrines.testimonials.t1": "\"A clear, modern and professional site that perfectly reflects my business.\"",
-  "sites_vitrines.testimonials.t2": "\"Very good understanding of my needs and a final result above my expectations.\"",
+  "sites_vitrines.testimonials.t1": "<p>&laquo;&nbsp;A clear, modern and professional site that perfectly reflects my business.&nbsp;&raquo;</p><footer><strong>Les Mains Nomades</strong>, artisan in the Gers</footer>",
+  "sites_vitrines.testimonials.t2": "<p>&laquo;&nbsp;Very good understanding of my needs and a result above my expectations.&nbsp;&raquo;</p><footer><strong>Retailer</strong>, Occitanie</footer>",
+
+  "sites_vitrines.faq.title": "Frequently asked questions",
+  "sites_vitrines.faq.q1": "How much does a showcase site cost in Auch?",
+  "sites_vitrines.faq.a1": "Generally between <strong>€1,500 and €4,000</strong> depending on page count and design level. <a href=\"/contact/\">Free quote</a> after discussing your project.",
+  "sites_vitrines.faq.q2": "Why a custom showcase site rather than WordPress or Wix?",
+  "sites_vitrines.faq.a2": "A static site is faster and more secure, without a CMS subscription. WordPress or Wix suit you if you edit very often without a developer.",
 
   "sites_vitrines.cta.title": "Want a showcase site that makes a difference?",
   "sites_vitrines.cta.button": "Let's discuss your project",
