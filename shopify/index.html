@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="meta./shopify/.title">Concepteur boutique Shopify à Auch | Freelance e-commerce &amp; web designer</title>
+  <title data-i18n="meta./shopify/.title">Concepteur Shopify à Auch | Freelance e-commerce</title>
   <meta name="description" data-i18n="meta./shopify/.description" content="Concepteur de boutique Shopify à Auch (32) : freelance e-commerce et web designer pour création, refonte, thème Liquid, SEO et optimisation conversion. Devis sur mesure." />
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
   <meta name="robots" content="index, follow">
@@ -14,7 +14,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:url" content="https://jbdevweb.fr/shopify/">
@@ -23,35 +23,105 @@
   <meta property="og:site_name" content="JB Dev Web">
   <meta property="og:image" content="https://jbdevweb.fr/assets/images/banniere-linkedin-jbdevweb-sans-espace.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Freelance Shopify — JB Dev Web">
+  <meta name="twitter:title" content="Freelance Shopify | JB Dev Web">
   <meta name="twitter:description" content="Boutiques Shopify sur mesure, SEO et conversion.">
   <meta name="twitter:image" content="https://jbdevweb.fr/assets/images/banniere-linkedin-jbdevweb-sans-espace.png">
 
- <!-- SEO Local optimisé -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Julien Brazzalotto – Expert Shopify freelance (Auch)",
-  "description": "Concepteur de boutique Shopify à Auch et dans le Gers : création, refonte et optimisation e-commerce (thèmes Liquid, apps, SEO et performance) pour booster les ventes.",
-  "url": "https://jbdevweb.fr/shopify/", 
-  "telephone": "+33674466097",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Auch",
-    "addressRegion": "Gers",
-    "addressCountry": "FR"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 43.6467,
-    "longitude": 0.5897
-  },
-  "areaServed": {
-    "@type": "AdministrativeArea",
-    "name": "Gers"
-  },
-  "openingHours": "Mo-Fr 09:00-18:00"
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://jbdevweb.fr/shopify/#webpage",
+      "url": "https://jbdevweb.fr/shopify/",
+      "name": "Concepteur boutique Shopify à Auch",
+      "description": "Création et refonte de boutiques Shopify : thème Liquid, SEO, performance et conversion.",
+      "inLanguage": "fr-FR",
+      "isPartOf": { "@id": "https://jbdevweb.fr/#website" },
+      "about": { "@id": "https://jbdevweb.fr/shopify/#service" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://jbdevweb.fr/shopify/#service",
+      "name": "Création et optimisation boutique Shopify",
+      "description": "Conception, refonte et optimisation Shopify (Liquid, apps, SEO, conversion) pour TPE et marques à Auch, dans le Gers et en Occitanie.",
+      "provider": { "@id": "https://jbdevweb.fr/#localbusiness" },
+      "areaServed": [
+        { "@type": "City", "name": "Auch" },
+        { "@type": "AdministrativeArea", "name": "Gers" },
+        { "@type": "AdministrativeArea", "name": "Occitanie" }
+      ],
+      "url": "https://jbdevweb.fr/shopify/"
+    },
+    {
+      "@type": ["LocalBusiness", "ProfessionalService"],
+      "@id": "https://jbdevweb.fr/#localbusiness",
+      "name": "Julien Brazzalotto – JB Dev Web",
+      "url": "https://jbdevweb.fr/",
+      "telephone": "+33674466097",
+      "sameAs": [
+        "https://github.com/JulienBrazzalotto",
+        "https://apps.shopify.com/stock-transfert-pro"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Auch",
+        "postalCode": "32000",
+        "addressRegion": "Occitanie",
+        "addressCountry": "FR"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://jbdevweb.fr/#person",
+      "name": "Julien Brazzalotto",
+      "jobTitle": "Développeur web freelance Shopify",
+      "url": "https://jbdevweb.fr/",
+      "worksFor": { "@id": "https://jbdevweb.fr/#localbusiness" },
+      "sameAs": [
+        "https://github.com/JulienBrazzalotto",
+        "https://apps.shopify.com/stock-transfert-pro"
+      ],
+      "knowsAbout": ["Shopify", "Liquid", "E-commerce", "SEO"]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Combien coûte une boutique Shopify avec un freelance à Auch ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comptez en général entre 2 500 € et 8 000 € de prestation pour une boutique Shopify complète, hors abonnement Shopify (à partir de 33 €/mois en 2026). Un devis écrit précise le périmètre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi choisir Shopify plutôt que WooCommerce ou PrestaShop ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Shopify inclut hébergement, SSL et mises à jour. Vous vous concentrez sur les ventes sans maintenance serveur. WooCommerce et PrestaShop offrent plus de flexibilité mais demandent une gestion technique continue."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Intervenez-vous uniquement à Auch dans le Gers ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Je suis basé à Auch (32000) et accompagne les commerçants du Gers en présentiel ou visio. J'interviens aussi partout en France pour les projets Shopify."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://jbdevweb.fr/" },
+        { "@type": "ListItem", "position": 2, "name": "Shopify", "item": "https://jbdevweb.fr/shopify/" }
+      ]
+    }
+  ]
 }
 </script>
 
@@ -98,17 +168,33 @@
   <div class="hero-text">
     <h1 data-i18n="shopify.hero.title" data-i18n-html id="hero-title">Expert Shopify freelance à <span>Auch</span> : boutique en ligne &amp; e-commerce</h1>
     <p data-i18n="shopify.hero.text" data-i18n-html>
-      Création et optimisation de <strong>boutiques Shopify</strong> performantes pour le <strong>référencement</strong> et la conversion.
-      J’accompagne artisans, marques et TPE du <strong>Gers</strong> et d’<strong>Occitanie</strong> pour vendre en ligne avec un site e-commerce fiable et sur-mesure.
+      <strong>Concepteur et designer Shopify freelance à Auch</strong>&nbsp;: je crée et optimise des <strong>boutiques e-commerce</strong> performantes pour le <strong>référencement</strong> et la conversion.
+      J'accompagne artisans, marques et TPE du <strong>Gers</strong> et d'<strong>Occitanie</strong> pour vendre en ligne avec un site fiable et sur mesure.
     </p>
     <a data-i18n="shopify.hero.cta" href="/contact/" class="cta">Parlons de votre projet Shopify</a>
   </div>
 </header>
 
 <main>
+<section>
+  <h2 data-i18n="shopify.offer.title">Ce que comprend un projet Shopify</h2>
+  <ul data-i18n="shopify.offer.list" data-i18n-html>
+    <li><strong>Thème Liquid sur mesure</strong>&nbsp;: design unique, mobile-first, conforme aux standards Shopify.</li>
+    <li><strong>SEO technique</strong>&nbsp;: balises, structure, vitesse (objectif LCP &lt; 2,5&nbsp;s).</li>
+    <li><strong>Conversion</strong>&nbsp;: parcours d'achat, fiches produits, tunnel de paiement optimisé.</li>
+    <li><strong>Apps et automatisations</strong>&nbsp;: stock, avis clients, email marketing.</li>
+    <li><strong>Formation</strong>&nbsp;: vous gérez le quotidien sans dépendre d'un développeur.</li>
+  </ul>
+</section>
+
 <section class="blog-article">
   <p class="blog-kicker" data-i18n="shopify.pricing.kicker">Guide tarifs</p>
-  <h2 data-i18n="shopify.pricing.title">Quel est le tarif Shopify en 2026 — à lire avant votre devis&nbsp;?</h2>
+  <h2 data-i18n="shopify.pricing.title">Tarif Shopify 2026&nbsp;: à lire avant votre devis</h2>
+  <p data-i18n="shopify.pricing.stats" data-i18n-html>
+    En 2026, un abonnement Shopify en France démarre à <strong>33&nbsp;€/mois</strong> (plan Basic).
+    Une prestation freelance pour une boutique complète se situe en général entre <strong>2&nbsp;500&nbsp;€ et 8&nbsp;000&nbsp;€</strong>, hors abonnement et apps.
+    Mon app <a href="https://apps.shopify.com/stock-transfert-pro" rel="noopener noreferrer">Stock Transfert Pro</a> est publiée sur le Shopify App Store depuis juin 2026.
+  </p>
   <p data-i18n="shopify.pricing.text" data-i18n-html>
     Avant de lancer votre boutique, consultez le guide détaillé&nbsp;:
     <a href="/blog/tarif-site-shopify-2026/"><strong>Tarif Shopify France 2026</strong></a> (plans Basic 33&nbsp;€, Grow 88&nbsp;€, Advanced 384&nbsp;€/mois, commissions Shopify Payments et fourchettes freelance).
@@ -211,7 +297,7 @@
         </tr>
         <tr>
           <th data-i18n="shopify.compare.row.custom" scope="row">Personnalisation poussée</th>
-          <td data-i18n="shopify.compare.row.custom.shopify" class="col-shopify">Thèmes Liquid, apps, intégrations — bon équilibre flexibilité / stabilité</td>
+          <td data-i18n="shopify.compare.row.custom.shopify" class="col-shopify">Thèmes Liquid, apps, intégrations&nbsp;: bon équilibre flexibilité / stabilité</td>
           <td data-i18n="shopify.compare.row.custom.woocommerce" data-i18n-html>Très large, au prix d’une dette technique si tout est bricolé</td>
           <td data-i18n="shopify.compare.row.custom.prestashop">Très personnalisable, expertise dev souvent nécessaire</td>
           <td data-i18n="shopify.compare.row.custom.wix">Limitée aux possibilités du constructeur</td>
@@ -228,18 +314,18 @@
   </div>
 
   <div class="compare-outro">
-    <h3 data-i18n="shopify.compare.outro.title" data-i18n-html>Votre boutique reste la vôtre — autonome, évolutive, sans dépendre d’un développeur au quotidien</h3>
+    <h3 data-i18n="shopify.compare.outro.title" data-i18n-html>Votre boutique reste la vôtre, autonome et évolutive</h3>
     <p data-i18n="shopify.compare.outro.p1" data-i18n-html>
-      Au-delà du tableau, un point compte souvent autant que la technique&nbsp;: <strong>qui tient les commandes une fois le site en ligne</strong>.
-      Avec Shopify, vous restez libre de faire évoluer votre vitrine vous-même&nbsp;: fiches produits, visuels, textes, promotions, moyens de livraison,
-      emails transactionnels, blog — le tout depuis une interface pensée pour les commerçants, pas pour les ingénieurs. La personnalisation visuelle
-      (thème, couleurs, blocs, mise en page) et le choix d’applications dans l’App Store vous permettent d’adapter le parcours d’achat sans toucher au code,
-      tant que vous restez dans les limites raisonnables d’un bon thème professionnel.
+      Au-delà du tableau, un point compte autant que la technique&nbsp;: <strong>qui tient les commandes une fois le site en ligne</strong>.
+    </p>
+    <p data-i18n="shopify.compare.outro.p1b" data-i18n-html>
+      Avec Shopify, vous gérez vous-même fiches produits, visuels, promotions et livraisons depuis une interface pensée pour les commerçants.
+      La personnalisation (thème, blocs, apps) se fait sans code, dans les limites d'un thème professionnel.
     </p>
     <p data-i18n="shopify.compare.outro.p2" data-i18n-html>
       Concrètement, <strong>vous n’êtes pas prisonnier d’un prestataire pour changer un prix, ajouter une collection ou lancer une opération commerciale</strong>.
-      Pas besoin d’ouvrir un ticket «&nbsp;urgent&nbsp;» pour une virgule dans une fiche produit ou une bannière saisonnière. Cette autonomie réduit les délais,
-      les coûts récurrents et la frustration — tout en vous laissant la main sur l’image de marque et le rythme de vos mises à jour.
+      Pas besoin d'ouvrir un ticket «&nbsp;urgent&nbsp;» pour une virgule dans une fiche produit ou une bannière saisonnière. Cette autonomie réduit les délais,
+      les coûts récurrents et la frustration, tout en vous laissant la main sur l'image de marque et le rythme de vos mises à jour.
     </p>
     <p data-i18n="shopify.compare.outro.p3" data-i18n-html>
       Le rôle d’un développeur Shopify intervient là où la valeur ajoutée est réelle&nbsp;: mise en place solide du thème, intégrations spécifiques,
@@ -267,7 +353,17 @@
   <h2 data-i18n="shopify.projects.title">Projets Shopify réalisés</h2>
   <div class="projects">
     <div class="project">
-      <img width="100%" height="100%" src="/assets/images/FireShot-Capture-037-Pétrone-Sous-vêtements-_-vêtements-confortables-_petroneparis.fr_-_1_.webp" data-i18n-attr="alt" data-i18n="shopify.projects.card1.alt" alt="Projet boutique e-commerce">
+      <img
+        src="/assets/images/petrone-shopify-800.webp"
+        srcset="/assets/images/petrone-shopify-400.webp 400w, /assets/images/petrone-shopify-800.webp 800w"
+        sizes="(max-width: 768px) 100vw, 400px"
+        width="718"
+        height="385"
+        loading="lazy"
+        decoding="async"
+        data-i18n-attr="alt"
+        data-i18n="shopify.projects.card1.alt"
+        alt="Boutique Shopify Pétrone Paris, projet e-commerce">
       <div class="project-info">
         <h3 data-i18n="shopify.projects.card1.title">Boutique e-commerce</h3>
         <p data-i18n="shopify.projects.card1.text" data-i18n-html>Accompagnement Shopify sur la durée avec un travail d’optimisation continue : performance, expérience utilisateur et amélioration du taux de conversion, basés sur l’analyse des usages réels.</p>
@@ -278,8 +374,14 @@
 
 <section class="alt">
   <h2 data-i18n="shopify.testimonials.title">Témoignages clients</h2>
-  <p data-i18n="shopify.testimonials.t1">"Julien a transformé ma boutique Shopify en une vraie machine à ventes. Expertise, réactivité et conseils précieux !" – Client satisfait</p>
-  <p data-i18n="shopify.testimonials.t2">"Travail sur-mesure et support constant. Ma boutique est maintenant rapide, intuitive et performante." – Client Shopify</p>
+  <blockquote class="testimonial" cite="https://petroneparis.fr" data-i18n="shopify.testimonials.t1" data-i18n-html>
+    <p>«&nbsp;Julien a accompagné notre boutique Shopify sur la durée&nbsp;: performance, UX et conversion.&nbsp;»</p>
+    <footer><strong>Pétrone Paris</strong>, marque de sous-vêtements</footer>
+  </blockquote>
+  <blockquote class="testimonial" data-i18n="shopify.testimonials.t2" data-i18n-html>
+    <p>«&nbsp;Travail sur mesure et support constant. Ma boutique est rapide, intuitive et performante.&nbsp;»</p>
+    <footer><strong>Commerçant Shopify</strong>, Gers</footer>
+  </blockquote>
 </section>
 
 <section>

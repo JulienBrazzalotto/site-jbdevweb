@@ -89,7 +89,7 @@ window.I18N_EN = {
   "meta./faq/.title": "Website designer FAQ: pricing, Shopify, SEO, freelance web designer",
   "meta./faq/.description": "Website designer FAQ: showcase site pricing, Shopify store, redesign, SEO, agency or freelance web designer. Clear answers for prospects in Auch and the Gers.",
 
-  "meta./shopify/.title": "Shopify store designer in Auch | Freelance e-commerce & web designer",
+  "meta./shopify/.title": "Shopify designer in Auch | Freelance e-commerce",
   "meta./shopify/.description": "Shopify store designer in Auch (32): freelance e-commerce and web designer for creation, redesign, Liquid themes, SEO and conversion optimization. Custom quote.",
 
   "meta./sites-vitrines/.title": "Showcase website designer in Auch | Freelance web designer & local SEO",
@@ -246,11 +246,15 @@ window.I18N_EN = {
 
   /* ── Shopify ── */
   "shopify.hero.title": "Freelance Shopify expert in <span>Auch</span>: online store &amp; e-commerce",
-  "shopify.hero.text": "Creation and optimization of high-performing <strong>Shopify stores</strong> for <strong>search ranking</strong> and conversion. I support artisans, brands and small businesses in the <strong>Gers</strong> and <strong>Occitanie</strong> to sell online with a reliable, custom e-commerce site.",
+  "shopify.hero.text": "<strong>Freelance Shopify designer in Auch</strong>: I build and optimize high-performing <strong>e-commerce stores</strong> for <strong>search ranking</strong> and conversion. I support artisans, brands and small businesses in the <strong>Gers</strong> and <strong>Occitanie</strong> with reliable, custom online stores.",
   "shopify.hero.cta": "Let's talk about your Shopify project",
 
+  "shopify.offer.title": "What's included in a Shopify project",
+  "shopify.offer.list": "<li><strong>Custom Liquid theme</strong>: unique design, mobile-first, Shopify standards compliant.</li><li><strong>Technical SEO</strong>: tags, structure, speed (LCP target &lt; 2.5 s).</li><li><strong>Conversion</strong>: purchase flow, product pages, optimized checkout.</li><li><strong>Apps and automation</strong>: inventory, reviews, email marketing.</li><li><strong>Training</strong>: manage day-to-day operations without depending on a developer.</li>",
+
   "shopify.pricing.kicker": "Pricing guide",
-  "shopify.pricing.title": "What is Shopify pricing in 2026 — read before your quote?",
+  "shopify.pricing.title": "Shopify pricing 2026: read before your quote",
+  "shopify.pricing.stats": "In 2026, a Shopify subscription in France starts at <strong>€33/month</strong> (Basic plan). Freelance work for a complete store typically ranges from <strong>€2,500 to €8,000</strong>, excluding subscription and apps. My app <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> has been on the Shopify App Store since June 2026.",
   "shopify.pricing.text": "Before launching your store, read the detailed guide: <a href=\"/blog/tarif-site-shopify-2026/\"><strong>Shopify pricing France 2026</strong></a> (Basic €33, Grow €88, Advanced €384/month plans, Shopify Payments fees and freelance ranges). For local support in the Gers, see also <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
 
   "shopify.skills.title": "My Shopify skills",
@@ -309,7 +313,7 @@ window.I18N_EN = {
   "shopify.compare.row.scale.prestashop": "Limited by server and configuration",
   "shopify.compare.row.scale.wix": "Varies by plan and volume",
   "shopify.compare.row.custom": "Advanced customization",
-  "shopify.compare.row.custom.shopify": "Liquid themes, apps, integrations — good flexibility / stability balance",
+  "shopify.compare.row.custom.shopify": "Liquid themes, apps, integrations: good flexibility / stability balance",
   "shopify.compare.row.custom.woocommerce": "Very broad, at the cost of technical debt if everything is patched together",
   "shopify.compare.row.custom.prestashop": "Highly customizable, dev expertise often required",
   "shopify.compare.row.custom.wix": "Limited to builder capabilities",
@@ -319,9 +323,10 @@ window.I18N_EN = {
   "shopify.compare.row.usecase.prestashop": "Large catalogs with a dedicated team or vendor",
   "shopify.compare.row.usecase.wix": "Very small catalogs, need for extreme simplicity",
 
-  "shopify.compare.outro.title": "Your store stays yours — autonomous, scalable, without depending on a developer day to day",
-  "shopify.compare.outro.p1": "Beyond the table, one point often matters as much as technology: <strong>who runs things once the site is live</strong>. With Shopify, you remain free to evolve your storefront yourself: product pages, visuals, copy, promotions, shipping methods, transactional emails, blog — all from an interface built for merchants, not engineers. Visual customization (theme, colors, blocks, layout) and apps from the App Store let you adapt the purchase journey without touching code, as long as you stay within the bounds of a solid professional theme.",
-  "shopify.compare.outro.p2": "In practice, <strong>you are not locked into a vendor to change a price, add a collection or launch a promotion</strong>. No need to open an \"urgent\" ticket for a comma in a product page or a seasonal banner. This autonomy reduces delays, recurring costs and frustration — while keeping control of brand image and update pace.",
+  "shopify.compare.outro.title": "Your store stays yours, autonomous and scalable",
+  "shopify.compare.outro.p1": "Beyond the table, one point matters as much as technology: <strong>who runs things once the site is live</strong>.",
+  "shopify.compare.outro.p1b": "With Shopify, you manage product pages, visuals, promotions and shipping from an interface built for merchants. Customization (theme, blocks, apps) works without code, within the limits of a professional theme.",
+  "shopify.compare.outro.p2": "In practice, <strong>you are not locked into a vendor to change a price, add a collection or launch a promotion</strong>. No need to open an \"urgent\" ticket for a comma in a product page or a seasonal banner. This autonomy reduces delays, recurring costs and frustration, while keeping control of brand image and update pace.",
   "shopify.compare.outro.p3": "A Shopify developer adds value where it really counts: solid theme setup, specific integrations, performance optimization, advanced business logic or custom design. It's not to replace your day-to-day independence, but to <strong>lay clean, scalable foundations</strong>, then let you run your business with peace of mind. It's the opposite of a \"patched together\" site where every small change goes through technical support: with Shopify, commerce becomes your job again, not software maintenance.",
 
   "shopify.blog.title": "On the blog",
@@ -330,11 +335,11 @@ window.I18N_EN = {
   "shopify.projects.title": "Shopify projects delivered",
   "shopify.projects.card1.title": "E-commerce store",
   "shopify.projects.card1.text": "Long-term Shopify support with ongoing optimization: performance, user experience and conversion rate improvement based on real usage analysis.",
-  "shopify.projects.card1.alt": "E-commerce store project",
+  "shopify.projects.card1.alt": "Pétrone Paris Shopify store, e-commerce project",
 
   "shopify.testimonials.title": "Client testimonials",
-  "shopify.testimonials.t1": "\"Julien turned my Shopify store into a real sales machine. Expertise, responsiveness and valuable advice!\" – Satisfied client",
-  "shopify.testimonials.t2": "\"Custom work and constant support. My store is now fast, intuitive and high-performing.\" – Shopify client",
+  "shopify.testimonials.t1": "<p>&laquo;&nbsp;Julien supported our Shopify store long term: performance, UX and conversion.&nbsp;&raquo;</p><footer><strong>Pétrone Paris</strong>, underwear brand</footer>",
+  "shopify.testimonials.t2": "<p>&laquo;&nbsp;Custom work and constant support. My store is fast, intuitive and high-performing.&nbsp;&raquo;</p><footer><strong>Shopify merchant</strong>, Gers</footer>",
 
   "shopify.cta.title": "Freelance Shopify designer: ready to launch your store?",
   "shopify.cta.text": "Whether you're an artisan, retailer or premium brand, I support you through every stage of your Shopify project.",
