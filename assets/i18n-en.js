@@ -118,20 +118,33 @@ window.I18N_EN = {
 
   /* ── Home (/) ── */
   "home.hero.title": "Freelance web developer in <span>Auch</span>: Shopify, e-commerce &amp; showcase website creation",
-  "home.hero.text": "Are you an artisan, retailer or independent professional in the Gers or Occitanie looking for a <strong>website creator</strong> or a <strong>Shopify online store</strong>? I design high-performing e-commerce stores (conversion, SEO) as well as modern, custom showcase websites.<br>Every project is tailored to your needs and budget, with a customizable level of personalization depending on the complexity you want.<br>My goal: to give you a digital solution that attracts customers, strengthens your brand image and boosts sales.",
+  "home.hero.text": "Are you an artisan, retailer or independent professional in the <strong>Gers</strong>? Looking for a <strong>website creator</strong> or a <strong>Shopify store</strong>?",
+  "home.hero.text2": "I build high-performing <strong>e-commerce stores</strong> and <strong>showcase websites</strong> (SEO, conversion).",
+  "home.hero.text3": "Every project fits your budget. Goal: attract customers and strengthen your brand image.",
   "home.hero.cta": "Start your project and get a free quote",
 
   "home.section1.title": "Shopify expert &amp; freelance web developer (Auch, Gers)",
-  "home.section1.text": "I am a <strong>freelance web developer</strong> based in <strong>Auch</strong>, specialized in <strong>Shopify</strong>, <strong>e-commerce</strong> and <strong>showcase websites</strong>. I build online stores optimized for organic search (SEO) and conversion, as well as immersive, custom showcase sites for small businesses and local brands.<br>My approach: understand your trade, your needs and your customers to deliver digital solutions that actually work. Based in the Gers, I work with clients throughout France and can adapt to international projects. Available, responsive and results-oriented, I support you from idea to launch. My name is Julien BRAZZALOTTO.",
+  "home.section1.text": "I am a <strong>freelance web developer</strong> in <strong>Auch</strong>, specialized in <strong>Shopify</strong>, <strong>e-commerce</strong> and <strong>showcase websites</strong>.",
+  "home.section1.text2": "I build stores optimized for SEO and conversion, and custom showcase sites for small businesses and local brands.",
+  "home.section1.text3": "Based in the Gers, I work across France. <strong>Julien Brazzalotto</strong>, available from idea to launch.",
+  "home.expertise": "My app <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> is on the Shopify App Store (June 2026).",
+
+  "home.stats.title": "Indicative ranges for 2026",
+  "home.stats.list": "<li><strong>Custom showcase site</strong>: about <strong>€1,500 to €4,000</strong></li><li><strong>Shopify store</strong>: about <strong>€2,500 to €8,000</strong> in services</li><li><strong>Shopify subscription</strong>: from <strong>€33/month</strong> (Basic plan)</li><li><strong>Average timeline</strong>: <strong>4 to 8 weeks</strong> depending on scope</li>",
 
   "home.section2.title": "Showcase site, online store or redesign: what most clients are looking for",
-  "home.section2.p1": "For a local business, two needs often stand out: a <strong>showcase</strong> to be found on <strong>Google</strong>, present your trade and build trust, or an <strong>online store</strong> to sell beyond the shop. In both cases, a professional <strong>website</strong> must be <strong>mobile-friendly</strong> (responsive), fast, served over <strong>HTTPS</strong>, with a way to contact you and up-to-date <a href=\"/mentions-legales/\">legal notice</a>.",
-  "home.section2.p2": "For <strong>e-commerce</strong>, I often recommend <a href=\"/shopify/\">Shopify</a> — a stable, scalable solution without the technical burden of self-hosting and patching a site yourself. For a lean, high-performing <strong>showcase website</strong>, <strong>custom development</strong> avoids the overhead of an unnecessary CMS. A <strong>website redesign</strong> makes sense if yours is slow, hard to read on mobile or no longer reflects your offer: starting fresh builds a solid foundation for <strong>organic search</strong>.",
-  "home.section2.p3": "Choosing between a <strong>web agency</strong> and a <strong>freelance developer</strong> depends on budget and how you want to communicate: as a freelancer, you typically have a <strong>single point of contact</strong> from design to launch. Questions about <strong>showcase site pricing</strong>, timelines or content are covered in the <a href=\"/faq/\">FAQ</a>; for your specific case, <a href=\"/contact/\">request a quote</a>.",
+  "home.section2.p1": "For a local business, two needs often stand out: a <strong>showcase</strong> to be found on <strong>Google</strong>, or an <strong>online store</strong> to sell beyond the shop.",
+  "home.section2.p1b": "In both cases, a professional <strong>website</strong> must be <strong>mobile-friendly</strong>, fast, served over <strong>HTTPS</strong>, with contact options and up-to-date <a href=\"/mentions-legales/\">legal notice</a>.",
+  "home.section2.p2": "For <strong>e-commerce</strong>, I often recommend <a href=\"/shopify/\">Shopify</a>, a stable, scalable solution without self-hosting to manage.",
+  "home.section2.p2b": "For a lean <strong>showcase website</strong>, <strong>custom development</strong> avoids an unnecessary CMS. A <strong>redesign</strong> makes sense if your site is slow or hard to read on mobile.",
+  "home.section2.p3": "Between a <strong>web agency</strong> and a <strong>freelancer</strong>, you typically have a <strong>single point of contact</strong> from design to launch.",
+  "home.section2.p3b": "Questions about <strong>showcase site pricing</strong> or timelines are in the <a href=\"/faq/\">FAQ</a>. For your case, <a href=\"/contact/\">request a quote</a>.",
 
   "home.section3.title": "Website designer and freelance web designer: what needs do they address?",
-  "home.section3.p1": "Many prospects look for a <strong>website designer</strong> to launch a business quickly, or a <strong>freelance web designer</strong> to modernize an existing company's image. My support covers both: the site's technical structure (performance, SEO, responsive) and the visual side (content hierarchy, readability, brand credibility).",
-  "home.section3.p2": "The goal remains the same: turn Google visits into qualified contact requests, with a clear, fast, conversion-oriented site. If you're unsure between several solutions, I can point you to the most relevant one based on your budget, timeline and business goals.",
+  "home.section3.p1": "Many prospects look for a <strong>website designer</strong> to launch a business, or a <strong>freelance web designer</strong> to refresh a brand image.",
+  "home.section3.p1b": "My support covers technical structure (performance, SEO, responsive) and visuals (readability, credibility).",
+  "home.section3.p2": "Goal: turn Google visits into qualified contacts with a clear, fast site.",
+  "home.section3.p2b": "If you're unsure between solutions, I can guide you based on your budget, timeline and goals.",
 
   "home.services.title": "My services to grow your business",
   "home.services.card1.title": "Custom Shopify stores",
@@ -143,11 +156,22 @@ window.I18N_EN = {
 
   "home.local.title": "Website creation in Auch and the Gers",
   "home.local.p1": "Looking for a <strong>website creator in Auch</strong>, a <strong>web agency in the Gers</strong> or a <strong>freelancer for local SEO</strong>? I support artisans, retailers and independents across the Gers and Occitanie: showcase sites, <a href=\"/shopify/\">Shopify stores</a>, redesigns and Google optimization. A dedicated page details my <a href=\"/creation-site-internet-auch/\">website creation in Auch</a> offer (process, timelines, local SEO).",
-  "home.local.p2": "<strong>Organic search in Auch</strong>: beyond code, a high-performing site combines local content (city, trade, testimonials), an up-to-date Google Business Profile and clean technical structure (HTTPS, mobile, structured data). Queries like <em>website creation Auch</em> or <em>SEO Gers</em> take time; I build solid foundations from launch.",
-  "home.local.cta": "Website creation in Auch — view the offer",
+  "home.local.p2": "<strong>Organic search in Auch</strong>: a high-performing site combines local content, Google Business Profile and clean technical structure.",
+  "home.local.p2b": "Queries like <em>website creation Auch</em> take time; I build solid foundations from launch.",
+  "home.local.cta": "Website creation in Auch: view the offer",
+
+  "home.project.title": "Recent Shopify project",
+  "home.project.alt": "Pétrone Paris Shopify store, e-commerce project",
+  "home.project.caption": "Long-term Shopify support: performance, UX and conversion.",
+
+  "home.faq.title": "Frequently asked questions",
+  "home.faq.q1": "Who to contact for website creation in Auch?",
+  "home.faq.a1": "<strong>Julien Brazzalotto</strong> (JB Dev Web), freelance developer in Auch, Gers. Showcase sites, Shopify stores and redesigns with local SEO. <a href=\"/contact/\">Free quote</a>.",
+  "home.faq.q2": "Do you offer Shopify stores in the Gers?",
+  "home.faq.a2": "Yes: Shopify creation and optimization (Liquid themes, apps, conversion, SEO). See the <a href=\"/shopify/\">Shopify</a> page and the <a href=\"/blog/tarif-site-shopify-2026/\">2026 pricing guide</a>.",
 
   "home.blog.title": "On the blog: Shopify and retail guides",
-  "home.blog.text": "Articles for merchants and independents: <a href=\"/blog/cadence/\">Cadence</a> (my upcoming Shopify app, 70% complete), <a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a> (my Shopify app, available on the App Store), <a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a>, <a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix or Prestashop in 2026</a>, <a href=\"/blog/magasin-physique-boutique-en-ligne/\">brick-and-mortar store and online shop</a> — see <a href=\"/blog/\">the full blog</a>.",
+  "home.blog.list": "<li><a href=\"/blog/cadence/\">Cadence</a>, my upcoming Shopify app (70% complete)</li><li><a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a>, app on the Shopify App Store</li><li><a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a></li><li><a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix and Prestashop comparison</a></li><li><a href=\"/blog/magasin-physique-boutique-en-ligne/\">Brick-and-mortar store and online shop</a></li><li><a href=\"/blog/\">All blog articles</a></li>",
 
   /* ── Contact ── */
   "contact.hero.title": "Contact web developer in <span>Auch</span> – Shopify &amp; showcase site quote",

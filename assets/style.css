@@ -895,6 +895,35 @@ main > section > p:first-child {
   margin-top: 0;
 }
 
+.home-project {
+  max-width: 720px;
+  margin: 1.5rem 0 0;
+}
+
+.home-project img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 16px;
+  display: block;
+}
+
+.home-project figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
+
+main section h3 {
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 600;
+  margin: 2rem 0 0.75rem;
+}
+
+main section h3:first-of-type {
+  margin-top: 0;
+}
+
 .testimonial {
   max-width: 720px;
   margin: 0 0 1.5rem;
