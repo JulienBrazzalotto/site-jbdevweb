@@ -41,6 +41,7 @@ window.I18N_EN = {
   /* ── Website creation Auch ── */
   "creation_auch.hero.title": "Website creation in <span>Auch</span>: showcase sites, Shopify &amp; local SEO",
   "creation_auch.hero.text": "<strong>Website creation in Auch</strong> for artisans, retailers and independents in the <strong>Gers</strong>: fast showcase sites, <a href=\"/shopify/\">Shopify</a> stores or redesigns focused on <strong>local search ranking</strong>. A single point of contact from design to launch.",
+  "creation_auch.hero.definition": "<strong>Website creation in Auch</strong> means designing a showcase site or online store for a local Gers business, with technical structure suited to Google search (HTTPS, mobile, local content). Observed 2026 rates range from about <strong>€1,500 to €4,000</strong> for a custom showcase and <strong>€2,500 to €8,000</strong> for a Shopify store, excluding platform subscription.",
   "creation_auch.hero.cta": "Request a free quote",
 
   "creation_auch.s1.kicker": "In brief",
@@ -48,7 +49,7 @@ window.I18N_EN = {
   "creation_auch.s1.p1": "<strong>Website creation in Auch</strong>: the challenge isn't just having \"a website\", but being found when a prospect searches <em>website creation Auch</em>, <em>web agency Gers</em> or your trade + your city. As a freelancer, you deal directly with the person who designs and builds the site: fewer layers, shorter timelines, and support suited to small businesses without an in-house marketing team.",
   "creation_auch.s1.p2": "I work from <strong>Auch (32000)</strong> with businesses downtown, on the outskirts and in nearby towns (Lectoure, Condom, Fleurance, Gimont…), as well as via video call across Occitanie and France. See also my dedicated pages: <a href=\"/sites-vitrines/\">showcase sites</a> and <a href=\"/shopify/\">Shopify stores</a>.",
 
-  "creation_auch.s2.title": "What types of sites do I build in Auch and the Gers?",
+  "creation_auch.s2.title": "What types of websites do you build in Auch and the Gers?",
   "creation_auch.s2.card1.title": "Professional showcase site",
   "creation_auch.s2.card1.text": "Present your business, portfolio, reviews and a contact form. Local SEO structure (city, department), mobile performance and HTTPS. Ideal for artisans, freelancers, restaurants, practices.",
   "creation_auch.s2.card2.title": "Shopify online store",
@@ -63,7 +64,7 @@ window.I18N_EN = {
   "creation_auch.s3.li4": "<strong>Integration &amp; basic SEO</strong> — Tags, local schema, speed, form, legal notice.",
   "creation_auch.s3.li5": "<strong>Launch &amp; follow-up</strong> — Domain, Search Console, post-launch fixes. Light training if needed.",
 
-  "creation_auch.s4.title": "Local SEO in Auch: what really matters",
+  "creation_auch.s4.title": "How do you improve local SEO in Auch?",
   "creation_auch.s4.p1": "To appear on <strong>Google</strong> in the Gers, four levers add up:",
   "creation_auch.s4.li1": "Completed <strong>Google Business Profile</strong> (precise category, photos, hours, link to site).",
   "creation_auch.s4.li2": "<strong>Dedicated page</strong> with Auch / Gers in the title, URL, H1 and first paragraph — like this page.",
@@ -216,7 +217,7 @@ window.I18N_EN = {
   "faq.q8.answer": "For a standard showcase site, expect <strong>several weeks</strong> depending on content availability (text, photos) and the number of review rounds. A more advanced Shopify project (many product pages, logistics) can span several weeks to a few months. A <strong>schedule</strong> is defined together at the start of the engagement.",
 
   "faq.q9.title": "Do you only work in Auch or elsewhere too?",
-  "faq.q9.answer": "I am based in <strong>Auch</strong> in the <strong>Gers</strong> and work with clients in <strong>Occitanie</strong> and throughout France. Communication is via video call, phone or email; in-person meetings are possible depending on projects and distance.",
+  "faq.q9.answer": "I am based in <strong>Auch</strong> in the <strong>Gers</strong> and work with clients in <strong>Occitanie</strong> and throughout France. Communication is via video call, phone or email; in-person meetings are possible depending on projects and distance. See the dedicated page: <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
 
   "faq.q10.title": "Is Google search ranking (SEO) included?",
   "faq.q10.answer": "Sites are built with a clean <strong>technical structure</strong> (headings, speed, markup) favorable to SEO. Ranking also depends on your sector, competition and content. I can integrate best practices and advice; <strong>no provider can honestly guarantee a \"first place on Google\"</strong>.",
@@ -247,6 +248,10 @@ window.I18N_EN = {
   "shopify.hero.title": "Freelance Shopify expert in <span>Auch</span>: online store &amp; e-commerce",
   "shopify.hero.text": "Creation and optimization of high-performing <strong>Shopify stores</strong> for <strong>search ranking</strong> and conversion. I support artisans, brands and small businesses in the <strong>Gers</strong> and <strong>Occitanie</strong> to sell online with a reliable, custom e-commerce site.",
   "shopify.hero.cta": "Let's talk about your Shopify project",
+
+  "shopify.pricing.kicker": "Pricing guide",
+  "shopify.pricing.title": "What is Shopify pricing in 2026 — read before your quote?",
+  "shopify.pricing.text": "Before launching your store, read the detailed guide: <a href=\"/blog/tarif-site-shopify-2026/\"><strong>Shopify pricing France 2026</strong></a> (Basic €33, Grow €88, Advanced €384/month plans, Shopify Payments fees and freelance ranges). For local support in the Gers, see also <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
 
   "shopify.skills.title": "My Shopify skills",
   "shopify.skills.liquid.title": "Liquid &amp; Templates",
@@ -646,8 +651,12 @@ window.I18N_EN = {
   "blog.tarif.hero.text": "Subscription, Shopify Payments fees, theme, apps, freelance services: here's a transparent overview to estimate the real cost of a Shopify site in France in 2026, without marketing promises.",
   "blog.tarif.hero.cta": "Request a quote",
 
+  "blog.tarif.meta.tag": "Budget",
+  "blog.tarif.meta.date": "Updated 26 June 2026 · Julien Brazzalotto",
+
   "blog.tarif.s1.kicker": "Quick overview",
-  "blog.tarif.s1.title": "Shopify pricing France 2026 — plan summary",
+  "blog.tarif.s1.title": "What is Shopify pricing in France in 2026?",
+  "blog.tarif.s1.answer": "<strong>Shopify pricing in France in 2026</strong> ranges from <strong>€5/month</strong> (Starter) to <strong>€384/month</strong> (Advanced), with Shopify Plus from <strong>€2,100/month</strong>. For a standard online store, the <strong>Basic plan at €33/month</strong> is often enough at launch (source: <a href=\"https://www.shopify.com/fr/tarifs\" rel=\"noopener noreferrer\">official Shopify pricing page</a>).",
   "blog.tarif.s1.p1": "<strong>Shopify pricing France 2026</strong> (monthly billing, ~25% off annually) — source: <a href=\"https://www.shopify.com/fr/tarifs\" rel=\"noopener noreferrer\">official Shopify pricing page</a>:",
   "blog.tarif.s1.p2": "<strong>Shopify Payments</strong> in France: ~1.0% + €0.25 on domestic / EEA cards, ~2.3% + €0.25 on international and Amex cards (see <a href=\"https://www.shopify.com/fr/tarifs\" rel=\"noopener noreferrer\">Shopify documentation</a>). <strong>Freelance Shopify rates</strong> in France: €2,500–5,000 for a basic scoped site, €5,000–12,000 for custom work, €15,000+ for complex projects.",
 
@@ -660,7 +669,7 @@ window.I18N_EN = {
   "blog.tarif.s2.li4": "<strong>Services</strong>: your time, or a freelance / agency to design, build and optimize.",
   "blog.tarif.s2.p2": "Any quote that only covers the first line (subscription) mechanically hides the rest. Conversely, comparing a \"low cost\" freelance to an expert without looking at scope makes no sense.",
 
-  "blog.tarif.s3.title": "Shopify subscriptions in 2026 (France, monthly)",
+  "blog.tarif.s3.title": "How much do Shopify subscriptions cost in 2026 (France, monthly)?",
   "blog.tarif.s3.p1": "Public rates observed in France at time of writing. <strong>Annual billing</strong> typically gives roughly <strong>25%</strong> off paid plans.",
   "blog.tarif.s3.li1": "<strong>Starter</strong> — €5/month: sell via social media or direct links, without a full online store.",
   "blog.tarif.s3.li2": "<strong>Basic</strong> — €33/month: start a complete online store, usually enough for the first years.",
@@ -669,7 +678,7 @@ window.I18N_EN = {
   "blog.tarif.s3.li5": "<strong>Plus</strong> — from €2,100/month: fast-growing brands, advanced B2B, multiple stores.",
   "blog.tarif.s3.p2": "For 90% of merchants starting out, the choice is between <strong>Basic</strong> and <strong>Grow</strong>. You move to Advanced when volume justifies lower fees and extra reports. <strong>Official up-to-date rates</strong> are on Shopify's pricing page; cross-check this summary if several months have passed.",
 
-  "blog.tarif.s4.title": "Payment fees in France",
+  "blog.tarif.s4.title": "What are Shopify Payments fees in France?",
   "blog.tarif.s4.p1": "If you use <strong>Shopify Payments</strong> (recommended in France when possible):",
   "blog.tarif.s4.li1": "<strong>Domestic</strong> and <strong>EEA</strong> cards: approximately <strong>1.0% + €0.25</strong> per transaction.",
   "blog.tarif.s4.li2": "<strong>American Express</strong> and <strong>international</strong> cards: approximately <strong>2.3% + €0.25</strong>.",
@@ -683,7 +692,7 @@ window.I18N_EN = {
   "blog.tarif.s5.li4": "<strong>Photos &amp; content</strong>: often underestimated. A few hours of shooting or a pro photographer can be worth more than many apps.",
 
   "blog.tarif.s6.kicker": "Services",
-  "blog.tarif.s6.title": "Freelance rates: realistic ranges in 2026",
+  "blog.tarif.s6.title": "What freelance budget should you plan for a Shopify site in 2026?",
   "blog.tarif.s6.p1": "The figures below reflect market observations in France, excluding subscriptions and apps:",
   "blog.tarif.s6.li1": "<strong>Simple Shopify site, defined scope</strong> (pro theme configured, ~30 products, payment, shipping, legal pages, basic SEO): <strong>€2,500 to €5,000</strong>.",
   "blog.tarif.s6.li2": "<strong>Custom store or redesign</strong> (deeper design, specific integrations, content migration, conversion optimization): <strong>€5,000 to €12,000</strong>.",
@@ -725,6 +734,8 @@ window.I18N_EN = {
   "blog.tarif.s11.li1": "<a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix or Prestashop in 2026</a> — choose well before committing budget.",
   "blog.tarif.s11.li2": "<a href=\"/blog/magasin-physique-boutique-en-ligne/\">Brick-and-mortar store: open an online shop without breaking everything</a> — if you have a point of sale.",
   "blog.tarif.s11.li3": "<a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a> — concrete example of a Shopify app for multi-location transfers.",
+  "blog.tarif.s11.li4": "<a href=\"/shopify/\">Freelance Shopify support in Auch</a> — store creation and optimization.",
+  "blog.tarif.s11.li5": "<a href=\"/creation-site-internet-auch/\">Website creation in Auch</a> — showcase sites, Shopify and local SEO in the Gers.",
   "blog.tarif.s11.p2": "To discuss your project, <a href=\"/contact/\">contact me</a>.",
   "blog.tarif.s11.cta": "Back to blog",
 
