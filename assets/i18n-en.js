@@ -214,6 +214,8 @@ window.I18N_EN = {
   "faq.hero.title": "Frequently asked questions – website designer, showcase &amp; <span>Shopify</span>",
   "faq.hero.text": "<strong>Website designer</strong> and <strong>freelance web designer in Auch</strong>: wondering about <strong>showcase site pricing</strong>, a <strong>Shopify store</strong>, a <strong>redesign</strong> or <strong>SEO</strong>? Answers below. For your case, <a href=\"/contact/\">contact me</a>.",
 
+  "faq.intro": "<strong>Website designer in Auch</strong>: this FAQ answers questions about <strong>pricing</strong> for a showcase site, a <strong>Shopify</strong> store, <strong>redesign</strong> and <strong>SEO</strong>.",
+  "faq.intro.updated": "<time datetime=\"2026-06-26\">Updated 26 June 2026</time> — Julien Brazzalotto, freelance web developer (Gers).",
   "faq.stats.title": "Indicative ranges for 2026",
   "faq.stats.list": "<li><strong>Showcase site</strong>: <strong>€1,500 to €4,000</strong></li><li><strong>Shopify store</strong>: <strong>€2,500 to €8,000</strong> (services)</li><li><strong>Shopify subscription</strong>: from <strong>€33/month</strong> (Basic plan)</li><li><strong>Average showcase timeline</strong>: <strong>3 to 6 weeks</strong></li><li><strong>Contact response</strong>: within <strong>24 to 48 hours</strong></li>",
   "faq.intro.expertise": "I am <strong>Julien Brazzalotto</strong>, freelance web developer in Auch. I published the <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> app on the Shopify App Store.",
@@ -224,16 +226,22 @@ window.I18N_EN = {
 
   "faq.q1.title": "How much does a showcase site or Shopify store cost?",
   "faq.q1.answer": "In 2026, expect roughly <strong>€1,500 to €4,000</strong> for a custom showcase site and <strong>€2,500 to €8,000</strong> for a Shopify store (excluding subscription).",
-  "faq.q1.answer2": "Final price depends on pages, design, integrations and content to migrate. I provide a <strong>detailed quote</strong> after discussion, with no single flat package. See also <a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a>.",
+  "faq.q1.answer2": "Final price depends especially on:",
+  "faq.q1.factors": "<li>Number of pages and design level</li><li>Integrations (payment, Shopify apps)</li><li>Migration of existing content</li>",
+  "faq.q1.answer3": "I provide a <strong>detailed quote</strong> after discussion, with no single flat package. See also <a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a>.",
 
   "faq.q2.title": "What is the difference between a showcase site and an online store?",
-  "faq.q2.answer": "A <strong>showcase site</strong> presents your business, your services and a way to contact you or book an appointment. An <strong>online store</strong> (e-commerce) adds a catalog, a cart and <strong>secure payment</strong> to sell online. Both can coexist depending on your strategy. See also <a href=\"/sites-vitrines/\">showcase sites</a> and <a href=\"/shopify/\">Shopify</a>.",
+  "faq.q2.answer": "A <strong>showcase site</strong> presents your business, your services and a way to contact you.",
+  "faq.q2.answer2": "An <strong>online store</strong> adds a catalog, a cart and <strong>secure payment</strong>. Both can coexist depending on your strategy. See also <a href=\"/sites-vitrines/\">showcase sites</a> and <a href=\"/shopify/\">Shopify</a>.",
 
   "faq.q3.title": "Web agency or freelance developer: which to choose?",
-  "faq.q3.answer": "A <strong>web agency</strong> often brings together several disciplines and handles heavier projects; a <strong>freelancer</strong> typically offers a <strong>single point of contact</strong>, flexible timelines and controlled costs for a small business or independent. What matters is <strong>technical skill</strong>, quote transparency and quality references.",
+  "faq.q3.answer": "A <strong>web agency</strong> often brings together several disciplines and handles heavier projects.",
+  "faq.q3.answer2": "A <strong>freelancer</strong> typically offers a <strong>single point of contact</strong>, flexible timelines and controlled costs for a small business. What matters is <strong>technical skill</strong>, quote transparency and quality references.",
 
   "faq.q4.title": "When should you redesign a website?",
-  "faq.q4.answer": "A <strong>redesign</strong> makes sense if the site is <strong>slow</strong>, poorly displayed on <strong>mobile</strong>, not secure, or if your <strong>offer</strong> has changed. An outdated site can hurt trust and <strong>Google ranking</strong>: starting on a clean technical foundation is often more cost-effective than successive patches.",
+  "faq.q4.answer": "A <strong>redesign</strong> makes sense in the following cases:",
+  "faq.q4.signals": "<li><strong>Slow</strong> site or poor display on <strong>mobile</strong></li><li>Changed offer or brand identity</li><li>Insecure site or outdated SEO structure</li>",
+  "faq.q4.answer2": "An outdated site can hurt trust and <strong>Google ranking</strong>. Starting on a clean technical foundation is often more cost-effective than successive patches.",
 
   "faq.q5.title": "Should a website be mobile-friendly (responsive)?",
   "faq.q5.answer": "Yes. A large share of traffic comes from <strong>smartphones</strong>; Google favors sites usable on mobile. <strong>Responsive</strong> design is the standard for a professional showcase or store.",
@@ -250,7 +258,8 @@ window.I18N_EN = {
   "faq.q8.answer2": "A more advanced <strong>Shopify</strong> project (many product pages, logistics) can span <strong>several weeks to a few months</strong>. A <strong>schedule</strong> is defined at the start of the engagement.",
 
   "faq.q9.title": "Do you only work in Auch or elsewhere too?",
-  "faq.q9.answer": "I am based in <strong>Auch</strong> in the <strong>Gers</strong> and work with clients in <strong>Occitanie</strong> and throughout France. Communication is via video call, phone or email; in-person meetings are possible depending on projects and distance. See the dedicated page: <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
+  "faq.q9.answer": "I am based in <strong>Auch</strong> in the <strong>Gers</strong> and work with clients in <strong>Occitanie</strong> and throughout France.",
+  "faq.q9.answer2": "Communication is via video call, phone or email. See <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
 
   "faq.q10.title": "Is Google search ranking (SEO) included?",
   "faq.q10.answer": "Sites are built with a clean <strong>technical structure</strong> (headings, speed, markup) favorable to SEO.",
@@ -270,7 +279,8 @@ window.I18N_EN = {
   "faq.q14.answer2": "It suits brands that want to focus on <strong>sales</strong>. More details on the <a href=\"/shopify/\">Shopify</a> page. To compare with Wix or Prestashop, see the <a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">blog comparison</a>.",
 
   "faq.q15.title": "Can I edit my site myself after delivery?",
-  "faq.q15.answer": "On <strong>Shopify</strong>, the admin lets you manage products, pages and promotions without touching code for most tasks. On a custom static <strong>showcase site</strong>, changes often require a small intervention or prior discussion. We can arrange simple updates depending on the autonomy you want.",
+  "faq.q15.answer": "On <strong>Shopify</strong>, the admin lets you manage products, pages and promotions without touching code for most tasks.",
+  "faq.q15.answer2": "On a custom static <strong>showcase site</strong>, changes often require a small intervention. We can arrange simple updates depending on the autonomy you want.",
 
   "faq.q16.title": "How do I start a project with you?",
   "faq.q16.answer": "Contact me via the <a href=\"/contact/\">Contact</a> page describing your business, goals and approximate budget. I reply within <strong>24 to 48 business hours</strong> for an initial conversation, then a quote if the project is well defined.",

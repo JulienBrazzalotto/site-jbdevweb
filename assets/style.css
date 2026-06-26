@@ -1134,6 +1134,7 @@ main section h3:first-of-type {
   gap: 10px;
   width: 100%;
   max-width: 100%;
+  min-height: 50px;
   box-sizing: border-box;
   left: 0;
   right: 0;
@@ -1154,6 +1155,12 @@ footer {
   opacity: .7;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .hero-blob {
+    animation: none;
+  }
+}
+
 /* ===================== MEDIA QUERIES ===================== */
 @media(max-width:900px) {
   header, section {
@@ -1166,16 +1173,20 @@ footer {
   .hero-blob {
     width: 220px;
     height: 220px;
+    animation: none;
+    opacity: 0.35;
   }
 
   .hero-blob:nth-child(2) {
     width: 180px;
     height: 180px;
+    animation: none;
   }
 
   .hero-blob:nth-child(3) {
     width: 260px;
     height: 260px;
+    animation: none;
   }
 
   @keyframes blobMove {

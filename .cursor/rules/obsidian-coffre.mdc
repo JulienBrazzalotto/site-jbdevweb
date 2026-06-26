@@ -1,0 +1,17 @@
+---
+description: Après toute modification SEO/GEO sur jbdevweb.fr, mettre à jour le coffre Obsidian (pas seulement le code)
+alwaysApply: true
+---
+
+# Coffre Obsidian — write-back jbdevweb
+
+**Coffre canonique** : `C:\Obsidian coffre\coffre obsidian\vault-jbdev`
+**Depuis ce repo** : écrire dans `obsidian-vault/` (jonction vers le coffre)
+
+## Après chaque optimisation SEO/GEO (audit Sorank, quick wins, contenu)
+
+1. Mettre à jour `obsidian-vault/seo/action-log.md` (entrée datée : skill, pages, commits, vérif).
+2. Mettre à jour `obsidian-vault/properties/jbdevweb-fr.md` si pages/commits/playbook changent.
+3. Lire d'abord `obsidian-vault/jbdevweb.md` + `seo/action-log.md` avant une nouvelle recommandation.
+
+Index global du coffre : `C:\Obsidian coffre\coffre obsidian\00-COFFRE.md`
