@@ -1,0 +1,32 @@
+---
+description: Traductions i18n obligatoires à chaque modification de contenu
+globs: "**/*.html,assets/i18n-en.js"
+alwaysApply: false
+---
+
+# Internationalisation (FR / EN)
+
+Ce site est bilingue : **français par défaut dans le HTML**, anglais dans `assets/i18n-en.js`.
+
+## À chaque modification de texte visible
+
+1. **HTML** : ajouter ou mettre à jour `data-i18n="cle.unique"` sur l’élément concerné.
+   - Contenu avec balises HTML → `data-i18n-html`
+   - Attributs (`alt`, `aria-label`, `placeholder`) → `data-i18n-attr="alt"` (ou l’attribut cible)
+   - Meta title/description → clés `meta./chemin/.title` et `meta./chemin/.description`
+2. **Anglais** : ajouter ou mettre à jour la même clé dans `assets/i18n-en.js` (`window.I18N_EN`).
+3. **Ne pas modifier** `assets/i18n.js` (moteur uniquement ; le FR reste dans le HTML).
+
+## Conventions de clés
+
+- Page d’accueil : `home.*`
+- Contact : `contact.*`
+- Page locale Auch : `creation_auch.*`
+- Autres pages : préfixe cohérent avec le fichier (`shopify.*`, `blog.tarif.*`, etc.)
+
+## Checklist avant de terminer
+
+- [ ] Tout nouveau texte a une clé `data-i18n`
+- [ ] Chaque clé existe dans `i18n-en.js` avec traduction anglaise naturelle
+- [ ] Les liens internes et le HTML (`<strong>`, `<a>`) sont conservés dans les traductions EN
+- [ ] Pas de clé orpheline (supprimée du HTML mais laissée dans i18n-en, ou l’inverse)

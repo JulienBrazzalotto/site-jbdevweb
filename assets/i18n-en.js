@@ -38,6 +38,53 @@ window.I18N_EN = {
   "meta./creation-site-internet-auch/.title": "Website creation in Auch (Gers) | Freelance web",
   "meta./creation-site-internet-auch/.description": "Website creation in Auch and the Gers: showcase sites, Shopify, redesign and local SEO. Freelance web for artisans and retailers. Free quote.",
 
+  /* ── Website creation Auch ── */
+  "creation_auch.hero.title": "Website creation in <span>Auch</span>: showcase sites, Shopify &amp; local SEO",
+  "creation_auch.hero.text": "<strong>Website creation in Auch</strong> for artisans, retailers and independents in the <strong>Gers</strong>: fast showcase sites, <a href=\"/shopify/\">Shopify</a> stores or redesigns focused on <strong>local search ranking</strong>. A single point of contact from design to launch.",
+  "creation_auch.hero.cta": "Request a free quote",
+
+  "creation_auch.s1.kicker": "In brief",
+  "creation_auch.s1.title": "Why hire a freelancer in Auch rather than a distant agency?",
+  "creation_auch.s1.p1": "<strong>Website creation in Auch</strong>: the challenge isn't just having \"a website\", but being found when a prospect searches <em>website creation Auch</em>, <em>web agency Gers</em> or your trade + your city. As a freelancer, you deal directly with the person who designs and builds the site: fewer layers, shorter timelines, and support suited to small businesses without an in-house marketing team.",
+  "creation_auch.s1.p2": "I work from <strong>Auch (32000)</strong> with businesses downtown, on the outskirts and in nearby towns (Lectoure, Condom, Fleurance, Gimont…), as well as via video call across Occitanie and France. See also my dedicated pages: <a href=\"/sites-vitrines/\">showcase sites</a> and <a href=\"/shopify/\">Shopify stores</a>.",
+
+  "creation_auch.s2.title": "What types of sites do I build in Auch and the Gers?",
+  "creation_auch.s2.card1.title": "Professional showcase site",
+  "creation_auch.s2.card1.text": "Present your business, portfolio, reviews and a contact form. Local SEO structure (city, department), mobile performance and HTTPS. Ideal for artisans, freelancers, restaurants, practices.",
+  "creation_auch.s2.card2.title": "Shopify online store",
+  "creation_auch.s2.card2.text": "Sell products online with secure payment, inventory management and scalability. Support on theme, apps and product SEO. See <a href=\"/blog/tarif-site-shopify-2026/\">Shopify pricing France 2026</a>.",
+  "creation_auch.s2.card3.title": "Redesign &amp; SEO",
+  "creation_auch.s2.card3.text": "Slow site, dated design or invisible on Google? Redesign on solid foundations: 301 redirects, rewritten content, Core Web Vitals and internal linking. Goal: turn visits into quote requests.",
+
+  "creation_auch.s3.title": "How does a website project in Auch work?",
+  "creation_auch.s3.li1": "<strong>Initial conversation (free)</strong> — You describe your business, goals and budget. I guide you toward showcase, Shopify or redesign.",
+  "creation_auch.s3.li2": "<strong>Written proposal</strong> — Scope, timeline, fixed price. No surprises after signing.",
+  "creation_auch.s3.li3": "<strong>Content &amp; structure</strong> — Site map, copy (writing or reuse), visuals. I guide you on what's missing.",
+  "creation_auch.s3.li4": "<strong>Integration &amp; basic SEO</strong> — Tags, local schema, speed, form, legal notice.",
+  "creation_auch.s3.li5": "<strong>Launch &amp; follow-up</strong> — Domain, Search Console, post-launch fixes. Light training if needed.",
+
+  "creation_auch.s4.title": "Local SEO in Auch: what really matters",
+  "creation_auch.s4.p1": "To appear on <strong>Google</strong> in the Gers, four levers add up:",
+  "creation_auch.s4.li1": "Completed <strong>Google Business Profile</strong> (precise category, photos, hours, link to site).",
+  "creation_auch.s4.li2": "<strong>Dedicated page</strong> with Auch / Gers in the title, URL, H1 and first paragraph — like this page.",
+  "creation_auch.s4.li3": "<strong>Useful content</strong>: FAQ, testimonials, local project examples, not generic copy-paste text.",
+  "creation_auch.s4.li4": "<strong>NAP consistency</strong> (same name, address, phone) across site, Google listing and local directories.",
+  "creation_auch.s4.p2": "<strong>Organic search</strong> takes time: expect several weeks to a few months depending on competition for your query. <a href=\"/blog/\">Blog</a> articles (Shopify, e-commerce) strengthen the domain's technical credibility.",
+
+  "creation_auch.s5.title": "Example project in the Gers",
+  "creation_auch.s5.project.alt": "Les Mains Nomades showcase site — web creation Gers",
+  "creation_auch.s5.project.title": "Les Mains Nomades",
+  "creation_auch.s5.project.text": "Showcase site optimized for local visibility: modern design, technical performance and SEO structure for an artisan business in the Gers.",
+
+  "creation_auch.s6.title": "Frequently asked questions — website creation Auch",
+  "creation_auch.s6.q1": "<strong>How much does website creation in Auch cost?</strong><br>Custom showcase: often <strong>€1,500 to €4,000</strong>. Shopify store: <strong>€2,500 to €8,000</strong> in services depending on scope. Details in the <a href=\"/faq/\">FAQ</a>.",
+  "creation_auch.s6.q2": "<strong>What timeline for a showcase site?</strong><br>On average <strong>3 to 6 weeks</strong> if content keeps pace. Shopify or heavy redesign: <strong>6 to 12 weeks</strong>.",
+  "creation_auch.s6.q3": "<strong>Do you only work in Auch?</strong><br>Based in Auch, I prioritize the Gers and Occitanie in person or via video. Projects across France possible, especially e-commerce.",
+
+  "creation_auch.s7.title": "Ready to launch your site in Auch?",
+  "creation_auch.s7.p": "Describe your project in a few lines: site type, desired timeline, examples of sites you like. Reply within 48 business hours.",
+  "creation_auch.s7.cta": "Get a free quote",
+
   "meta./faq/.title": "Website designer FAQ: pricing, Shopify, SEO, freelance web designer",
   "meta./faq/.description": "Website designer FAQ: showcase site pricing, Shopify store, redesign, SEO, agency or freelance web designer. Clear answers for prospects in Auch and the Gers.",
 
