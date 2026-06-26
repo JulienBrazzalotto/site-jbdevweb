@@ -1125,6 +1125,10 @@ main section h3:first-of-type {
   margin-bottom: 0.75rem;
 }
 
+.blog-index-table {
+  margin-bottom: 2rem;
+}
+
 /* ===================== COOKIE BANNER ===================== */
 #cookie-banner {
   display: flex;
