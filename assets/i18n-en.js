@@ -86,8 +86,8 @@ window.I18N_EN = {
   "creation_auch.s7.p": "Describe your project in a few lines: site type, desired timeline, examples of sites you like. Reply within 48 business hours.",
   "creation_auch.s7.cta": "Get a free quote",
 
-  "meta./faq/.title": "Website designer FAQ: pricing, Shopify, SEO, freelance web designer",
-  "meta./faq/.description": "Website designer FAQ: showcase site pricing, Shopify store, redesign, SEO, agency or freelance web designer. Clear answers for prospects in Auch and the Gers.",
+  "meta./faq/.title": "Website designer FAQ | Pricing, Shopify, SEO",
+  "meta./faq/.description": "Website designer FAQ in Auch: showcase pricing, Shopify, redesign, SEO, freelancer or agency. Answers for small businesses in the Gers.",
 
   "meta./shopify/.title": "Shopify designer in Auch | Freelance e-commerce",
   "meta./shopify/.description": "Shopify designer in Auch (32): freelance e-commerce, Liquid themes, SEO and conversion. Custom quote.",
@@ -212,15 +212,22 @@ window.I18N_EN = {
 
   /* ── FAQ ── */
   "faq.hero.title": "Frequently asked questions – website designer, showcase &amp; <span>Shopify</span>",
-  "faq.hero.text": "Wondering about <strong>showcase site pricing</strong>, creating a <strong>Shopify store</strong>, a <strong>website redesign</strong>, choosing between an <strong>agency and a freelancer</strong>, or <strong>Google search ranking</strong>? Find answers to the most common questions here. For your specific situation, <a href=\"/contact/\">contact me directly</a>.",
+  "faq.hero.text": "<strong>Website designer</strong> and <strong>freelance web designer in Auch</strong>: wondering about <strong>showcase site pricing</strong>, a <strong>Shopify store</strong>, a <strong>redesign</strong> or <strong>SEO</strong>? Answers below. For your case, <a href=\"/contact/\">contact me</a>.",
 
-  "faq.list.title": "Question list",
+  "faq.stats.title": "Indicative ranges for 2026",
+  "faq.stats.list": "<li><strong>Showcase site</strong>: <strong>€1,500 to €4,000</strong></li><li><strong>Shopify store</strong>: <strong>€2,500 to €8,000</strong> (services)</li><li><strong>Shopify subscription</strong>: from <strong>€33/month</strong> (Basic plan)</li><li><strong>Average showcase timeline</strong>: <strong>3 to 6 weeks</strong></li><li><strong>Contact response</strong>: within <strong>24 to 48 hours</strong></li>",
+  "faq.intro.expertise": "I am <strong>Julien Brazzalotto</strong>, freelance web developer in Auch. I published the <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> app on the Shopify App Store.",
+
+  "faq.section.pricing": "Pricing and site types",
+  "faq.section.provider": "Provider, technical setup and SEO",
+  "faq.section.project": "Project, timelines and support",
 
   "faq.q1.title": "How much does a showcase site or Shopify store cost?",
-  "faq.q1.answer": "Every project is unique: price depends on the number of pages, design level, integrations (payment, shipping, Shopify apps), content to migrate and timeline. <strong>Published ranges on the French market</strong> for a freelance showcase site vary widely depending on customization; your <strong>quote</strong> reflects the actual scope after discussion. I provide a detailed quote; there is no single \"all-inclusive\" package: the goal is a <strong>transparent budget</strong> for your small business or brand. For an overview of Shopify costs (subscription, fees, freelance), see the article <a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a>.",
+  "faq.q1.answer": "In 2026, expect roughly <strong>€1,500 to €4,000</strong> for a custom showcase site and <strong>€2,500 to €8,000</strong> for a Shopify store (excluding subscription).",
+  "faq.q1.answer2": "Final price depends on pages, design, integrations and content to migrate. I provide a <strong>detailed quote</strong> after discussion, with no single flat package. See also <a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a>.",
 
   "faq.q2.title": "What is the difference between a showcase site and an online store?",
-  "faq.q2.answer": "A <strong>showcase site</strong> presents your business, your services and a way to contact you or book an appointment. An <strong>online store</strong> (e-commerce) adds a catalog, a cart and <strong>secure payment</strong> to sell online. Both can coexist depending on your strategy — see also <a href=\"/sites-vitrines/\">showcase sites</a> and <a href=\"/shopify/\">Shopify</a>.",
+  "faq.q2.answer": "A <strong>showcase site</strong> presents your business, your services and a way to contact you or book an appointment. An <strong>online store</strong> (e-commerce) adds a catalog, a cart and <strong>secure payment</strong> to sell online. Both can coexist depending on your strategy. See also <a href=\"/sites-vitrines/\">showcase sites</a> and <a href=\"/shopify/\">Shopify</a>.",
 
   "faq.q3.title": "Web agency or freelance developer: which to choose?",
   "faq.q3.answer": "A <strong>web agency</strong> often brings together several disciplines and handles heavier projects; a <strong>freelancer</strong> typically offers a <strong>single point of contact</strong>, flexible timelines and controlled costs for a small business or independent. What matters is <strong>technical skill</strong>, quote transparency and quality references.",
@@ -232,19 +239,22 @@ window.I18N_EN = {
   "faq.q5.answer": "Yes. A large share of traffic comes from <strong>smartphones</strong>; Google favors sites usable on mobile. <strong>Responsive</strong> design is the standard for a professional showcase or store.",
 
   "faq.q6.title": "Website designer, web designer or web developer: what's the difference?",
-  "faq.q6.answer": "A <strong>web designer</strong> focuses on visual identity and mockups. A <strong>web developer</strong> builds the site, <strong>performance</strong>, basic <strong>SEO</strong> and functionality (forms, e-commerce). <strong>Website designer</strong> is often a generic term: check whether the service includes integration, hosting and launch.",
+  "faq.q6.answer": "A <strong>web designer</strong> focuses on visual identity and mockups. A <strong>web developer</strong> builds the site, <strong>performance</strong> and basic <strong>SEO</strong>.",
+  "faq.q6.answer2": "<strong>Website designer</strong> is often a generic term: check whether the service includes integration, hosting and launch.",
 
   "faq.q7.title": "Who manages hosting and the domain name?",
   "faq.q7.answer": "Generally the <strong>domain name</strong> is in your name (you remain the owner). <strong>Hosting</strong> can be purchased by you or set up together depending on the project: a lightweight static site or <strong>Shopify</strong> hosted by the platform. Terms are specified in the quote.",
 
   "faq.q8.title": "What are the timelines for building a site?",
-  "faq.q8.answer": "For a standard showcase site, expect <strong>several weeks</strong> depending on content availability (text, photos) and the number of review rounds. A more advanced Shopify project (many product pages, logistics) can span several weeks to a few months. A <strong>schedule</strong> is defined together at the start of the engagement.",
+  "faq.q8.answer": "For a <strong>standard showcase site</strong>, expect roughly <strong>3 to 6 weeks</strong> depending on text and photo availability.",
+  "faq.q8.answer2": "A more advanced <strong>Shopify</strong> project (many product pages, logistics) can span <strong>several weeks to a few months</strong>. A <strong>schedule</strong> is defined at the start of the engagement.",
 
   "faq.q9.title": "Do you only work in Auch or elsewhere too?",
   "faq.q9.answer": "I am based in <strong>Auch</strong> in the <strong>Gers</strong> and work with clients in <strong>Occitanie</strong> and throughout France. Communication is via video call, phone or email; in-person meetings are possible depending on projects and distance. See the dedicated page: <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
 
   "faq.q10.title": "Is Google search ranking (SEO) included?",
-  "faq.q10.answer": "Sites are built with a clean <strong>technical structure</strong> (headings, speed, markup) favorable to SEO. Ranking also depends on your sector, competition and content. I can integrate best practices and advice; <strong>no provider can honestly guarantee a \"first place on Google\"</strong>.",
+  "faq.q10.answer": "Sites are built with a clean <strong>technical structure</strong> (headings, speed, markup) favorable to SEO.",
+  "faq.q10.answer2": "Ranking depends on your sector, competition and content. <strong>No provider can honestly guarantee a \"first place on Google\"</strong>.",
 
   "faq.q11.title": "Who provides the site's text and photos?",
   "faq.q11.answer": "Generally you are best placed to talk about your trade: ideally you provide <strong>base text</strong> and <strong>visuals</strong> (or a photographer). I can help structure pages and integrate media. Full marketing copywriting can involve a writer if needed.",
@@ -256,10 +266,11 @@ window.I18N_EN = {
   "faq.q13.answer": "Yes: one-off updates, small changes, advice or technical interventions can be arranged <strong>on request</strong> or as ongoing support, depending on what you need.",
 
   "faq.q14.title": "Why recommend Shopify for selling online?",
-  "faq.q14.answer": "Shopify is a <strong>hosted</strong> e-commerce platform, stable and scalable: payments, inventory and updates are managed without maintaining a server like self-hosted WordPress. It suits brands and retailers who want to focus on <strong>sales</strong> rather than technology. More details on the <a href=\"/shopify/\">Shopify</a> page. To compare with Wix or Prestashop, see also the <a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">blog comparison</a>.",
+  "faq.q14.answer": "Shopify is a <strong>hosted</strong> e-commerce platform, stable and scalable: payments, inventory and updates without maintaining a server.",
+  "faq.q14.answer2": "It suits brands that want to focus on <strong>sales</strong>. More details on the <a href=\"/shopify/\">Shopify</a> page. To compare with Wix or Prestashop, see the <a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">blog comparison</a>.",
 
   "faq.q15.title": "Can I edit my site myself after delivery?",
-  "faq.q15.answer": "On <strong>Shopify</strong>, the admin lets you manage products, pages and promotions without touching code for most tasks. On a custom static <strong>showcase site</strong>, changes often require a small intervention or prior discussion — we can arrange simple updates depending on the autonomy you want.",
+  "faq.q15.answer": "On <strong>Shopify</strong>, the admin lets you manage products, pages and promotions without touching code for most tasks. On a custom static <strong>showcase site</strong>, changes often require a small intervention or prior discussion. We can arrange simple updates depending on the autonomy you want.",
 
   "faq.q16.title": "How do I start a project with you?",
   "faq.q16.answer": "Contact me via the <a href=\"/contact/\">Contact</a> page describing your business, goals and approximate budget. I reply within <strong>24 to 48 business hours</strong> for an initial conversation, then a quote if the project is well defined.",
