@@ -873,13 +873,26 @@ main > section > ul {
   line-height: 1.7;
 }
 
-main > section > ul li {
+main > section > ul li,
+main > section > ol li {
   margin-bottom: 0.75rem;
   opacity: 0.85;
 }
 
-main > section > ul li:last-child {
+main > section > ul li:last-child,
+main > section > ol li:last-child {
   margin-bottom: 0;
+}
+
+main > section > ol {
+  max-width: 720px;
+  margin: 1.5rem 0 0;
+  padding-left: 1.35rem;
+  line-height: 1.7;
+}
+
+main > section > p:first-child {
+  margin-top: 0;
 }
 
 .testimonial {
