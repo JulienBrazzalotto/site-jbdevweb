@@ -112,8 +112,8 @@ window.I18N_EN = {
   "meta./blog/.title": "Shopify freelance blog | Guides, comparisons and retail",
   "meta./blog/.description": "Shopify blog by Julien Brazzalotto: platform comparisons, brick-and-mortar and online retail, apps and practical e-commerce advice for merchants.",
 
-  "meta./blog/cadence/.title": "Cadence: my upcoming Shopify app in development (2026) | JB Dev Web",
-  "meta./blog/cadence/.description": "Cadence: my upcoming Shopify app in the store management category. Currently in development (70%). Estimated release by summer 2026. Details to be revealed at launch.",
+  "meta./blog/cadence/.title": "Cadence: my Shopify app complete, submitted to the App Store (2026) | JB Dev Web",
+  "meta./blog/cadence/.description": "Cadence: my upcoming Shopify app in the store management category. Development complete (100%), submitted to the Shopify App Store. Estimated publication by summer 2026.",
 
   "meta./blog/stock-transfert-pro-shopify/.title": "Stock Transfert Pro: Shopify multi-location app (2026)",
   "meta./blog/stock-transfert-pro-shopify/.description": "Shopify multi-location app: draft → received transfers, smart drafts, POS receiving. From $12/month, 14-day trial. June 2026.",
@@ -182,7 +182,7 @@ window.I18N_EN = {
   "home.faq.a2": "Yes: Shopify creation and optimization (Liquid themes, apps, conversion, SEO). See the <a href=\"/shopify/\">Shopify</a> page and the <a href=\"/blog/tarif-site-shopify-2026/\">2026 pricing guide</a>.",
 
   "home.blog.title": "On the blog: Shopify and retail guides",
-  "home.blog.list": "<li><a href=\"/blog/cadence/\">Cadence</a>, my upcoming Shopify app (70% complete)</li><li><a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a>, app on the Shopify App Store</li><li><a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a></li><li><a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix and Prestashop comparison</a></li><li><a href=\"/blog/magasin-physique-boutique-en-ligne/\">Brick-and-mortar store and online shop</a></li><li><a href=\"/blog/\">All blog articles</a></li>",
+  "home.blog.list": "<li><a href=\"/blog/cadence/\">Cadence</a>, my upcoming Shopify app (100% complete, submitted to the App Store)</li><li><a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a>, app on the Shopify App Store</li><li><a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a></li><li><a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix and Prestashop comparison</a></li><li><a href=\"/blog/magasin-physique-boutique-en-ligne/\">Brick-and-mortar store and online shop</a></li><li><a href=\"/blog/\">All blog articles</a></li>",
 
   /* ── Contact ── */
   "contact.hero.title": "Contact web developer in <span>Auch</span> – Shopify &amp; showcase site quote",
@@ -395,7 +395,7 @@ window.I18N_EN = {
   "shopify.compare.outro.p3b": "The goal: <strong>lay clean, scalable foundations</strong>, then let you run your business. With Shopify, commerce is your job again, not software maintenance.",
 
   "shopify.blog.title": "On the blog",
-  "shopify.blog.list": "<li><a href=\"/blog/cadence/\">Cadence</a>, my upcoming Shopify app (in development)</li><li><a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a>, multi-location app on the Shopify App Store</li><li><a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a></li><li><a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix and Prestashop comparison</a></li><li><a href=\"/blog/magasin-physique-boutique-en-ligne/\">Going online with a brick-and-mortar store</a></li><li><a href=\"/blog/\">All blog articles</a></li>",
+  "shopify.blog.list": "<li><a href=\"/blog/cadence/\">Cadence</a>, my upcoming Shopify app (complete, submitted to the App Store)</li><li><a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a>, multi-location app on the Shopify App Store</li><li><a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a></li><li><a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix and Prestashop comparison</a></li><li><a href=\"/blog/magasin-physique-boutique-en-ligne/\">Going online with a brick-and-mortar store</a></li><li><a href=\"/blog/\">All blog articles</a></li>",
 
   "shopify.projects.title": "Shopify projects delivered",
   "shopify.projects.card1.title": "E-commerce store",
@@ -585,10 +585,10 @@ window.I18N_EN = {
 
   "blog.card.cadence.aria": "Read the Cadence announcement, upcoming Shopify app",
   "blog.card.cadence.tag": "Shopify App",
-  "blog.card.cadence.tag_dev": "🚧 In development · 70%",
+  "blog.card.cadence.tag_dev": "📤 Submitted to App Store · 100%",
   "blog.card.cadence.date": "3 June 2026",
   "blog.card.cadence.title": "Cadence, my upcoming Shopify app",
-  "blog.card.cadence.text": "New Shopify app in the store management category, currently in development. Details remain confidential until launch. Estimated release by summer 2026.",
+  "blog.card.cadence.text": "New Shopify app in the store management category. Development complete, submitted to the Shopify App Store. Estimated publication by summer 2026.",
   "blog.card.cadence.link": "Read the announcement",
 
   "blog.card.stp.aria": "Read the Stock Transfert Pro article",
@@ -631,14 +631,14 @@ window.I18N_EN = {
 
   /* ── Blog: Cadence ── */
   "blog.cadence.hero.title": "<span>Cadence</span>, my upcoming Shopify app",
-  "blog.cadence.hero.text": "New Shopify app in the <strong>store management</strong> category, currently in development. Estimated release by <strong>summer 2026</strong>.",
+  "blog.cadence.hero.text": "New Shopify app in the <strong>store management</strong> category. Development <strong>complete</strong>, app <strong>submitted to the Shopify App Store</strong>. Estimated publication by <strong>summer 2026</strong>.",
   "blog.cadence.progress.label": "Development progress",
   "blog.cadence.progress.aria": "Cadence development progress",
 
-  "blog.cadence.intro": "<strong>Cadence</strong> is my upcoming <strong>Shopify app</strong> in the store management category, currently <strong>70%</strong> complete, with an estimated release by <strong>summer 2026</strong>.",
-  "blog.cadence.intro.updated": "Published <time datetime=\"2026-06-03\">3 June 2026</time>, updated <time datetime=\"2026-06-26\">26 June 2026</time>, <strong>Julien Brazzalotto</strong>, app developer.",
+  "blog.cadence.intro": "<strong>Cadence</strong> is my upcoming <strong>Shopify app</strong> in the store management category. Development is <strong>100%</strong> complete and the app has been <strong>submitted to the Shopify App Store</strong>. Estimated publication by <strong>summer 2026</strong>.",
+  "blog.cadence.intro.updated": "Published <time datetime=\"2026-06-03\">3 June 2026</time>, updated <time datetime=\"2026-07-01\">1 July 2026</time>, <strong>Julien Brazzalotto</strong>, app developer.",
   "blog.cadence.stats.title": "Key figures (2026)",
-  "blog.cadence.stats.list": "<li><strong>Progress</strong>: <strong>70%</strong> of development</li><li><strong>Estimated release</strong>: by <strong>summer 2026</strong></li><li><strong>Category</strong>: Shopify store management</li><li><strong>Target</strong>: any Shopify merchant, whatever the plan</li>",
+  "blog.cadence.stats.list": "<li><strong>Progress</strong>: <strong>100%</strong> of development</li><li><strong>Status</strong>: <strong>submitted to the Shopify App Store</strong> (in review)</li><li><strong>Category</strong>: Shopify store management</li><li><strong>Target</strong>: any Shopify merchant, whatever the plan</li>",
 
   "blog.cadence.s1.kicker": "The essentials",
   "blog.cadence.s1.title": "What I can share for now",
@@ -646,13 +646,13 @@ window.I18N_EN = {
   "blog.cadence.s1.li2": "<strong>Platform:</strong> Shopify (app available on the Shopify App Store at launch).",
   "blog.cadence.s1.li3": "<strong>Category:</strong> Store management.",
   "blog.cadence.s1.li4": "<strong>For whom:</strong> any Shopify merchant, whatever the plan.",
-  "blog.cadence.s1.li5": "<strong>Progress:</strong> 70%.",
-  "blog.cadence.s1.li6": "<strong>Estimated release:</strong> by summer 2026.",
+  "blog.cadence.s1.li5": "<strong>Progress:</strong> 100% (development complete).",
+  "blog.cadence.s1.li6": "<strong>Status:</strong> submitted to the Shopify App Store (in review).",
   "blog.cadence.s1.p": "The rest (exact features, positioning, pricing plans) remains deliberately confidential until launch. You'll discover it at the same time as everyone else, on Cadence's Shopify App Store page.",
 
   "blog.cadence.s2.kicker": "Progress",
   "blog.cadence.s2.title": "Where I stand",
-  "blog.cadence.s2.p": "The project has been in <strong>active development</strong> for several months. The product core is in place; the current phase focuses on user experience, edge cases and reliability before App Store submission.",
+  "blog.cadence.s2.p": "Development is <strong>complete</strong>. The app has been <strong>submitted to the Shopify App Store</strong>; the current phase is the official review before publication.",
   "blog.cadence.s2.progress.label": "Overall progress",
   "blog.cadence.s2.progress.aria": "Cadence overall progress",
   "blog.cadence.s2.roadmap1": "<strong>Architecture &amp; business core</strong>: technical foundations and Shopify Admin API integration.",
@@ -671,7 +671,7 @@ window.I18N_EN = {
 
   "blog.cadence.faq.title": "Frequently asked questions about Cadence",
   "blog.cadence.faq.q1": "When will Cadence be available on the Shopify App Store?",
-  "blog.cadence.faq.a1": "Release is estimated by <strong>summer 2026</strong>. The project is <strong>70%</strong> complete. The exact date will be announced at launch, on Cadence's Shopify App Store page.",
+  "blog.cadence.faq.a1": "Development is <strong>100%</strong> complete. The app has been <strong>submitted to the Shopify App Store</strong>. Publication is estimated by <strong>summer 2026</strong>, on Cadence's Shopify App Store page.",
   "blog.cadence.faq.q2": "What will the Cadence app do?",
   "blog.cadence.faq.a2": "Cadence is a Shopify app in the <strong>store management</strong> category, for any Shopify merchant whatever the plan. Exact features, positioning and pricing will be revealed at launch.",
   "blog.cadence.faq.q3": "How can I be notified when Cadence launches?",
