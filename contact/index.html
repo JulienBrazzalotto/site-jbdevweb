@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-i18n="meta./contact/.title">Contact &amp; devis gratuit | JB Dev Web</title>
-  <meta name="description" data-i18n="meta./contact/.description" content="Formulaire de contact JB Dev Web : décrivez votre projet (Shopify, vitrine, refonte). Réponse rapide. Freelance développeur web basé à Auch.">
+  <meta name="description" data-i18n="meta./contact/.description" content="Formulaire de contact JB Dev Web : décrivez votre projet Shopify, vitrine ou refonte. Devis gratuit, réponse sous 48 h ouvrées.">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://jbdevweb.fr/contact/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:url" content="https://jbdevweb.fr/contact/">
-  <meta property="og:title" content="Contact — devis Shopify &amp; site vitrine | JB Dev Web">
-  <meta property="og:description" content="Devis gratuit : boutique Shopify, site vitrine, refonte. Freelance développeur web à Auch.">
+  <meta property="og:title" content="Contact &amp; devis gratuit | JB Dev Web">
+  <meta property="og:description" content="Devis gratuit pour boutique Shopify, site vitrine ou refonte. Réponse sous 48 h ouvrées.">
   <meta property="og:site_name" content="JB Dev Web">
   <meta property="og:image" content="https://jbdevweb.fr/assets/images/banniere-linkedin-jbdevweb-sans-espace.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -27,31 +27,29 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
-  <!-- SEO Local optimisé -->
+  <!-- ContactPage (pas de LocalBusiness concurrent sur requêtes Auch) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Julien Brazzalotto – Contact développeur web (Auch)",
-  "description": "Prise de contact pour projet web : création site vitrine, boutique Shopify, SEO. Freelance basé à Auch, Gers.",
-  "url": "https://jbdevweb.fr/contact/", 
-  "telephone": "+33674466097",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Auch",
-    "addressRegion": "Gers",
-    "addressCountry": "FR"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 43.6467,
-    "longitude": 0.5897
-  },
-  "areaServed": {
-    "@type": "AdministrativeArea",
-    "name": "Gers"
-  },
-  "openingHours": "Mo-Fr 09:00-18:00"
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://jbdevweb.fr/contact/#webpage",
+      "url": "https://jbdevweb.fr/contact/",
+      "name": "Contact & devis gratuit | JB Dev Web",
+      "description": "Formulaire de contact pour devis web : Shopify, site vitrine ou refonte.",
+      "inLanguage": "fr-FR",
+      "isPartOf": { "@id": "https://jbdevweb.fr/#website" }
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "https://jbdevweb.fr/contact/#contactpage",
+      "url": "https://jbdevweb.fr/contact/",
+      "name": "Contact JB Dev Web",
+      "description": "Demande de devis pour projet web, boutique Shopify ou site vitrine.",
+      "mainEntity": { "@id": "https://jbdevweb.fr/#localbusiness" }
+    }
+  ]
 }
 </script>
 
@@ -99,8 +97,9 @@
         <div class="hero-blob"></div>
     </div>
     <div>
-        <h1 id="hero-title" data-i18n="contact.hero.title" data-i18n-html>Contact développeur web à <span>Auch</span> – devis Shopify &amp; site vitrine</h1>
-        <p data-i18n="contact.hero.text" data-i18n-html>Boutique <strong>Shopify</strong>, <strong>création de site internet</strong> ou refonte&nbsp;? Décrivez votre projet&nbsp;: réponse personnalisée sous 24 à 48&nbsp;h, sans engagement, pour les pros du <strong>Gers</strong> et d’<strong>Occitanie</strong>.</p>
+        <h1 id="hero-title" data-i18n="contact.hero.title">Contact &amp; devis gratuit</h1>
+        <p data-i18n="contact.hero.text" data-i18n-html>Boutique <strong>Shopify</strong>, site vitrine ou refonte&nbsp;? Décrivez votre projet&nbsp;: réponse personnalisée sous <strong>24 à 48&nbsp;h</strong>, sans engagement.</p>
+        <p data-i18n="contact.hero.local" data-i18n-html>Projet à <strong>Auch</strong> ou dans le Gers&nbsp;? Consultez d'abord l'offre détaillée&nbsp;: <a href="/creation-site-internet-auch/">création de site internet à Auch</a> (tarifs, délais, SEO local).</p>
     </div>
     
   </header>

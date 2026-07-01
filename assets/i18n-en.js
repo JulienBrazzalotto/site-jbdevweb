@@ -33,7 +33,7 @@ window.I18N_EN = {
   "meta./.description": "Freelance web in Auch (Gers): showcase websites, Shopify stores, redesigns and local SEO. Artisans and small businesses. Free quote.",
 
   "meta./contact/.title": "Contact & free quote | JB Dev Web",
-  "meta./contact/.description": "Contact JB Dev Web: describe your project (Shopify, showcase site, redesign). Fast reply. Freelance web developer based in Auch.",
+  "meta./contact/.description": "Contact JB Dev Web: describe your project (Shopify, showcase site, redesign). Free quote, reply within 48 business hours.",
 
   "meta./creation-site-internet-auch/.title": "Website creation in Auch (Gers) | Freelance web",
   "meta./creation-site-internet-auch/.description": "Website creation in Auch and the Gers: showcase sites, Shopify, redesign and local SEO. Freelance web for artisans and retailers. Free quote.",
@@ -185,8 +185,9 @@ window.I18N_EN = {
   "home.blog.list": "<li><a href=\"/blog/cadence/\">Cadence</a>, my upcoming Shopify app (100% complete, submitted to the App Store)</li><li><a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a>, app on the Shopify App Store</li><li><a href=\"/blog/tarif-site-shopify-2026/\">Shopify site pricing in 2026</a></li><li><a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix and Prestashop comparison</a></li><li><a href=\"/blog/magasin-physique-boutique-en-ligne/\">Brick-and-mortar store and online shop</a></li><li><a href=\"/blog/\">All blog articles</a></li>",
 
   /* ── Contact ── */
-  "contact.hero.title": "Contact web developer in <span>Auch</span> – Shopify &amp; showcase site quote",
-  "contact.hero.text": "<strong>Shopify</strong> store, <strong>website creation</strong> or redesign? Describe your project: personalized response within 24 to 48 hours, no commitment, for professionals in the <strong>Gers</strong> and <strong>Occitanie</strong>.",
+  "contact.hero.title": "Contact &amp; free quote",
+  "contact.hero.text": "<strong>Shopify</strong> store, showcase site or redesign? Describe your project: personalized response within <strong>24 to 48 hours</strong>, no commitment.",
+  "contact.hero.local": "Project in <strong>Auch</strong> or the Gers? See the detailed offer first: <a href=\"/creation-site-internet-auch/\">website creation in Auch</a> (pricing, timelines, local SEO).",
 
   "contact.why.title": "Why contact me?",
   "contact.why.card1.title": "A clear and honest conversation",
