@@ -24,7 +24,7 @@
 - Location: Auch, 32000, Gers, Occitanie, France
 - Phone: +33 6 74 46 60 97
 - Specialties: Shopify, e-commerce, showcase websites, local SEO, web redesign
-- Shopify apps: [Cadence](https://apps.shopify.com/cadence-schedule-launch), [Stock Transfert Pro](https://apps.shopify.com/stock-transfert-pro)
+- Shopify apps: [Cadence](https://apps.shopify.com/cadence-2), [Stock Transfert Pro](https://apps.shopify.com/stock-transfert-pro)
 
 ## Optional
 

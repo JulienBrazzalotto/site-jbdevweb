@@ -1022,12 +1022,20 @@ main section h3:first-of-type {
   gap: 2rem;
 }
 
+.compare-wrap + .blog-grid {
+  margin-top: 2.5rem;
+}
+
 .blog-card-link {
   display: block;
 }
 
+.blog-card .blog-meta {
+  margin-bottom: 0.35rem;
+}
+
 .blog-card h3 {
-  margin-top: 0.8rem;
+  margin-top: 1.25rem;
   margin-bottom: 0.9rem;
   font-size: clamp(1.2rem, 2.5vw, 1.5rem);
   color: var(--text);
@@ -1126,7 +1134,7 @@ main section h3:first-of-type {
 }
 
 .blog-index-table {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 /* ===================== COOKIE BANNER ===================== */
