@@ -13,7 +13,7 @@
 ## Key guides (blog)
 
 - [Cadence: Schedule & Launch](https://jbdevweb.fr/blog/cadence/): Shopify app for scheduled prices, sales and launches — $10/month, all plans
-- [Stock Transfert Pro](https://jbdevweb.fr/blog/stock-transfert-pro-shopify/): Multi-location inventory transfers on Shopify App Store
+- [Stock Transfert Pro](https://jbdevweb.fr/blog/stock-transfert-pro-shopify/): Multi-location transfers, suppliers and purchase orders on Shopify App Store
 - [Shopify pricing France 2026](https://jbdevweb.fr/blog/tarif-site-shopify-2026/): Plans Basic €33, Grow €88, Advanced €384/month, Shopify Payments fees
 - [Shopify vs Wix vs Prestashop 2026](https://jbdevweb.fr/blog/comparatif-shopify-wix-prestashop-2026/)
 - [Brick-and-mortar store online on Shopify](https://jbdevweb.fr/blog/magasin-physique-boutique-en-ligne/)

@@ -116,7 +116,7 @@ window.I18N_EN = {
   "meta./blog/cadence/.description": "Cadence schedules prices, sales and launches on Shopify (all plans). Launchpad alternative, smart rollback. $10/month, 14-day trial. July 2026.",
 
   "meta./blog/stock-transfert-pro-shopify/.title": "Stock Transfert Pro: Shopify multi-location app (2026)",
-  "meta./blog/stock-transfert-pro-shopify/.description": "Shopify multi-location app: draft → received transfers, smart drafts, POS receiving. From $12/month, 14-day trial. June 2026.",
+  "meta./blog/stock-transfert-pro-shopify/.description": "Stock Transfert Pro: multi-location transfers, smart drafts, suppliers and purchase orders. From $12/month, 14-day trial. July 2026.",
 
   "meta./blog/tarif-site-shopify-2026/.title": "Shopify pricing France 2026: costs, fees and freelance rates",
   "meta./blog/tarif-site-shopify-2026/.description": "Shopify pricing France 2026: Basic €33, Grow €88, Advanced €384/month. Shopify Payments fees and freelance budgets. Summary table.",
@@ -597,7 +597,7 @@ window.I18N_EN = {
   "blog.card.stp.tag_live": "Available on the App Store",
   "blog.card.stp.date": "3 June 2026",
   "blog.card.stp.title": "Stock Transfert Pro: the Shopify app for transfers between locations",
-  "blog.card.stp.text": "Available on the Shopify App Store since 3 June 2026. Manual transfers and smart drafts (sales or stock targets), POS receiving, forecasts and alerts. From $12/month, 14-day trial.",
+  "blog.card.stp.text": "On the Shopify App Store since 3 June 2026. Transfers, smart drafts, POS receiving, suppliers and purchase orders, forecasts and alerts. From $12/month, 14-day trial.",
   "blog.card.stp.link": "Read the article",
 
   "blog.card.tarif.aria": "Read the Shopify site pricing in 2026 article",
@@ -736,20 +736,20 @@ window.I18N_EN = {
 
   /* ── Blog: Stock Transfert Pro ── */
   "blog.stp.hero.title": "Stock Transfert Pro: the <span>Shopify</span> app for transfers between locations",
-  "blog.stp.hero.text": "<strong>Shopify multi-location app</strong> available on the Shopify App Store since <time datetime=\"2026-06-03\">3 June 2026</time>. Transfer inventory between stores and warehouses, with smart drafts and point-of-sale receiving.",
+  "blog.stp.hero.text": "<strong>Shopify multi-location app</strong> available on the Shopify App Store since <time datetime=\"2026-06-03\">3 June 2026</time>. Transfer inventory between stores and warehouses, with smart drafts, point-of-sale receiving, suppliers and purchase orders.",
   "blog.stp.hero.text2": "From <strong>$12/month</strong>, <strong>14-day</strong> free trial.",
   "blog.stp.hero.cta_app": "View the app on the Shopify App Store",
   "blog.stp.hero.cta_contact": "Talk about your Shopify project",
 
-  "blog.stp.intro": "<strong>Stock Transfert Pro</strong> is a <strong>Shopify multi-location app</strong> to manage inventory transfers between stores, warehouses and points of sale.",
-  "blog.stp.intro.updated": "Published <time datetime=\"2026-06-03\">3 June 2026</time>, updated <time datetime=\"2026-06-26\">26 June 2026</time>, <strong>Julien Brazzalotto</strong>, app developer.",
+  "blog.stp.intro": "<strong>Stock Transfert Pro</strong> is a <strong>Shopify multi-location app</strong> to manage inventory transfers between stores, warehouses and points of sale — and since June 2026, <strong>supplier purchasing</strong> (directory, purchase orders, planning).",
+  "blog.stp.intro.updated": "Published <time datetime=\"2026-06-03\">3 June 2026</time>, updated <time datetime=\"2026-07-03\">3 July 2026</time>, <strong>Julien Brazzalotto</strong>, app developer.",
   "blog.stp.stats.title": "Key figures (2026)",
-  "blog.stp.stats.list": "<li><strong>Starter</strong>: <strong>$12/month</strong>, up to <strong>2 locations</strong></li><li><strong>Pro</strong>: <strong>$57/month</strong>, <strong>unlimited</strong> locations</li><li><strong>Pro+</strong>: <strong>$116/month</strong>, multi-horizon forecasts and Slack alerts</li><li><strong>Free trial</strong>: <strong>14 days</strong> on all plans</li>",
+  "blog.stp.stats.list": "<li><strong>Starter</strong>: <strong>$12/month</strong>, up to <strong>2 locations</strong></li><li><strong>Pro</strong>: <strong>$57/month</strong>, <strong>unlimited</strong> locations</li><li><strong>Pro+</strong>: <strong>$116/month</strong>, multi-horizon forecasts and Slack alerts</li><li><strong>Purchasing module</strong>: suppliers + purchase orders (rollout in progress)</li><li><strong>Free trial</strong>: <strong>14 days</strong> on all plans</li>",
 
   "blog.stp.s1.kicker": "Why this app",
   "blog.stp.s1.title": "Filling the gap left by Stocky",
   "blog.stp.s1.p1": "<strong>Stocky</strong>, Shopify's historic inventory app, was <strong>removed from the Shopify App Store on 2 February 2026</strong>, with full shutdown planned for <strong>31 August 2026</strong>. Many multi-location merchants were left without a simple tool to manage inter-store transfers.",
-  "blog.stp.s1.p2": "<strong>Stock Transfert Pro</strong> addresses this specific need: a tool <strong>focused on transfers</strong> between Shopify locations, designed for teams that actually move stock between warehouse and stores, or between shops in the same network. Official App Store launch on <strong>3 June 2026</strong>.",
+  "blog.stp.s1.p2": "<strong>Stock Transfert Pro</strong> addresses this need: a tool <strong>focused on transfers</strong> between Shopify locations, extended since June 2026 with a <strong>Purchasing module</strong> (suppliers and purchase orders). Built for teams that move stock between warehouse and stores, or between shops in the same network. Official App Store launch on <strong>3 June 2026</strong>.",
 
   "blog.stp.s2.kicker": "Workflow",
   "blog.stp.s2.title": "Manual transfers with a clear status cycle",
@@ -778,6 +778,23 @@ window.I18N_EN = {
   "blog.stp.s5.li4": "<strong>Email</strong> alerts (daily, weekly or immediate) and <strong>Slack</strong> alerts.",
   "blog.stp.s5.li5": "<strong>LLM AI BYOK</strong> (\"Bring Your Own Key\") option: connect your own OpenAI, Anthropic or Gemini key.",
   "blog.stp.s5.li5b": "The app generates contextual recommendations. The key is encrypted server-side. If AI is unavailable, the app falls back to deterministic calculations.",
+
+  "blog.stp.s5b.kicker": "Purchasing module",
+  "blog.stp.s5b.title": "Suppliers and purchase orders",
+  "blog.stp.s5b.p1": "In <strong>June 2026</strong>, Stock Transfert Pro expands beyond transfers with a <strong>Purchasing module</strong>: supplier directory, supplier purchase orders and replenishment planning. The goal: recover part of what <strong>Stocky</strong> offered for purchasing, while keeping transfers at the core of the product.",
+  "blog.stp.s5b.h_suppliers": "Supplier directory",
+  "blog.stp.s5b.p_suppliers": "Create and manage <strong>suppliers</strong> (contact, email, default lead time, notes). Link <strong>variants</strong> with unit cost and supplier SKU. Mapping uses Shopify's native <strong>Product.vendor</strong> field, with optional <strong>explicit assignment</strong> variant → supplier when the Shopify vendor is not enough.",
+  "blog.stp.s5b.h_po": "Supplier purchase orders",
+  "blog.stp.s5b.p_po": "Each purchase order follows a clear cycle, similar to transfers:",
+  "blog.stp.s5b.po.li1": "<strong>Draft</strong>: choose receiving location, supplier, live product search, ordered quantities — editable while status remains draft.",
+  "blog.stp.s5b.po.li2": "<strong>Ordered</strong>: email to supplier with <strong>PDF attachment</strong> (optional copy to the shop). Status moves to ordered only after successful send.",
+  "blog.stp.s5b.po.li3": "<strong>Partially received / Received</strong>: enter received quantities per line or receive all. Quantities increase stock at the chosen location, directly in <strong>Shopify</strong>.",
+  "blog.stp.s5b.p_po2": "The <strong>dashboard</strong> shows draft purchase orders and alerts when orders await receiving. Local PDF download available at any time.",
+  "blog.stp.s5b.h_planning": "Purchase planning",
+  "blog.stp.s5b.p_planning": "The <strong>Supplier purchasing</strong> page offers a planning report based on forecasts and low stock: suggested order quantities (<strong>reorderQty</strong>), supplier filters, sorting and <strong>CSV export</strong>. A <strong>Create PO</strong> button pre-fills a draft from a report row.",
+  "blog.stp.s5b.h_chain": "From warehouse to stores",
+  "blog.stp.s5b.p_chain": "The full chain: <strong>purchase order received at the warehouse</strong> → central stock replenished → <strong>transfers</strong> (manual or smart drafts) redistribute to stores. Purchasing and transfers stay in the same app, with the same audit log.",
+  "blog.stp.s5b.devnote": "<strong>Rollout in progress</strong>: the Purchasing module is visible on <strong>Shopify development stores</strong> during finalization, before opening to all shops. Pricing (Starter / Pro / Pro+) is unchanged.",
 
   "blog.stp.s6.kicker": "Pricing",
   "blog.stp.s6.title": "Three plans, 14-day free trial",
@@ -833,9 +850,11 @@ window.I18N_EN = {
   "blog.stp.faq.q1": "How much does Stock Transfert Pro cost in 2026?",
   "blog.stp.faq.a1": "Three USD plans: <strong>Starter $12/month</strong> (2 locations), <strong>Pro $57/month</strong> (unlimited locations), <strong>Pro+ $116/month</strong>. <strong>14-day</strong> free trial on each plan.",
   "blog.stp.faq.q2": "Does Stock Transfert Pro replace Stocky?",
-  "blog.stp.faq.a2": "<strong>Stocky</strong> was removed from the Shopify App Store on <strong>2 February 2026</strong>. Stock Transfert Pro targets <strong>multi-location transfers</strong> with a draft → sent → received cycle and smart drafts.",
+  "blog.stp.faq.a2": "<strong>Stocky</strong> was removed from the Shopify App Store on <strong>2 February 2026</strong>. Stock Transfert Pro first covers <strong>multi-location transfers</strong> (draft → sent → received cycle, smart drafts) and since June 2026 adds a <strong>Purchasing module</strong> (suppliers, purchase orders) currently rolling out.",
   "blog.stp.faq.q3": "Which plans include forecasts and alerts?",
   "blog.stp.faq.a3": "The <strong>Pro</strong> plan adds <strong>30-day</strong> forecasting and daily email alerts. <strong>Pro+</strong> adds <strong>14, 30 and 60-day</strong> forecasts, <strong>Slack</strong> alerts and <strong>BYOK AI</strong>.",
+  "blog.stp.faq.q4": "Does Stock Transfert Pro handle supplier purchase orders?",
+  "blog.stp.faq.a4": "Yes. The Purchasing module adds a <strong>supplier directory</strong>, <strong>purchase orders</strong> (draft, PDF email send, partial or full receiving that writes stock in Shopify) and a <strong>purchase planning</strong> report with CSV export. Public App Store rollout in progress.",
 
   "blog.stp.s7.kicker": "Technical side",
   "blog.stp.s7.title": "Stack and compatibility",
@@ -845,8 +864,9 @@ window.I18N_EN = {
   "blog.stp.s8.title": "Read more",
   "blog.stp.s8.p": "If inventory is a concern for you, these articles complement the topic:",
   "blog.stp.s8.li1": "<a href=\"/blog/magasin-physique-boutique-en-ligne/\">Brick-and-mortar store online on Shopify: launch without breaking everything</a>. Why unified stock changes everything for a point of sale.",
-  "blog.stp.s8.li2": "<a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix or Prestashop in 2026</a>. For those who haven't chosen a platform yet.",
-  "blog.stp.s8.li3": "<a href=\"/blog/tarif-site-shopify-2026/\">Shopify pricing France 2026</a>. Subscriptions, fees, freelance and apps: what it really costs.",
+  "blog.stp.s8.li2": "<a href=\"/blog/cadence/\">Cadence</a>, Shopify app to schedule prices and product launches (Launchpad alternative).",
+  "blog.stp.s8.li3": "<a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix or Prestashop in 2026</a>. For those who haven't chosen a platform yet.",
+  "blog.stp.s8.li4": "<a href=\"/blog/tarif-site-shopify-2026/\">Shopify pricing France 2026</a>. Subscriptions, fees, freelance and apps: what it really costs.",
   "blog.stp.s8.cta_install": "Install Stock Transfert Pro",
   "blog.stp.s8.cta_blog": "Back to blog",
 
