@@ -167,8 +167,6 @@ window.I18N_EN = {
 
   "home.local.title": "Website creation in Auch and the Gers",
   "home.local.p1": "Looking for a <strong>website creator in Auch</strong>, a <strong>web agency in the Gers</strong> or a <strong>freelancer for local SEO</strong>? I support artisans, retailers and independents across the Gers and Occitanie: showcase sites, <a href=\"/shopify/\">Shopify stores</a>, redesigns and Google optimization. A dedicated page details my <a href=\"/creation-site-internet-auch/\">website creation in Auch</a> offer (process, timelines, local SEO).",
-  "home.local.p2": "<strong>Organic search in Auch</strong>: a high-performing site combines local content, Google Business Profile and clean technical structure.",
-  "home.local.p2b": "Queries like <em>website creation Auch</em> take time; I build solid foundations from launch.",
   "home.local.cta": "Website creation in Auch: view the offer",
 
   "home.project.title": "Recent Shopify project",
