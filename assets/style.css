@@ -924,6 +924,11 @@ main section h3:first-of-type {
   margin-top: 0;
 }
 
+main section .blog-grid .blog-card h3 {
+  margin-top: 1.35rem;
+  margin-bottom: 0.9rem;
+}
+
 .testimonial {
   max-width: 720px;
   margin: 0 0 1.5rem;
@@ -1023,7 +1028,11 @@ main section h3:first-of-type {
 }
 
 .compare-wrap + .blog-grid {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
+}
+
+.compare-wrap:has(+ .blog-grid) {
+  margin-bottom: 0.5rem;
 }
 
 .blog-card-link {
@@ -1031,11 +1040,11 @@ main section h3:first-of-type {
 }
 
 .blog-card .blog-meta {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.85rem;
 }
 
 .blog-card h3 {
-  margin-top: 1.25rem;
+  margin-top: 1.35rem;
   margin-bottom: 0.9rem;
   font-size: clamp(1.2rem, 2.5vw, 1.5rem);
   color: var(--text);
