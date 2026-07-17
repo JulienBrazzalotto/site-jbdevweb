@@ -35,25 +35,48 @@ window.I18N_EN = {
   "meta./contact/.title": "Contact & free quote | jbdevweb",
   "meta./contact/.description": "Contact jbdevweb: describe your project (Shopify, showcase site, redesign). Free quote, reply within 48 business hours.",
 
-  "meta./creation-site-internet-auch/.title": "Website creation in Auch (Gers) | Freelance web",
-  "meta./creation-site-internet-auch/.description": "Website creation in Auch and the Gers: showcase sites, Shopify, redesign and local SEO. Freelance web for artisans and retailers. Free quote.",
+  "meta./creation-site-internet-auch/.title": "Website creation Auch | jbdevweb",
+  "meta./creation-site-internet-auch/.description": "Website & SEO in Auch: Julien Brazzalotto (jbdevweb). Showcase €1,500–€4,000, Shopify Gers. Quote in 48h.",
 
   /* ── Website creation Auch ── */
   "creation_auch.hero.title": "Website creation in <span>Auch</span>: showcase sites, Shopify &amp; local SEO",
-  "creation_auch.hero.text": "<strong>Website creation in Auch</strong> for artisans, retailers and independents in the <strong>Gers</strong>: fast showcase sites, <a href=\"/shopify/\">Shopify</a> stores or redesigns focused on <strong>local search ranking</strong>. A single point of contact from design to launch.",
-  "creation_auch.hero.definition": "<strong>Website creation in Auch</strong> means designing a showcase site or online store for a local Gers business. The technical structure targets Google search (HTTPS, mobile, local content).",
+  "creation_auch.hero.text": "<strong>jbdevweb</strong> (<strong>Julien Brazzalotto</strong>) offers <strong>website creation in Auch</strong> for artisans, retailers and small businesses in the <strong>Gers</strong>: showcase sites, <a href=\"/shopify/\">Shopify</a> stores or redesigns focused on <strong>local SEO</strong>. A single point of contact from design to launch.",
+  "creation_auch.hero.definition": "<strong>Website creation in Auch</strong> means designing a showcase site or online store for a local Gers business, with a technical base built for Google (HTTPS, mobile, local content).",
   "creation_auch.hero.cta": "Request a free quote",
 
-  "creation_auch.intro": "<strong>Freelance web developer in Auch</strong>: <strong>showcase sites</strong>, <strong>Shopify</strong> stores and <strong>local SEO</strong> in the Gers.",
-  "creation_auch.intro.updated": "<time datetime=\"2026-06-26\">Updated 26 June 2026</time>, <strong>Julien Brazzalotto</strong>, freelance web developer in Auch.",
+  "creation_auch.intro.updated": "Updated <time datetime=\"2026-07-17\">17 July 2026</time> — <strong>Julien Brazzalotto</strong>, <strong>jbdevweb</strong>, freelance web developer in Auch (Gers).",
+
+  "creation_auch.who.title": "Who should you contact for website creation in Auch?",
+  "creation_auch.who.answer": "For <strong>website creation in Auch</strong>, contact <strong>Julien Brazzalotto</strong> (<strong>jbdevweb</strong>), a freelance web developer in the Gers: showcase sites, <a href=\"/shopify/\">Shopify</a> stores and redesigns with local SEO. <a href=\"/contact/\">Free quote</a>, reply within <strong>24 to 48</strong> business hours.",
+  "creation_auch.who.more": "jbdevweb supports artisans, retailers and small businesses in Auch and the Gers (in person or video), plus e-commerce projects across France. On Google you may also find us via queries like <em>website creator Gers</em> or <em>website creation Auch</em>.",
+
+  "creation_auch.price.title": "How much does a showcase website cost in Auch?",
+  "creation_auch.price.answer": "At <strong>jbdevweb</strong>, a professional <strong>showcase website</strong> in Auch typically costs <strong>€1,500 to €4,000</strong> (2026 services), depending on page count, design and content provided.",
+  "creation_auch.price.shopify": "A <strong>Shopify store</strong> often ranges from <strong>€2,500 to €8,000</strong> in services, excluding the platform subscription (Basic from <strong>€33/month</strong>: see <a href=\"/blog/tarif-site-shopify-2026/\">Shopify pricing France 2026</a>).",
+  "creation_auch.price.note": "These ranges exclude all-in offers of a few hundred euros with no clear scope: here the perimeter, basic SEO and a single point of contact are included in the written quote.",
+
   "creation_auch.stats.title": "Indicative 2026 ranges (Auch / Gers)",
-  "creation_auch.stats.list": "<li><strong>Showcase site</strong>: <strong>€1,500 to €4,000</strong></li><li><strong>Shopify store</strong>: <strong>€2,500 to €8,000</strong> (services)</li><li><strong>Showcase timeline</strong>: <strong>3 to 6 weeks</strong></li><li><strong>Quote reply</strong>: within <strong>48 business hours</strong></li>",
+  "creation_auch.stats.table": "<thead><tr><th>Service</th><th>jbdevweb range (2026)</th></tr></thead><tbody><tr><td>Professional showcase site</td><td>€1,500 to €4,000</td></tr><tr><td>Shopify store (services)</td><td>€2,500 to €8,000</td></tr><tr><td>Typical showcase timeline</td><td>3 to 6 weeks</td></tr><tr><td>Quote reply</td><td>within 48 business hours</td></tr></tbody>",
+  "creation_auch.stats.cta_wrap": "<a href=\"/contact/\" class=\"cta\">Get a quote tailored for Auch</a>",
+
+  "creation_auch.for.title": "Who is this website creation offer in Auch for?",
+  "creation_auch.for.answer": "The <strong>jbdevweb</strong> offer suits artisans, retailers, liberal professions and small businesses in Auch and the Gers who want a clear, fast site visible on Google, or a Shopify store without unnecessary complexity.",
+  "creation_auch.for.not": "It is not for €300 all-in projects with no scope, nor for large groups looking for a multi-agency team. In that case a national agency is a better fit.",
 
   "creation_auch.s1.kicker": "In brief",
-  "creation_auch.s1.title": "Why hire a freelancer in Auch rather than a distant agency?",
+  "creation_auch.s1.title": "Why choose jbdevweb rather than a distant agency?",
   "creation_auch.s1.p1": "<strong>Website creation in Auch</strong>: the challenge isn't just having a website, but being found for queries like <em>website creation Auch</em>, <em>web agency Gers</em> or your trade + your city.",
-  "creation_auch.s1.p1b": "As a <strong>freelancer</strong>, you work with the person who designs the site: fewer layers, shorter timelines, support suited to small businesses.",
-  "creation_auch.s1.p2": "I work from <strong>Auch (32000)</strong> with businesses downtown, on the outskirts and in nearby towns (Lectoure, Condom, Fleurance, Gimont…), as well as via video call across Occitanie and France. See also my dedicated pages: <a href=\"/sites-vitrines/\">showcase sites</a> and <a href=\"/shopify/\">Shopify stores</a>.",
+  "creation_auch.s1.p1b": "As a <strong>freelancer</strong> with <strong>jbdevweb</strong>, you work with <strong>Julien Brazzalotto</strong>, the person who designs the site: fewer layers, shorter timelines, support suited to small businesses.",
+  "creation_auch.s1.p2": "Work from <strong>Auch (32000)</strong> with businesses downtown, on the outskirts and nearby towns (Lectoure, Condom, Fleurance, Gimont…), plus video calls across Occitanie and France. See also: <a href=\"/sites-vitrines/\">showcase sites</a> and <a href=\"/shopify/\">Shopify stores</a>.",
+
+  "creation_auch.seo_gsc.title": "How do you improve website SEO in Auch?",
+  "creation_auch.seo_gsc.answer": "<strong>Website SEO in Auch</strong> relies on a clear page (city + trade), a complete <a href=\"https://business.google.com/\" rel=\"noopener noreferrer\">Google Business Profile</a>, useful content and solid tech (HTTPS, mobile, speed).",
+  "creation_auch.seo_gsc.more": "At <strong>jbdevweb</strong>, local SEO is built in from day one: tags, structure, schema and internal links to service pages. For <strong>organic SEO in Auch</strong>, expect several weeks to a few months depending on competition.",
+
+  "creation_auch.ecom.title": "E-commerce and Shopify store creation in the Gers?",
+  "creation_auch.ecom.answer": "Yes: for <strong>e-commerce creation in the Gers</strong>, <strong>jbdevweb</strong> often recommends <a href=\"/shopify/\">Shopify</a> (Liquid theme, apps, product SEO, conversion).",
+  "creation_auch.ecom.more": "Typical service range: <strong>€2,500 to €8,000</strong>, excluding subscription. Plan details: <a href=\"/blog/tarif-site-shopify-2026/\">Shopify pricing France 2026</a>.",
+  "creation_auch.ecom.cta_wrap": "<a href=\"/contact/\" class=\"cta\">Talk about a Gers e-commerce project</a>",
 
   "creation_auch.s2.title": "What types of websites do you build in Auch and the Gers?",
   "creation_auch.s2.card1.title": "Professional showcase site",
@@ -65,13 +88,18 @@ window.I18N_EN = {
   "creation_auch.s2.card3.text": "Slow site, dated design or invisible on Google? Redesign on solid foundations: 301 redirects, rewritten content, Core Web Vitals and internal linking. Goal: turn visits into quote requests.",
 
   "creation_auch.s3.title": "How does a website project in Auch work?",
-  "creation_auch.s3.li1": "<strong>Initial conversation (free)</strong>: you describe your business, goals and budget. I guide you toward showcase, Shopify or redesign.",
+  "creation_auch.s3.li1": "<strong>Initial conversation (free)</strong>: you describe your business, goals and budget. jbdevweb guides you toward showcase, Shopify or redesign.",
   "creation_auch.s3.li2": "<strong>Written proposal</strong>: scope, timeline, fixed price. No surprises after signing.",
-  "creation_auch.s3.li3": "<strong>Content &amp; structure</strong>: site map, copy (writing or reuse), visuals. I guide you on what's missing.",
+  "creation_auch.s3.li3": "<strong>Content &amp; structure</strong>: site map, copy (writing or reuse), visuals. Julien Brazzalotto guides you on what's missing.",
   "creation_auch.s3.li4": "<strong>Integration &amp; basic SEO</strong>: tags, local schema, speed, form, legal notice.",
   "creation_auch.s3.li5": "<strong>Launch &amp; follow-up</strong>: domain, Search Console, post-launch fixes. Light training if needed.",
+  "creation_auch.s3.cta_wrap": "<a href=\"/contact/\" class=\"cta\">Start the first conversation</a>",
 
-  "creation_auch.s4.title": "How do you improve local SEO in Auch?",
+  "creation_auch.founder.title": "Who is behind jbdevweb in Auch?",
+  "creation_auch.founder.answer": "<strong>Julien Brazzalotto</strong> is a freelance web developer under the <strong>jbdevweb</strong> brand, based in Aubiet near Auch (Gers). He builds showcase sites, Shopify stores and Shopify apps (including <a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a> and <a href=\"/blog/cadence/\">Cadence</a> on the App Store).",
+  "creation_auch.founder.more": "Shopify experience on the brand side (notably Pétrone) and on the product side (published apps): one contact for technical work, local SEO and go-live.",
+
+  "creation_auch.s4.title": "What levers for local SEO in Auch and the Gers?",
   "creation_auch.s4.p1": "To appear on <strong>Google</strong> in the Gers, four levers add up:",
   "creation_auch.s4.li1": "Completed <strong><a href=\"https://business.google.com/\" rel=\"noopener noreferrer\">Google Business Profile</a></strong> (precise category, photos, hours, link to site).",
   "creation_auch.s4.li2": "<strong>Dedicated page</strong> with Auch / Gers in the title, URL, H1 and first paragraph, like this page.",
@@ -86,16 +114,20 @@ window.I18N_EN = {
   "creation_auch.s5.project.text": "Showcase site optimized for local visibility: modern design, technical performance and SEO structure for an artisan business in the Gers.",
 
   "creation_auch.s6.title": "Frequently asked questions about website creation in Auch",
-  "creation_auch.s6.q1.title": "How much does website creation in Auch cost?",
-  "creation_auch.s6.q1": "Custom showcase: often <strong>€1,500 to €4,000</strong>. Shopify store: <strong>€2,500 to €8,000</strong> in services depending on scope. Details in the <a href=\"/faq/\">FAQ</a>.",
+  "creation_auch.s6.q0.title": "Who should you contact for website creation in Auch?",
+  "creation_auch.s6.q0": "<strong>Julien Brazzalotto</strong> (<strong>jbdevweb</strong>), freelance developer in Auch: showcase, Shopify, redesign and local SEO. <a href=\"/contact/\">Request a quote</a>.",
+  "creation_auch.s6.q1.title": "How much does a showcase website cost in Auch?",
+  "creation_auch.s6.q1": "At <strong>jbdevweb</strong>: often <strong>€1,500 to €4,000</strong> for a showcase. Shopify store: <strong>€2,500 to €8,000</strong> in services. Details in the <a href=\"/faq/\">FAQ</a>.",
   "creation_auch.s6.q2.title": "What timeline for a showcase site?",
   "creation_auch.s6.q2": "On average <strong>3 to 6 weeks</strong> if content keeps pace. Shopify or heavy redesign: <strong>6 to 12 weeks</strong>.",
   "creation_auch.s6.q3.title": "Do you only work in Auch?",
-  "creation_auch.s6.q3": "Based in Auch, I prioritize the Gers and Occitanie in person or via video. Projects across France possible, especially e-commerce.",
+  "creation_auch.s6.q3": "<strong>jbdevweb</strong> is based in Auch: Gers and Occitanie in person or via video. Projects across France possible, especially e-commerce.",
 
-  "creation_auch.s7.title": "Ready to launch your site in Auch?",
-  "creation_auch.s7.p": "Describe your project in a few lines: site type, desired timeline, examples of sites you like. Reply within 48 business hours.",
+  "creation_auch.s7.title": "Ready to launch your site in Auch with jbdevweb?",
+  "creation_auch.s7.p": "Describe your project in a few lines: site type, desired timeline, examples of sites you like. <strong>Julien Brazzalotto</strong> replies within 48 business hours.",
   "creation_auch.s7.cta": "Get a free quote",
+  "creation_auch.related.title": "Go further",
+  "creation_auch.related.list": "<li><a href=\"/sites-vitrines/\">Showcase sites</a> — detailed showcase offer</li><li><a href=\"/shopify/\">Shopify</a> — e-commerce store</li><li><a href=\"/blog/tarif-site-shopify-2026/\">Shopify pricing France 2026</a> — subscriptions and budgets</li><li><a href=\"/faq/\">FAQ</a> — pricing, timelines, process</li>",
 
   "meta./faq/.title": "Website designer FAQ | Pricing, Shopify, SEO",
   "meta./faq/.description": "Website designer FAQ in Auch: showcase pricing, Shopify, redesign, SEO, freelancer or agency. Answers for small businesses in the Gers.",
