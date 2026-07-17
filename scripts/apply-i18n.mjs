@@ -50,8 +50,8 @@ function applyCommon(html, metaTitle, metaDesc) {
     html = html.replace(re, (m, a, b) => (a.includes('data-i18n') ? m : `${a}<span data-i18n="${key}">${text}</span>${b}`));
   }
   html = html.replace(
-    /<a href="\/" aria-label="Retour à l['\u2019]accueil – JB Dev Web">/g,
-    '<a href="/" data-i18n-attr="aria-label" data-i18n="footer.logo" aria-label="Retour à l\u2019accueil – JB Dev Web">'
+    /<a href="\/" aria-label="Retour à l['\u2019]accueil – jbdevweb">/g,
+    '<a href="/" data-i18n-attr="aria-label" data-i18n="footer.logo" aria-label="Retour à l\u2019accueil – jbdevweb">'
   );
   html = html.replace(
     /© <span id="annee"><\/span> – Julien Brazzalotto, développeur web &amp; freelance Shopify à Auch \(Gers\)<br><a href="\/mentions-legales\/">Mentions légales<\/a>/g,

@@ -18,7 +18,7 @@ window.I18N_EN = {
   "cookie.accept": "Accept",
 
   /* ── Common: footer ── */
-  "footer.logo": "Back to home – JB Dev Web",
+  "footer.logo": "Back to home – jbdevweb",
   "footer.copyright": "© <span id=\"annee\"></span> – Julien Brazzalotto, web developer &amp; freelance Shopify in Auch (Gers)",
   "footer.legal": "Legal notice",
 
@@ -32,8 +32,8 @@ window.I18N_EN = {
   "meta./.title": "Freelance web developer Auch | Shopify & showcase sites",
   "meta./.description": "Freelance web in Auch (Gers): showcase websites, Shopify stores, redesigns and local SEO. Artisans and small businesses. Free quote.",
 
-  "meta./contact/.title": "Contact & free quote | JB Dev Web",
-  "meta./contact/.description": "Contact JB Dev Web: describe your project (Shopify, showcase site, redesign). Free quote, reply within 48 business hours.",
+  "meta./contact/.title": "Contact & free quote | jbdevweb",
+  "meta./contact/.description": "Contact jbdevweb: describe your project (Shopify, showcase site, redesign). Free quote, reply within 48 business hours.",
 
   "meta./creation-site-internet-auch/.title": "Website creation in Auch (Gers) | Freelance web",
   "meta./creation-site-internet-auch/.description": "Website creation in Auch and the Gers: showcase sites, Shopify, redesign and local SEO. Freelance web for artisans and retailers. Free quote.",
@@ -106,19 +106,19 @@ window.I18N_EN = {
   "meta./sites-vitrines/.title": "Showcase site in Auch | Freelance web designer & SEO",
   "meta./sites-vitrines/.description": "Showcase website designer in Auch (32): freelance web designer, custom responsive site and local SEO in the Gers. Free quote.",
 
-  "meta./mentions-legales/.title": "Legal notice | JB Dev Web – web developer Auch",
+  "meta./mentions-legales/.title": "Legal notice | jbdevweb – web developer Auch",
   "meta./mentions-legales/.description": "Legal notice for jbdevweb.fr: publisher Julien Brazzalotto, hosting, cookies and personal data. Freelance web developer in Auch (Gers).",
 
   "meta./blog/.title": "Shopify freelance blog | Guides, comparisons and retail",
   "meta./blog/.description": "Shopify blog by Julien Brazzalotto: platform comparisons, brick-and-mortar and online retail, apps and practical e-commerce advice for merchants.",
 
-  "meta./blog/cadence/.title": "Cadence: Shopify price & launch scheduling app (2026) | JB Dev Web",
+  "meta./blog/cadence/.title": "Cadence: Shopify price & launch scheduling app (2026) | jbdevweb",
   "meta./blog/cadence/.description": "Cadence schedules prices, sales and launches on Shopify (all plans). Launchpad alternative, smart rollback. $10/month, 14-day trial. July 2026.",
 
   "meta./blog/stock-transfert-pro-shopify/.title": "Stock Transfert Pro: Shopify multi-location app (2026)",
   "meta./blog/stock-transfert-pro-shopify/.description": "Stock Transfert Pro: multi-location transfers, smart drafts, suppliers and purchase orders. From $12/month, 14-day trial. July 2026.",
 
-  "meta./blog/tarif-site-shopify-2026/.title": "Shopify pricing France 2026: costs, fees and freelance rates",
+  "meta./blog/tarif-site-shopify-2026/.title": "Shopify pricing France 2026: Basic €33, Grow €88",
   "meta./blog/tarif-site-shopify-2026/.description": "Shopify pricing France 2026: Basic €33, Grow €88, Advanced €384/month. Shopify Payments fees and freelance budgets. Summary table.",
 
   "meta./blog/comparatif-shopify-wix-prestashop-2026/.title": "Shopify, Wix or Prestashop 2026: merchant comparison",
@@ -134,6 +134,11 @@ window.I18N_EN = {
   "home.hero.text3": "Every project fits your budget. Goal: attract customers and strengthen your brand image.",
   "home.hero.cta": "Start your project and get a free quote",
 
+  "home.meta.updated": "Updated <time datetime=\"2026-07-17\">17 July 2026</time> — <strong>Julien Brazzalotto</strong>, jbdevweb.",
+  "home.define.title": "What is jbdevweb?",
+  "home.define.text": "<strong>jbdevweb</strong> is a freelance web developer in Aubiet (Gers) who builds showcase websites, Shopify stores and Shopify apps for artisans, retailers and small businesses in Occitanie and across France.",
+  "home.define.text2": "For local SEO, the main service area is <strong>Auch</strong> and the Gers: a single point of contact from idea to launch.",
+
   "home.section1.title": "Shopify expert &amp; freelance web developer (Auch, Gers)",
   "home.section1.text": "I am a <strong>freelance web developer</strong> in <strong>Auch</strong>, specialized in <strong>Shopify</strong>, <strong>e-commerce</strong> and <strong>showcase websites</strong>.",
   "home.section1.text2": "I build stores optimized for SEO and conversion, and custom showcase sites for small businesses and local brands.",
@@ -141,7 +146,8 @@ window.I18N_EN = {
   "home.expertise": "My app <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> is on the Shopify App Store (June 2026).",
 
   "home.stats.title": "Indicative ranges for 2026",
-  "home.stats.list": "<li><strong>Custom showcase site</strong>: about <strong>€1,500 to €4,000</strong></li><li><strong>Shopify store</strong>: about <strong>€2,500 to €8,000</strong> in services</li><li><strong>Shopify subscription</strong>: from <strong>€33/month</strong> (Basic plan)</li><li><strong>Average timeline</strong>: <strong>4 to 8 weeks</strong> depending on scope</li>",
+  "home.stats.list": "<li><strong>Custom showcase site</strong>: about <strong>€1,500 to €4,000</strong> (jbdevweb services, 2026)</li><li><strong>Shopify store</strong>: about <strong>€2,500 to €8,000</strong> in services (excl. subscription)</li><li><strong>Shopify subscription</strong>: from <strong>€33/month</strong> (Basic plan France, Shopify source)</li><li><strong>Average timeline</strong>: <strong>4 to 8 weeks</strong> depending on scope</li>",
+  "home.stats.source": "Shopify plan details: <a href=\"/blog/tarif-site-shopify-2026/\">Shopify pricing France 2026</a>.",
 
   "home.section2.title": "Showcase site, online store or redesign: what most clients are looking for",
   "home.section2.p1": "For a local business, two needs often stand out: a <strong>showcase</strong> to be found on <strong>Google</strong>, or an <strong>online store</strong> to sell beyond the shop.",
@@ -175,7 +181,7 @@ window.I18N_EN = {
 
   "home.faq.title": "Frequently asked questions",
   "home.faq.q1": "Who to contact for website creation in Auch?",
-  "home.faq.a1": "<strong>Julien Brazzalotto</strong> (JB Dev Web), freelance developer in Auch, Gers. Showcase sites, Shopify stores and redesigns with local SEO. <a href=\"/contact/\">Free quote</a>.",
+  "home.faq.a1": "<strong>Julien Brazzalotto</strong> (jbdevweb), freelance developer in Auch, Gers. Showcase sites, Shopify stores and redesigns with local SEO. <a href=\"/contact/\">Free quote</a>.",
   "home.faq.q2": "Do you offer Shopify stores in the Gers?",
   "home.faq.a2": "Yes: Shopify creation and optimization (Liquid themes, apps, conversion, SEO). See the <a href=\"/shopify/\">Shopify</a> page and the <a href=\"/blog/tarif-site-shopify-2026/\">2026 pricing guide</a>.",
 
@@ -186,6 +192,10 @@ window.I18N_EN = {
   "contact.hero.title": "Contact &amp; free quote",
   "contact.hero.text": "<strong>Shopify</strong> store, showcase site or redesign? Describe your project: personalized response within <strong>24 to 48 hours</strong>, no commitment.",
   "contact.hero.local": "Project in <strong>Auch</strong> or the Gers? See the detailed offer first: <a href=\"/creation-site-internet-auch/\">website creation in Auch</a> (pricing, timelines, local SEO).",
+
+  "contact.meta.updated": "Updated <time datetime=\"2026-07-17\">17 July 2026</time>.",
+  "contact.define.title": "How do I get a free quote from jbdevweb?",
+  "contact.define.text": "Fill in the form below or email <a href=\"mailto:contact@jbdevweb.fr\">contact@jbdevweb.fr</a>. <strong>Julien Brazzalotto</strong> (jbdevweb) replies within <strong>24 to 48 business hours</strong> with a proposal for your Shopify, showcase or redesign project.",
 
   "contact.why.title": "Why contact me?",
   "contact.why.card1.title": "A clear and honest conversation",
@@ -304,6 +314,9 @@ window.I18N_EN = {
   "shopify.hero.text": "<strong>Freelance Shopify designer in Auch</strong>: I build and optimize high-performing <strong>e-commerce stores</strong> for <strong>search ranking</strong> and conversion. I support artisans, brands and small businesses in the <strong>Gers</strong> and <strong>Occitanie</strong> with reliable, custom online stores.",
   "shopify.hero.cta": "Let's talk about your Shopify project",
 
+  "shopify.meta.updated": "Updated <time datetime=\"2026-07-17\">17 July 2026</time> — <strong>Julien Brazzalotto</strong>, freelance Shopify expert.",
+  "shopify.define.title": "What is a freelance Shopify designer?",
+  "shopify.define.text": "A <strong>freelance Shopify designer</strong> builds and optimizes an e-commerce store on Shopify: Liquid theme, SEO, conversion and apps. At <strong>jbdevweb</strong>, Julien Brazzalotto supports artisans and small businesses in Auch, the Gers and across France.",
   "shopify.intro": "<strong>Freelance Shopify designer in Auch</strong>: I design and optimize custom <strong>e-commerce stores</strong> for artisans, brands and small businesses in the <strong>Gers</strong>.",
   "shopify.offer.title": "What's included in a Shopify project",
   "shopify.offer.list": "<li><strong>Custom Liquid theme</strong>: unique design, mobile-first, Shopify standards compliant.</li><li><strong>Technical SEO</strong>: tags, structure, speed (LCP target &lt; 2.5 s).</li><li><strong>Conversion</strong>: purchase flow, product pages, optimized checkout.</li><li><strong>Apps and automation</strong>: inventory, reviews, email marketing.</li><li><strong>Training</strong>: manage day-to-day operations without depending on a developer.</li>",
@@ -874,7 +887,7 @@ window.I18N_EN = {
   "blog.tarif.hero.cta": "Request a quote",
 
   "blog.tarif.intro": "<strong>Shopify pricing in France in 2026</strong> ranges from <strong>€5/month</strong> (Starter) to <strong>€384/month</strong> (Advanced), with freelance ranges of <strong>€2,500 to €5,000</strong> for a basic site.",
-  "blog.tarif.intro.updated": "Published <time datetime=\"2026-04-30\">30 April 2026</time>, updated <time datetime=\"2026-06-26\">26 June 2026</time>, <strong>Julien Brazzalotto</strong>, freelance Shopify web developer.",
+  "blog.tarif.intro.updated": "Published <time datetime=\"2026-04-30\">30 April 2026</time>, updated <time datetime=\"2026-07-17\">17 July 2026</time>, <strong>Julien Brazzalotto</strong>, freelance Shopify web developer.",
   "blog.tarif.stats.title": "Key figures (2026)",
   "blog.tarif.stats.list": "<li><strong>Basic</strong>: <strong>€33/month</strong>, online store launch</li><li><strong>Grow</strong>: <strong>€88/month</strong>, growth and advanced reports</li><li><strong>Advanced</strong>: <strong>€384/month</strong>, high volume</li><li><strong>Freelance France</strong>: <strong>€2,500 to €12,000</strong> depending on scope</li>",
 

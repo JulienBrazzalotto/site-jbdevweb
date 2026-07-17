@@ -1,4 +1,4 @@
-# JB Dev Web
+# jbdevweb
 
 > Freelance web developer in Auch (Gers), France. Shopify e-commerce, custom showcase websites, redesigns and local SEO for artisans, retailers and small businesses.
 
@@ -20,7 +20,7 @@
 
 ## Business facts
 
-- Name: Julien Brazzalotto — JB Dev Web
+- Name: Julien Brazzalotto — jbdevweb
 - Location: Auch, 32000, Gers, Occitanie, France
 - Phone: +33 6 74 46 60 97
 - Specialties: Shopify, e-commerce, showcase websites, local SEO, web redesign

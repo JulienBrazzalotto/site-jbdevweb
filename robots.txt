@@ -1,4 +1,4 @@
-# JB Dev Web — allow search engines and AI crawlers (search + training)
+# jbdevweb — allow search engines and AI crawlers (search + training)
 # If Cloudflare "AI Crawl Control" injects Disallow rules for GPTBot/ClaudeBot,
 # disable that managed block in the Cloudflare dashboard so this file applies.
 
