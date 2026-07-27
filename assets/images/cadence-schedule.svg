@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-labelledby="cadTitle cadDesc">
+  <title id="cadTitle">Planification Cadence sur Shopify</title>
+  <desc id="cadDesc">Cibler le catalogue, definir l action prix ou visibilite, programmer l horaire, activer avec rollback</desc>
+  <rect width="960" height="280" rx="16" fill="#0f1a15" stroke="#00E676" stroke-width="2"/>
+  <g font-family="Segoe UI, system-ui, sans-serif">
+    <rect x="36" y="48" width="200" height="110" rx="12" fill="#163024" stroke="#00E676" stroke-width="2.5"/>
+    <text x="136" y="95" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">1. Cibles</text>
+    <text x="136" y="125" text-anchor="middle" fill="#b7e0c8" font-size="14">Collections, tags</text>
+
+    <path d="M248 103 H254" stroke="#00E676" stroke-width="3"/>
+    <polygon points="254,98 266,103 254,108" fill="#00E676"/>
+
+    <rect x="266" y="48" width="200" height="110" rx="12" fill="#163024" stroke="#00E676" stroke-width="2.5"/>
+    <text x="366" y="95" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">2. Actions</text>
+    <text x="366" y="125" text-anchor="middle" fill="#b7e0c8" font-size="14">Prix, visibilite, stock</text>
+
+    <path d="M478 103 H484" stroke="#00E676" stroke-width="3"/>
+    <polygon points="484,98 496,103 484,108" fill="#00E676"/>
+
+    <rect x="496" y="48" width="200" height="110" rx="12" fill="#163024" stroke="#00E676" stroke-width="2.5"/>
+    <text x="596" y="95" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">3. Timing</text>
+    <text x="596" y="125" text-anchor="middle" fill="#b7e0c8" font-size="14">Debut / fin / fuseau</text>
+
+    <path d="M708 103 H714" stroke="#00E676" stroke-width="3"/>
+    <polygon points="714,98 726,103 714,108" fill="#00E676"/>
+
+    <rect x="726" y="48" width="200" height="110" rx="12" fill="#163024" stroke="#00E676" stroke-width="2.5"/>
+    <text x="826" y="95" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">4. Rollback</text>
+    <text x="826" y="125" text-anchor="middle" fill="#b7e0c8" font-size="14">Retour auto</text>
+
+    <text x="480" y="220" text-anchor="middle" fill="#d7f5e3" font-size="17" font-weight="600">Cadence · planification prix et lancements Shopify · dès 10 $/mois</text>
+  </g>
+</svg>

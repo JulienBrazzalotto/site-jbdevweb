@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <meta property="og:type" content="article">
   <meta property="article:published_time" content="2026-06-03">
-  <meta property="article:modified_time" content="2026-07-03">
+  <meta property="article:modified_time" content="2026-07-27">
   <meta property="og:locale" content="fr_FR">
   <meta property="og:url" content="https://jbdevweb.fr/blog/stock-transfert-pro-shopify/">
   <meta property="og:title" content="Stock Transfert Pro : app Shopify multi-emplacements">
@@ -23,7 +23,7 @@
   <meta property="og:site_name" content="jbdevweb">
   <meta property="og:image" content="https://jbdevweb.fr/assets/images/banniere-linkedin-jbdevweb-sans-espace.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Stock Transfert Pro — app Shopify (2026)">
+  <meta name="twitter:title" content="Stock Transfert Pro, app Shopify multi-emplacements (2026)">
   <meta name="twitter:description" content="Transferts, fournisseurs et bons de commande pour Shopify multi-emplacements. À partir de 12 $/mois.">
   <meta name="twitter:image" content="https://jbdevweb.fr/assets/images/banniere-linkedin-jbdevweb-sans-espace.png">
   <script type="application/ld+json">
@@ -38,7 +38,7 @@
         "description": "App Shopify multi-emplacements : transferts, brouillons intelligents, réception POS, fournisseurs et bons de commande.",
         "inLanguage": "fr-FR",
         "datePublished": "2026-06-03",
-        "dateModified": "2026-07-03",
+        "dateModified": "2026-07-27",
         "isPartOf": { "@id": "https://jbdevweb.fr/#website" },
         "about": { "@id": "https://jbdevweb.fr/blog/stock-transfert-pro-shopify/#article" }
       },
@@ -73,12 +73,16 @@
         "@id": "https://jbdevweb.fr/#person",
         "name": "Julien Brazzalotto",
         "jobTitle": "Développeur web freelance",
+        "description": "Développeur web freelance à Auch (Gers), créateur de Stock Transfert Pro et Cadence sur le Shopify App Store.",
+        "image": "https://jbdevweb.fr/assets/images/banniere-linkedin-jbdevweb-sans-espace.png",
         "url": "https://jbdevweb.fr/",
         "worksFor": { "@id": "https://jbdevweb.fr/#localbusiness" },
+        "knowsAbout": ["Shopify", "transferts multi-emplacements", "SEO local", "Liquid", "apps Shopify"],
         "sameAs": [
           "https://github.com/JulienBrazzalotto",
           "https://fr.linkedin.com/in/julien-brazzalotto-537418146",
-          "https://apps.shopify.com/stock-transfert-pro"
+          "https://apps.shopify.com/stock-transfert-pro",
+          "https://apps.shopify.com/cadence-2"
         ]
       },
       {
@@ -88,10 +92,13 @@
         "description": "App Shopify multi-emplacements : transferts, brouillons intelligents, réception POS, fournisseurs et bons de commande.",
         "inLanguage": "fr-FR",
         "datePublished": "2026-06-03",
-        "dateModified": "2026-07-03",
+        "dateModified": "2026-07-27",
         "author": { "@id": "https://jbdevweb.fr/#person" },
         "publisher": { "@id": "https://jbdevweb.fr/#localbusiness" },
-        "image": "https://jbdevweb.fr/assets/images/banniere-linkedin-jbdevweb-sans-espace.png",
+        "image": [
+          "https://jbdevweb.fr/assets/images/banniere-linkedin-jbdevweb-sans-espace.png",
+          "https://jbdevweb.fr/assets/images/stp-transfert-cycle.svg"
+        ],
         "mainEntityOfPage": { "@id": "https://jbdevweb.fr/blog/stock-transfert-pro-shopify/#webpage" },
         "about": { "@id": "https://jbdevweb.fr/blog/stock-transfert-pro-shopify/#software" }
       },
@@ -221,10 +228,7 @@
 <main>
 <section>
   <p data-i18n="blog.stp.intro" data-i18n-html>
-    <strong>Stock Transfert Pro</strong> est une <strong>app Shopify multi-emplacements</strong> pour piloter les transferts d'inventaire entre magasins, entrepôts et points de vente — et, depuis juin 2026, les <strong>achats fournisseurs</strong> (référentiel, bons de commande, planification).
-  </p>
-  <p data-i18n="blog.stp.intro.updated" data-i18n-html>
-    Publiée le <time datetime="2026-06-03">3 juin 2026</time>, mise à jour le <time datetime="2026-07-03">3 juillet 2026</time>, <strong>Julien Brazzalotto</strong>, développeur de l'app.
+    <strong>Stock Transfert Pro</strong> est une <strong>app Shopify multi-emplacements</strong> pour piloter les transferts d'inventaire entre magasins, entrepôts et points de vente, et depuis juin 2026 les <strong>achats fournisseurs</strong> (référentiel, bons de commande, planification).
   </p>
   <h2 data-i18n="blog.stp.stats.title">Chiffres clés (2026)</h2>
   <ul data-i18n="blog.stp.stats.list" data-i18n-html>
@@ -234,30 +238,72 @@
     <li><strong>Module Achats</strong>&nbsp;: fournisseurs + bons de commande</li>
     <li><strong>Essai gratuit</strong>&nbsp;: <strong>14 jours</strong> sur tous les plans</li>
   </ul>
+  <figure class="blog-figure">
+    <div class="flow-diagram" role="group" aria-label="Stock Transfert Pro : transferts, brouillons intelligents, réception POS et achats fournisseurs" data-i18n-attr="aria-label" data-i18n="blog.stp.figure.aria">
+      <ol class="flow-steps">
+        <li>
+          <div class="flow-step">
+            <b>1</b>
+            <strong data-i18n="blog.stp.figure.s1.title">Transferts</strong>
+            <span data-i18n="blog.stp.figure.s1.text">Brouillon → envoyé → reçu</span>
+          </div>
+          <span class="flow-sep" aria-hidden="true">→</span>
+        </li>
+        <li>
+          <div class="flow-step">
+            <b>2</b>
+            <strong data-i18n="blog.stp.figure.s2.title">Brouillons intelligents</strong>
+            <span data-i18n="blog.stp.figure.s2.text">Ventes ou objectifs de stock</span>
+          </div>
+          <span class="flow-sep" aria-hidden="true">→</span>
+        </li>
+        <li>
+          <div class="flow-step">
+            <b>3</b>
+            <strong data-i18n="blog.stp.figure.s3.title">Réception POS</strong>
+            <span data-i18n="blog.stp.figure.s3.text">Mobile, scan, magasin</span>
+          </div>
+          <span class="flow-sep" aria-hidden="true">→</span>
+        </li>
+        <li>
+          <div class="flow-step">
+            <b>4</b>
+            <strong data-i18n="blog.stp.figure.s4.title">Achats</strong>
+            <span data-i18n="blog.stp.figure.s4.text">Fournisseurs et bons de commande</span>
+          </div>
+        </li>
+      </ol>
+      <p class="flow-diagram-note" data-i18n="blog.stp.figure.note">Stock Transfert Pro · multi-emplacements Shopify · prévisions et alertes en Pro / Pro+</p>
+    </div>
+    <figcaption data-i18n="blog.stp.figure.caption">Les quatre piliers de Stock Transfert Pro : transferts, brouillons intelligents, POS et achats.</figcaption>
+  </figure>
 </section>
 
 <section class="alt blog-article">
   <p data-i18n="blog.stp.s1.kicker" class="blog-kicker">Pourquoi cette app</p>
-  <h2 data-i18n="blog.stp.s1.title">Combler le vide laissé par Stocky</h2>
+  <h2 data-i18n="blog.stp.s1.title">Stock Transfert Pro remplace-t-il Stocky en 2026&nbsp;?</h2>
+  <p data-i18n="blog.stp.s1.answer" data-i18n-html>
+    Oui pour les <strong>transferts multi-emplacements</strong> et le <strong>module Achats</strong> (fournisseurs, bons de commande). <strong>Stocky</strong> a quitté le Shopify App Store le <strong>2 février 2026</strong>, avec un arrêt total prévu au <strong>31 août 2026</strong>.
+  </p>
   <p data-i18n="blog.stp.s1.p1" data-i18n-html>
-    <strong>Stocky</strong>, l'app d'inventaire historique de Shopify, a été <strong>retirée du Shopify App Store le 2 février 2026</strong>, avec un arrêt total prévu au <strong>31 août 2026</strong>. Beaucoup de marchands multi-emplacements se sont retrouvés sans outil simple pour piloter leurs transferts inter-boutiques.
+    Beaucoup de marchands multi-emplacements se sont retrouvés sans outil simple pour piloter leurs transferts inter-boutiques après le retrait de Stocky.
   </p>
   <p data-i18n="blog.stp.s1.p2" data-i18n-html>
-    <strong>Stock Transfert Pro</strong> répond à ce besoin : un outil <strong>focalisé sur les transferts</strong> entre emplacements Shopify, enrichi depuis juin 2026 d'un <strong>module Achats</strong> (fournisseurs et bons de commande). Conçu pour des équipes qui bougent du stock entre dépôt et magasins, ou entre boutiques d'un même réseau. Lancement officiel sur l'App Store le <strong>3 juin 2026</strong>.
+    <strong>Stock Transfert Pro</strong> répond à ce besoin : un outil <strong>focalisé sur les transferts</strong> entre emplacements Shopify, enrichi depuis juin 2026 d'un <strong>module Achats</strong>. Conçu pour des équipes qui bougent du stock entre dépôt et magasins. Lancement officiel sur l'App Store le <strong>3 juin 2026</strong>.
   </p>
 </section>
 
 <section class="blog-article">
   <p data-i18n="blog.stp.s2.kicker" class="blog-kicker">Workflow</p>
-  <h2 data-i18n="blog.stp.s2.title">Transferts manuels avec un cycle d'état clair</h2>
+  <h2 data-i18n="blog.stp.s2.title">Comment fonctionne un transfert multi-emplacements&nbsp;?</h2>
+  <p data-i18n="blog.stp.s2.answer" data-i18n-html>
+    Chaque transfert relie deux <strong>emplacements Shopify</strong> et suit le cycle <strong>brouillon → envoyé → reçu</strong> (annulation possible). À l'envoi, le stock est <strong>retiré</strong> à la source ; à la réception, il est <strong>ajouté</strong> à destination via l'API Admin Shopify.
+  </p>
   <p data-i18n="blog.stp.s2.p1" data-i18n-html>
-    Chaque transfert relie deux <strong>emplacements Shopify</strong> et suit un cycle lisible&nbsp;:
-    <strong>brouillon</strong> → <strong>envoyé</strong> → <strong>reçu</strong>, avec possibilité d'annulation.
+    Le cycle reste lisible pour l'équipe magasin comme pour l'entrepôt&nbsp;: brouillon, envoyé, reçu.
   </p>
   <p data-i18n="blog.stp.s2.p1b" data-i18n-html>
-    À l'envoi, le stock est <strong>retiré</strong> à la source.
-    À la réception, il est <strong>ajouté</strong> à destination via l'API Admin Shopify.
-    Les niveaux restent alignés sur l'état réel.
+    Les niveaux restent alignés sur l'état réel du stock après chaque étape.
   </p>
   <p data-i18n="blog.stp.s2.p2" data-i18n-html>
     Les <strong>réceptions partielles</strong> sont gérées nativement : quantités envoyées vs quantités effectivement reçues, écarts, notes du personnel. Tout passe dans un <strong>journal d'audit complet</strong> pour retracer qui a fait quoi et quand.
@@ -265,9 +311,12 @@
 </section>
 
 <section class="alt blog-article">
-  <h2 data-i18n="blog.stp.s3.title">Brouillons intelligents : moins de calcul à la main</h2>
+  <h2 data-i18n="blog.stp.s3.title">Comment générer un brouillon de transfert intelligent&nbsp;?</h2>
+  <p data-i18n="blog.stp.s3.answer" data-i18n-html>
+    Stock Transfert Pro propose deux moteurs&nbsp;: suggestions <strong>d'après les ventes</strong>, ou <strong>d'après des objectifs de stock</strong> (plans Pro et Pro+). Le brouillon reste modifiable avant validation et envoi.
+  </p>
   <p data-i18n="blog.stp.s3.p1">
-    Au-delà du manuel, l'app propose deux moteurs de suggestion pour préparer un transfert en quelques clics :
+    Au-delà du manuel, l'app prépare un transfert en quelques clics :
   </p>
   <ul class="blog-list">
     <li data-i18n="blog.stp.s3.li1" data-i18n-html><strong>D'après les ventes</strong>&nbsp;: analyse des commandes sur une période choisie, regroupement par variante, comparaison au stock du magasin cible.</li>
@@ -325,7 +374,7 @@
     Chaque bon de commande suit un cycle lisible, calqué sur les transferts&nbsp;:
   </p>
   <ul class="blog-list">
-    <li data-i18n="blog.stp.s5b.po.li1" data-i18n-html><strong>Brouillon</strong>&nbsp;: choix de l'emplacement de réception, du fournisseur, recherche produits en direct, quantités commandées — modifiable tant que le statut reste brouillon.</li>
+    <li data-i18n="blog.stp.s5b.po.li1" data-i18n-html><strong>Brouillon</strong>&nbsp;: choix de l'emplacement de réception, du fournisseur, recherche produits en direct, quantités commandées (modifiable tant que le statut reste brouillon).</li>
     <li data-i18n="blog.stp.s5b.po.li2" data-i18n-html><strong>Commandé</strong>&nbsp;: envoi par e-mail au fournisseur avec <strong>PDF joint</strong> (copie optionnelle à la boutique). Le passage à «&nbsp;commandé&nbsp;» se fait uniquement après envoi réussi.</li>
     <li data-i18n="blog.stp.s5b.po.li3" data-i18n-html><strong>Reçu partiellement / Reçu</strong>&nbsp;: saisie des quantités reçues ligne par ligne ou «&nbsp;tout recevoir&nbsp;». Les quantités augmentent le stock à l'emplacement choisi, directement dans <strong>Shopify</strong>.</li>
   </ul>
@@ -346,7 +395,10 @@
 
 <section class="blog-article">
   <p data-i18n="blog.stp.s6.kicker" class="blog-kicker">Tarifs</p>
-  <h2 data-i18n="blog.stp.s6.title">Trois plans, un essai gratuit de 14 jours</h2>
+  <h2 data-i18n="blog.stp.s6.title">Combien coûtent les plans Stock Transfert Pro&nbsp;?</h2>
+  <p data-i18n="blog.stp.s6.answer" data-i18n-html>
+    Trois plans en USD&nbsp;: <strong>Starter 12&nbsp;$/mois</strong> (2 emplacements), <strong>Pro 57&nbsp;$/mois</strong> (emplacements illimités), <strong>Pro+ 116&nbsp;$/mois</strong>. Essai gratuit de <strong>14 jours</strong> sur chaque plan.
+  </p>
   <p data-i18n="blog.stp.s6.p" data-i18n-html>
     Tous les plans sont facturés en USD, paiement mensuel via Shopify Billing. Essai gratuit <strong>14 jours</strong> sur chaque plan.
   </p>
@@ -487,6 +539,17 @@
     <a href="https://apps.shopify.com/stock-transfert-pro" class="cta" data-i18n="blog.stp.s8.cta_install" target="_blank" rel="noopener">Installer Stock Transfert Pro</a>
     <a data-i18n="blog.stp.s8.cta_blog" href="/blog/" class="cta-secondary">Retour au blog</a>
   </div>
+</section>
+
+<section class="blog-article" aria-labelledby="author-heading">
+  <h2 id="author-heading" data-i18n="blog.author.title">À propos de l'auteur</h2>
+  <aside class="author-box">
+    <div class="author-box-avatar" aria-hidden="true">JB</div>
+    <div>
+      <p data-i18n="blog.author.bio" data-i18n-html><strong>Julien Brazzalotto</strong> (jbdevweb) est développeur web freelance à Auch (Gers). Il crée des sites vitrines, des boutiques Shopify et des apps publiées sur le Shopify App Store, dont <a href="/blog/stock-transfert-pro-shopify/">Stock Transfert Pro</a> et <a href="/blog/cadence/">Cadence</a>.</p>
+      <p data-i18n="blog.author.links" data-i18n-html><a href="/creation-site-internet-auch/">Création de site à Auch</a> · <a href="https://fr.linkedin.com/in/julien-brazzalotto-537418146" rel="noopener noreferrer">LinkedIn</a> · <a href="/contact/">Contact</a></p>
+    </div>
+  </aside>
 </section>
 
 </main>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="stpTitle stpDesc">
+  <title id="stpTitle">Cycle de transfert Stock Transfert Pro</title>
+  <desc id="stpDesc">Brouillon, envoye, recu : stock retire a la source puis ajoute a destination sur Shopify</desc>
+  <rect width="960" height="320" rx="16" fill="#0f1a15" stroke="#00E676" stroke-width="2"/>
+  <rect x="40" y="70" width="200" height="120" rx="12" fill="#163024" stroke="#00E676" stroke-width="2.5"/>
+  <text x="140" y="125" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, system-ui, sans-serif" font-size="22" font-weight="700">Brouillon</text>
+  <text x="140" y="155" text-anchor="middle" fill="#b7e0c8" font-family="Segoe UI, system-ui, sans-serif" font-size="14">Preparer le transfert</text>
+  <path d="M255 130 H325" stroke="#00E676" stroke-width="3"/>
+  <polygon points="325,125 340,130 325,135" fill="#00E676"/>
+  <rect x="350" y="70" width="200" height="120" rx="12" fill="#163024" stroke="#00E676" stroke-width="2.5"/>
+  <text x="450" y="125" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, system-ui, sans-serif" font-size="22" font-weight="700">Envoye</text>
+  <text x="450" y="155" text-anchor="middle" fill="#b7e0c8" font-family="Segoe UI, system-ui, sans-serif" font-size="14">Stock retire a la source</text>
+  <path d="M565 130 H635" stroke="#00E676" stroke-width="3"/>
+  <polygon points="635,125 650,130 635,135" fill="#00E676"/>
+  <rect x="660" y="70" width="240" height="120" rx="12" fill="#163024" stroke="#00E676" stroke-width="2.5"/>
+  <text x="780" y="125" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, system-ui, sans-serif" font-size="22" font-weight="700">Recu</text>
+  <text x="780" y="155" text-anchor="middle" fill="#b7e0c8" font-family="Segoe UI, system-ui, sans-serif" font-size="14">Stock ajoute a destination</text>
+  <text x="480" y="260" text-anchor="middle" fill="#d7f5e3" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="600">Stock Transfert Pro · multi-emplacements Shopify · 2026</text>
+</svg>

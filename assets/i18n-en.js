@@ -44,8 +44,6 @@ window.I18N_EN = {
   "creation_auch.hero.definition": "<strong>Website creation in Auch</strong> means designing a showcase site or online store for a local Gers business, with a technical base built for Google (HTTPS, mobile, local content).",
   "creation_auch.hero.cta": "Request a free quote",
 
-  "creation_auch.intro.updated": "Updated <time datetime=\"2026-07-17\">17 July 2026</time> — <strong>Julien Brazzalotto</strong>, <strong>jbdevweb</strong>, freelance web developer in Auch (Gers).",
-
   "creation_auch.who.title": "Who should you contact for website creation in Auch?",
   "creation_auch.who.answer": "For <strong>website creation in Auch</strong>, contact <strong>Julien Brazzalotto</strong> (<strong>jbdevweb</strong>), a freelance web developer in the Gers: showcase sites, <a href=\"/shopify/\">Shopify</a> stores and redesigns with local SEO. <a href=\"/contact/\">Free quote</a>, reply within <strong>24 to 48</strong> business hours.",
   "creation_auch.who.more": "jbdevweb supports artisans, retailers and small businesses in Auch and the Gers (in person or video), plus e-commerce projects across France. On Google you may also find us via queries like <em>website creator Gers</em> or <em>website creation Auch</em>.",
@@ -150,14 +148,14 @@ window.I18N_EN = {
   "meta./blog/stock-transfert-pro-shopify/.title": "Stock Transfert Pro: Shopify multi-location app (2026)",
   "meta./blog/stock-transfert-pro-shopify/.description": "Stock Transfert Pro: multi-location transfers, smart drafts, suppliers and purchase orders. From $12/month, 14-day trial. July 2026.",
 
-  "meta./blog/tarif-site-shopify-2026/.title": "Shopify pricing France 2026: Basic €33, Grow €88",
-  "meta./blog/tarif-site-shopify-2026/.description": "Shopify pricing France 2026: Basic €33, Grow €88, Advanced €384/month. Shopify Payments fees and freelance budgets. Summary table.",
+  "meta./blog/tarif-site-shopify-2026/.title": "Shopify Pricing France 2026: Basic €33/month (official plans)",
+  "meta./blog/tarif-site-shopify-2026/.description": "Shopify pricing France 2026: Starter €5, Basic €33, Grow €88, Advanced €384/month. Shopify Payments + freelance budgets. Updated July 2026.",
 
   "meta./blog/comparatif-shopify-wix-prestashop-2026/.title": "Shopify, Wix or Prestashop 2026: merchant comparison",
   "meta./blog/comparatif-shopify-wix-prestashop-2026/.description": "Shopify, Wix or Prestashop: selection criteria, 3-year cost, POS and inventory, SEO and maintenance. Field insights from a freelance e-commerce developer for every merchant.",
 
-  "meta./blog/magasin-physique-boutique-en-ligne/.title": "Brick-and-mortar store online on Shopify: launch without breaking everything",
-  "meta./blog/magasin-physique-boutique-en-ligne/.description": "Taking your brick-and-mortar store online on Shopify: unified inventory, click & collect, local SEO and mistakes to avoid. Guide for every merchant with a physical location.",
+  "meta./blog/magasin-physique-boutique-en-ligne/.title": "Brick-and-mortar + Shopify store: inventory, POS, omnichannel (2026)",
+  "meta./blog/magasin-physique-boutique-en-ligne/.description": "Connect a physical store to Shopify: multi-location inventory, POS, click &amp; collect, local SEO. 2026 guide + Stock Transfert Pro. Julien Brazzalotto.",
 
   /* ── Home (/) ── */
   "home.hero.title": "Freelance web developer in <span>Auch</span>: Shopify, e-commerce &amp; showcase website creation",
@@ -166,7 +164,6 @@ window.I18N_EN = {
   "home.hero.text3": "Every project fits your budget. Goal: attract customers and strengthen your brand image.",
   "home.hero.cta": "Start your project and get a free quote",
 
-  "home.meta.updated": "Updated <time datetime=\"2026-07-17\">17 July 2026</time> — <strong>Julien Brazzalotto</strong>, jbdevweb.",
   "home.define.title": "What is jbdevweb?",
   "home.define.text": "<strong>jbdevweb</strong> is a freelance web developer in Aubiet (Gers) who builds showcase websites, Shopify stores and Shopify apps for artisans, retailers and small businesses in Occitanie and across France.",
   "home.define.text2": "For local SEO, the main service area is <strong>Auch</strong> and the Gers: a single point of contact from idea to launch.",
@@ -175,7 +172,7 @@ window.I18N_EN = {
   "home.section1.text": "I am a <strong>freelance web developer</strong> in <strong>Auch</strong>, specialized in <strong>Shopify</strong>, <strong>e-commerce</strong> and <strong>showcase websites</strong>.",
   "home.section1.text2": "I build stores optimized for SEO and conversion, and custom showcase sites for small businesses and local brands.",
   "home.section1.text3": "Based in the Gers, I work across France. <strong>Julien Brazzalotto</strong>, available from idea to launch.",
-  "home.expertise": "My app <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> is on the Shopify App Store (June 2026).",
+  "home.expertise": "My app <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> is on the Shopify App Store (June 2026). See also <a href=\"/blog/cadence/\">Cadence</a>, the Shopify price and launch scheduling app.",
 
   "home.stats.title": "Indicative ranges for 2026",
   "home.stats.list": "<li><strong>Custom showcase site</strong>: about <strong>€1,500 to €4,000</strong> (jbdevweb services, 2026)</li><li><strong>Shopify store</strong>: about <strong>€2,500 to €8,000</strong> in services (excl. subscription)</li><li><strong>Shopify subscription</strong>: from <strong>€33/month</strong> (Basic plan France, Shopify source)</li><li><strong>Average timeline</strong>: <strong>4 to 8 weeks</strong> depending on scope</li>",
@@ -225,7 +222,6 @@ window.I18N_EN = {
   "contact.hero.text": "<strong>Shopify</strong> store, showcase site or redesign? Describe your project: personalized response within <strong>24 to 48 hours</strong>, no commitment.",
   "contact.hero.local": "Project in <strong>Auch</strong> or the Gers? See the detailed offer first: <a href=\"/creation-site-internet-auch/\">website creation in Auch</a> (pricing, timelines, local SEO).",
 
-  "contact.meta.updated": "Updated <time datetime=\"2026-07-17\">17 July 2026</time>.",
   "contact.define.title": "How do I get a free quote from jbdevweb?",
   "contact.define.text": "Fill in the form below or email <a href=\"mailto:contact@jbdevweb.fr\">contact@jbdevweb.fr</a>. <strong>Julien Brazzalotto</strong> (jbdevweb) replies within <strong>24 to 48 business hours</strong> with a proposal for your Shopify, showcase or redesign project.",
 
@@ -267,7 +263,6 @@ window.I18N_EN = {
   "faq.hero.text": "<strong>Website designer</strong> and <strong>freelance web designer in Auch</strong>: wondering about <strong>showcase site pricing</strong>, a <strong>Shopify store</strong>, a <strong>redesign</strong> or <strong>SEO</strong>? Answers below. For your case, <a href=\"/contact/\">contact me</a>.",
 
   "faq.intro": "<strong>Website designer in Auch</strong>: this FAQ answers questions about <strong>pricing</strong> for a showcase site, a <strong>Shopify</strong> store, <strong>redesign</strong> and <strong>SEO</strong>.",
-  "faq.intro.updated": "<time datetime=\"2026-06-26\">Updated 26 June 2026</time> — Julien Brazzalotto, freelance web developer (Gers).",
   "faq.stats.title": "Indicative ranges for 2026",
   "faq.stats.list": "<li><strong>Showcase site</strong>: <strong>€1,500 to €4,000</strong></li><li><strong>Shopify store</strong>: <strong>€2,500 to €8,000</strong> (services)</li><li><strong>Shopify subscription</strong>: from <strong>€33/month</strong> (Basic plan)</li><li><strong>Average showcase timeline</strong>: <strong>3 to 6 weeks</strong></li><li><strong>Contact response</strong>: within <strong>24 to 48 hours</strong></li>",
   "faq.intro.expertise": "I am <strong>Julien Brazzalotto</strong>, freelance web developer in Auch. I published the <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> app on the Shopify App Store.",
@@ -345,8 +340,6 @@ window.I18N_EN = {
   "shopify.hero.title": "Freelance Shopify expert in <span>Auch</span>: online store &amp; e-commerce",
   "shopify.hero.text": "<strong>Freelance Shopify designer in Auch</strong>: I build and optimize high-performing <strong>e-commerce stores</strong> for <strong>search ranking</strong> and conversion. I support artisans, brands and small businesses in the <strong>Gers</strong> and <strong>Occitanie</strong> with reliable, custom online stores.",
   "shopify.hero.cta": "Let's talk about your Shopify project",
-
-  "shopify.meta.updated": "Updated <time datetime=\"2026-07-17\">17 July 2026</time> — <strong>Julien Brazzalotto</strong>, freelance Shopify expert.",
   "shopify.define.title": "What is a freelance Shopify designer?",
   "shopify.define.text": "A <strong>freelance Shopify designer</strong> builds and optimizes an e-commerce store on Shopify: Liquid theme, SEO, conversion and apps. At <strong>jbdevweb</strong>, Julien Brazzalotto supports artisans and small businesses in Auch, the Gers and across France.",
   "shopify.intro": "<strong>Freelance Shopify designer in Auch</strong>: I design and optimize custom <strong>e-commerce stores</strong> for artisans, brands and small businesses in the <strong>Gers</strong>.",
@@ -357,7 +350,7 @@ window.I18N_EN = {
   "shopify.pricing.title": "Shopify pricing 2026: read before your quote",
   "shopify.pricing.stats": "In 2026, a Shopify subscription in France starts at <strong>€33/month</strong> (Basic plan).",
   "shopify.pricing.stats2": "Freelance work for a complete store typically ranges from <strong>€2,500 to €8,000</strong>, excluding subscription and apps.",
-  "shopify.pricing.stats3": "My app <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> has been on the Shopify App Store since June 2026.",
+  "shopify.pricing.stats3": "My app <a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro</a> has been on the Shopify App Store since June 2026. I also published <a href=\"/blog/cadence/\">Cadence</a>, a price and launch scheduling app (Launchpad alternative for every plan).",
   "shopify.pricing.text": "Before launching your store, read the guide: <a href=\"/blog/tarif-site-shopify-2026/\"><strong>Shopify pricing France 2026</strong></a> (Basic €33, Grow €88, Advanced €384/month).",
   "shopify.pricing.text2": "The guide also covers Shopify Payments fees and freelance ranges. For local support, see <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
 
@@ -458,7 +451,6 @@ window.I18N_EN = {
   "sites_vitrines.hero.title": "Showcase website designer in <span>Auch</span>: design, SEO &amp; performance",
   "sites_vitrines.hero.text": "Freelance web in <strong>Auch</strong> and the <strong>Gers</strong>: elegant, fast showcase sites optimized for <strong>local search ranking</strong>, contact generation and online credibility. See also <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
   "sites_vitrines.hero.cta": "Talk about your project",
-
   "sites_vitrines.intro": "<strong>Freelance showcase website designer in Auch</strong>: I build custom <strong>showcase sites</strong> for artisans and small businesses in the <strong>Gers</strong>.",
   "sites_vitrines.stats.title": "Indicative ranges for 2026",
   "sites_vitrines.stats.list": "<li><strong>Custom showcase site</strong>: about <strong>€1,500 to €4,000</strong></li><li><strong>Static hosting</strong>: often <strong>€5 to €15/month</strong></li><li><strong>Average timeline</strong>: <strong>3 to 6 weeks</strong> depending on content</li><li><strong>Performance target</strong>: LCP &lt; 2.5s on mobile</li>",
@@ -601,7 +593,6 @@ window.I18N_EN = {
   "blog.hero.cta": "Discuss your Shopify project",
 
   "blog.intro": "<strong>Freelance Shopify blog</strong>: <strong>guides</strong>, platform <strong>comparisons</strong> and <strong>retail</strong> insights for merchants. Recurring topics: 2026 budget, Shopify vs Wix, apps and brick-and-mortar retail.",
-  "blog.intro.updated": "<time datetime=\"2026-06-26\">Last updated 26 June 2026</time>, <strong>Julien Brazzalotto</strong>, freelance Shopify developer.",
   "blog.stats.title": "Key blog figures",
   "blog.stats.list": "<li><strong>Shopify Basic</strong>: from <strong>€33/month</strong> (2026)</li><li><strong>Stock Transfert Pro</strong>: from <strong>$12/month</strong></li><li><strong>5 articles</strong> published (April–June 2026)</li>",
 
@@ -671,7 +662,11 @@ window.I18N_EN = {
   "blog.faq.a2": "<strong>Budget</strong>: <a href=\"/blog/tarif-site-shopify-2026/\">Shopify pricing 2026</a>. <strong>Platform</strong>: <a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix and Prestashop comparison</a>. <strong>Multi-store inventory</strong>: <a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a>.",
 
   "blog.sources.title": "Sources and documentation",
-  "blog.sources.list": "<li><a href=\"https://www.shopify.com/pricing\" rel=\"noopener noreferrer\">Shopify pricing (official)</a></li><li><a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro on the App Store</a></li><li><a href=\"https://help.shopify.com/\" rel=\"noopener noreferrer\">Shopify Help Center documentation</a></li>",
+  "blog.sources.list": "<li><a href=\"https://www.shopify.com/pricing\" rel=\"noopener noreferrer\">Shopify pricing (official)</a></li><li><a href=\"https://apps.shopify.com/stock-transfert-pro\" rel=\"noopener noreferrer\">Stock Transfert Pro on the App Store</a></li><li><a href=\"https://apps.shopify.com/cadence-2\" rel=\"noopener noreferrer\">Cadence on the App Store</a></li><li><a href=\"https://help.shopify.com/\" rel=\"noopener noreferrer\">Shopify Help Center documentation</a></li>",
+
+  "blog.author.title": "About the author",
+  "blog.author.bio": "<strong>Julien Brazzalotto</strong> (jbdevweb) is a freelance web developer in Auch (Gers). He builds showcase sites, Shopify stores and apps published on the Shopify App Store, including <a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a> and <a href=\"/blog/cadence/\">Cadence</a>.",
+  "blog.author.links": "<a href=\"/creation-site-internet-auch/\">Website creation in Auch</a> · <a href=\"https://fr.linkedin.com/in/julien-brazzalotto-537418146\" rel=\"noopener noreferrer\">LinkedIn</a> · <a href=\"/contact/\">Contact</a>",
 
   /* ── Blog: Cadence ── */
   "blog.cadence.hero.title": "<span>Cadence</span>: schedule prices, sales and launches on Shopify",
@@ -681,9 +676,19 @@ window.I18N_EN = {
   "blog.cadence.hero.cta_contact": "Discuss your Shopify project",
 
   "blog.cadence.intro": "<strong>Cadence</strong> is a Shopify <strong>scheduling app</strong> for merchants who want to automate prices, sales and launches without staying online at midnight.",
-  "blog.cadence.intro.updated": "Announced <time datetime=\"2026-06-03\">3 June 2026</time>, published on the App Store <time datetime=\"2026-07-03\">3 July 2026</time>, <strong>Julien Brazzalotto</strong>, app developer.",
   "blog.cadence.stats.title": "Key figures (2026)",
   "blog.cadence.stats.list": "<li><strong>Pricing</strong>: <strong>$10/month</strong> or <strong>$100/year</strong></li><li><strong>Free trial</strong>: <strong>14 days</strong></li><li><strong>Shopify plans</strong>: <strong>all</strong> (Basic to Plus)</li><li><strong>Languages</strong>: FR, EN, ES, DE, IT</li>",
+  "blog.cadence.figure.aria": "Cadence wizard in 4 steps: targets, actions, timing, rollback",
+  "blog.cadence.figure.s1.title": "Targets",
+  "blog.cadence.figure.s1.text": "Products, variants, collections, tags",
+  "blog.cadence.figure.s2.title": "Actions",
+  "blog.cadence.figure.s2.text": "Price, visibility, inventory",
+  "blog.cadence.figure.s3.title": "Timing",
+  "blog.cadence.figure.s3.text": "Start / end / timezone",
+  "blog.cadence.figure.s4.title": "Rollback",
+  "blog.cadence.figure.s4.text": "Auto restore",
+  "blog.cadence.figure.note": "Cadence · price and launch scheduling · $10/month",
+  "blog.cadence.figure.caption": "Cadence wizard in 4 steps: targets, actions, timing, rollback.",
 
   "blog.cadence.s1.kicker": "Positioning",
   "blog.cadence.s1.title": "The Launchpad alternative for every plan",
@@ -784,24 +789,37 @@ window.I18N_EN = {
   "blog.stp.hero.cta_app": "View the app on the Shopify App Store",
   "blog.stp.hero.cta_contact": "Talk about your Shopify project",
 
-  "blog.stp.intro": "<strong>Stock Transfert Pro</strong> is a <strong>Shopify multi-location app</strong> to manage inventory transfers between stores, warehouses and points of sale — and since June 2026, <strong>supplier purchasing</strong> (directory, purchase orders, planning).",
-  "blog.stp.intro.updated": "Published <time datetime=\"2026-06-03\">3 June 2026</time>, updated <time datetime=\"2026-07-03\">3 July 2026</time>, <strong>Julien Brazzalotto</strong>, app developer.",
+  "blog.stp.intro": "<strong>Stock Transfert Pro</strong> is a <strong>Shopify multi-location app</strong> to manage inventory transfers between stores, warehouses and points of sale, and since June 2026 <strong>supplier purchasing</strong> (directory, purchase orders, planning).",
   "blog.stp.stats.title": "Key figures (2026)",
   "blog.stp.stats.list": "<li><strong>Starter</strong>: <strong>$12/month</strong>, up to <strong>2 locations</strong></li><li><strong>Pro</strong>: <strong>$57/month</strong>, <strong>unlimited</strong> locations</li><li><strong>Pro+</strong>: <strong>$116/month</strong>, multi-horizon forecasts and Slack alerts</li><li><strong>Purchasing module</strong>: suppliers + purchase orders</li><li><strong>Free trial</strong>: <strong>14 days</strong> on all plans</li>",
+  "blog.stp.figure.aria": "Stock Transfert Pro: transfers, smart drafts, POS receiving and supplier purchasing",
+  "blog.stp.figure.s1.title": "Transfers",
+  "blog.stp.figure.s1.text": "Draft → sent → received",
+  "blog.stp.figure.s2.title": "Smart drafts",
+  "blog.stp.figure.s2.text": "Sales or stock targets",
+  "blog.stp.figure.s3.title": "POS receiving",
+  "blog.stp.figure.s3.text": "Mobile, scan, store",
+  "blog.stp.figure.s4.title": "Purchasing",
+  "blog.stp.figure.s4.text": "Suppliers and purchase orders",
+  "blog.stp.figure.note": "Stock Transfert Pro · Shopify multi-location · forecasts and alerts on Pro / Pro+",
+  "blog.stp.figure.caption": "The four pillars of Stock Transfert Pro: transfers, smart drafts, POS and purchasing.",
 
   "blog.stp.s1.kicker": "Why this app",
-  "blog.stp.s1.title": "Filling the gap left by Stocky",
-  "blog.stp.s1.p1": "<strong>Stocky</strong>, Shopify's historic inventory app, was <strong>removed from the Shopify App Store on 2 February 2026</strong>, with full shutdown planned for <strong>31 August 2026</strong>. Many multi-location merchants were left without a simple tool to manage inter-store transfers.",
-  "blog.stp.s1.p2": "<strong>Stock Transfert Pro</strong> addresses this need: a tool <strong>focused on transfers</strong> between Shopify locations, extended since June 2026 with a <strong>Purchasing module</strong> (suppliers and purchase orders). Built for teams that move stock between warehouse and stores, or between shops in the same network. Official App Store launch on <strong>3 June 2026</strong>.",
+  "blog.stp.s1.title": "Does Stock Transfert Pro replace Stocky in 2026?",
+  "blog.stp.s1.answer": "Yes for <strong>multi-location transfers</strong> and the <strong>Purchasing module</strong> (suppliers, purchase orders). <strong>Stocky</strong> left the Shopify App Store on <strong>2 February 2026</strong>, with full shutdown planned for <strong>31 August 2026</strong>.",
+  "blog.stp.s1.p1": "Many multi-location merchants were left without a simple tool to manage inter-store transfers after Stocky was removed.",
+  "blog.stp.s1.p2": "<strong>Stock Transfert Pro</strong> addresses this need: a tool <strong>focused on transfers</strong> between Shopify locations, extended since June 2026 with a <strong>Purchasing module</strong>. Built for teams that move stock between warehouse and stores. Official App Store launch on <strong>3 June 2026</strong>.",
 
   "blog.stp.s2.kicker": "Workflow",
-  "blog.stp.s2.title": "Manual transfers with a clear status cycle",
-  "blog.stp.s2.p1": "Each transfer links two <strong>Shopify locations</strong> and follows a readable cycle: <strong>draft</strong> → <strong>sent</strong> → <strong>received</strong>, with cancellation possible.",
-  "blog.stp.s2.p1b": "On send, stock is <strong>removed</strong> at source. On receive, it is <strong>added</strong> at destination via the Shopify Admin API. Levels stay aligned with the real state.",
+  "blog.stp.s2.title": "How does a multi-location transfer work?",
+  "blog.stp.s2.answer": "Each transfer links two <strong>Shopify locations</strong> and follows the cycle <strong>draft → sent → received</strong> (cancellation possible). On send, stock is <strong>removed</strong> at source; on receive, it is <strong>added</strong> at destination via the Shopify Admin API.",
+  "blog.stp.s2.p1": "The cycle stays readable for store and warehouse teams: draft, sent, received.",
+  "blog.stp.s2.p1b": "Inventory levels stay aligned with the real stock state after each step.",
   "blog.stp.s2.p2": "<strong>Partial receipts</strong> are handled natively: quantities sent vs quantities actually received, discrepancies, staff notes. Everything goes into a <strong>complete audit log</strong> to trace who did what and when.",
 
-  "blog.stp.s3.title": "Smart drafts: less manual calculation",
-  "blog.stp.s3.p1": "Beyond manual entry, the app offers two suggestion engines to prepare a transfer in a few clicks:",
+  "blog.stp.s3.title": "How do you generate a smart transfer draft?",
+  "blog.stp.s3.answer": "Stock Transfert Pro offers two engines: suggestions <strong>from sales</strong>, or <strong>from stock targets</strong> (Pro and Pro+ plans). The draft stays editable before validation and send.",
+  "blog.stp.s3.p1": "Beyond manual entry, the app prepares a transfer in a few clicks:",
   "blog.stp.s3.li1": "<strong>From sales</strong>: analyzes orders over a chosen period, groups by variant, compares to target store stock.",
   "blog.stp.s3.li1b": "The app then suggests a draft by selecting the best source, the one that actually has available stock.",
   "blog.stp.s3.li2": "<strong>From stock targets</strong> (Pro and Pro+ plans): you set targets per variant and location; the app calculates the shortfall and suggests a transfer to reach the target.",
@@ -829,7 +847,7 @@ window.I18N_EN = {
   "blog.stp.s5b.p_suppliers": "Create and manage <strong>suppliers</strong> (contact, email, default lead time, notes). Link <strong>variants</strong> with unit cost and supplier SKU. Mapping uses Shopify's native <strong>Product.vendor</strong> field, with optional <strong>explicit assignment</strong> variant → supplier when the Shopify vendor is not enough.",
   "blog.stp.s5b.h_po": "Supplier purchase orders",
   "blog.stp.s5b.p_po": "Each purchase order follows a clear cycle, similar to transfers:",
-  "blog.stp.s5b.po.li1": "<strong>Draft</strong>: choose receiving location, supplier, live product search, ordered quantities — editable while status remains draft.",
+  "blog.stp.s5b.po.li1": "<strong>Draft</strong>: choose receiving location, supplier, live product search, ordered quantities (editable while status remains draft).",
   "blog.stp.s5b.po.li2": "<strong>Ordered</strong>: email to supplier with <strong>PDF attachment</strong> (optional copy to the shop). Status moves to ordered only after successful send.",
   "blog.stp.s5b.po.li3": "<strong>Partially received / Received</strong>: enter received quantities per line or receive all. Quantities increase stock at the chosen location, directly in <strong>Shopify</strong>.",
   "blog.stp.s5b.p_po2": "The <strong>dashboard</strong> shows draft purchase orders and alerts when orders await receiving. Local PDF download available at any time.",
@@ -839,7 +857,8 @@ window.I18N_EN = {
   "blog.stp.s5b.p_chain": "The full chain: <strong>purchase order received at the warehouse</strong> → central stock replenished → <strong>transfers</strong> (manual or smart drafts) redistribute to stores. Purchasing and transfers stay in the same app, with the same audit log.",
 
   "blog.stp.s6.kicker": "Pricing",
-  "blog.stp.s6.title": "Three plans, 14-day free trial",
+  "blog.stp.s6.title": "How much do Stock Transfert Pro plans cost?",
+  "blog.stp.s6.answer": "Three USD plans: <strong>Starter $12/month</strong> (2 locations), <strong>Pro $57/month</strong> (unlimited locations), <strong>Pro+ $116/month</strong>. <strong>14-day</strong> free trial on each plan.",
   "blog.stp.s6.p": "All plans are billed in USD, monthly via Shopify Billing. <strong>14-day</strong> free trial on each plan.",
   "blog.stp.pricing.starter.title": "Starter",
   "blog.stp.pricing.starter.price": "12 $",
@@ -919,7 +938,6 @@ window.I18N_EN = {
   "blog.tarif.hero.cta": "Request a quote",
 
   "blog.tarif.intro": "<strong>Shopify pricing in France in 2026</strong> ranges from <strong>€5/month</strong> (Starter) to <strong>€384/month</strong> (Advanced), with freelance ranges of <strong>€2,500 to €5,000</strong> for a basic site.",
-  "blog.tarif.intro.updated": "Published <time datetime=\"2026-04-30\">30 April 2026</time>, updated <time datetime=\"2026-07-17\">17 July 2026</time>, <strong>Julien Brazzalotto</strong>, freelance Shopify web developer.",
   "blog.tarif.stats.title": "Key figures (2026)",
   "blog.tarif.stats.list": "<li><strong>Basic</strong>: <strong>€33/month</strong>, online store launch</li><li><strong>Grow</strong>: <strong>€88/month</strong>, growth and advanced reports</li><li><strong>Advanced</strong>: <strong>€384/month</strong>, high volume</li><li><strong>Freelance France</strong>: <strong>€2,500 to €12,000</strong> depending on scope</li>",
 
@@ -1003,6 +1021,7 @@ window.I18N_EN = {
   "blog.tarif.s11.li1": "<a href=\"/blog/comparatif-shopify-wix-prestashop-2026/\">Shopify, Wix or Prestashop in 2026</a>, choose well before committing budget.",
   "blog.tarif.s11.li2": "<a href=\"/blog/magasin-physique-boutique-en-ligne/\">Brick-and-mortar store: open an online shop without breaking everything</a>, if you have a point of sale.",
   "blog.tarif.s11.li3": "<a href=\"/blog/stock-transfert-pro-shopify/\">Stock Transfert Pro</a>, concrete example of a Shopify app for multi-location transfers.",
+  "blog.tarif.s11.li3b": "<a href=\"/blog/cadence/\">Cadence</a>, Shopify price and launch scheduling app (Launchpad alternative).",
   "blog.tarif.s11.li4": "<a href=\"/shopify/\">Freelance Shopify support in Auch</a>, store creation and optimization.",
   "blog.tarif.s11.li5": "<a href=\"/creation-site-internet-auch/\">Website creation in Auch</a>, showcase sites, Shopify and local SEO in the Gers.",
   "blog.tarif.s11.p2": "To discuss your project, <a href=\"/contact/\">contact me</a>.",
@@ -1015,7 +1034,6 @@ window.I18N_EN = {
   "blog.comparatif.hero.cta": "Discuss your context",
 
   "blog.comparatif.intro": "To choose between <strong>Shopify, Wix and Prestashop in 2026</strong>, four criteria often decide on their own: available time, target volume, need for <strong>unified inventory / POS</strong>, and who helps when you're stuck.",
-  "blog.comparatif.intro.updated": "Published <time datetime=\"2026-04-30\">30 April 2026</time>, updated <time datetime=\"2026-06-26\">26 June 2026</time>, <strong>Julien Brazzalotto</strong>, freelance Shopify web developer.",
   "blog.comparatif.stats.title": "Key figures (2026)",
   "blog.comparatif.stats.list": "<li><strong>Shopify Basic</strong>: <strong>€33/month</strong>, e-commerce launch</li><li><strong>Wix Business</strong>: fast start, limited POS</li><li><strong>Prestashop</strong>: open source, high technical maintenance</li><li><strong>Shopify POS</strong>: native unified store + site inventory</li>",
 
@@ -1101,7 +1119,6 @@ window.I18N_EN = {
   "blog.magasin.hero.cta": "Let's talk about it",
 
   "blog.magasin.intro": "Taking your <strong>brick-and-mortar store online on Shopify</strong> extends the shop without replacing it: unified inventory, <strong>click &amp; collect</strong> and local visibility for any merchant with a point of sale.",
-  "blog.magasin.intro.updated": "Published <time datetime=\"2026-04-30\">30 April 2026</time>, updated <time datetime=\"2026-06-26\">26 June 2026</time>, <strong>Julien Brazzalotto</strong>, freelance Shopify web developer.",
   "blog.magasin.stats.title": "Key figures (2026)",
   "blog.magasin.stats.list": "<li><strong>Typical timeline</strong>: <strong>3 to 6 weeks</strong> for a clean first scope</li><li><strong>Click &amp; collect</strong>: underestimated lever, downtown and suburbs</li><li><strong>Unified inventory</strong>: Shopify POS + online channel on the same base</li><li><strong>Stocky</strong>: App Store removal <strong>2 Feb 2026</strong>, shutdown <strong>31 Aug 2026</strong></li>",
 
