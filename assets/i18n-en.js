@@ -35,8 +35,8 @@ window.I18N_EN = {
   "meta./contact/.title": "Contact & free quote | jbdevweb",
   "meta./contact/.description": "Contact jbdevweb: describe your project (Shopify, showcase site, redesign). Free quote, reply within 48 business hours.",
 
-  "meta./creation-site-internet-auch/.title": "Website creation Auch | jbdevweb",
-  "meta./creation-site-internet-auch/.description": "Website & SEO in Auch: Julien Brazzalotto (jbdevweb). Showcase €1,500–€4,000, Shopify Gers. Quote in 48h.",
+  "meta./creation-site-internet-auch/.title": "Website creation Auch | showcase from €1,500",
+  "meta./creation-site-internet-auch/.description": "Website creation in Auch: showcase €1,500–€4,000, Shopify, local SEO Gers. Julien Brazzalotto (jbdevweb). Quote within 48h.",
 
   /* ── Website creation Auch ── */
   "creation_auch.hero.title": "Website creation in <span>Auch</span>: showcase sites, Shopify &amp; local SEO",
@@ -148,14 +148,14 @@ window.I18N_EN = {
   "meta./blog/stock-transfert-pro-shopify/.title": "Stock Transfert Pro: Shopify multi-location app (2026)",
   "meta./blog/stock-transfert-pro-shopify/.description": "Stock Transfert Pro: multi-location transfers, smart drafts, suppliers and purchase orders. From $12/month, 14-day trial. July 2026.",
 
-  "meta./blog/tarif-site-shopify-2026/.title": "Shopify Pricing France 2026: Basic €33/month (official plans)",
-  "meta./blog/tarif-site-shopify-2026/.description": "Shopify pricing France 2026: Starter €5, Basic €33, Grow €88, Advanced €384/month. Shopify Payments + freelance budgets. Updated July 2026.",
+  "meta./blog/tarif-site-shopify-2026/.title": "Shopify pricing France 2026: Basic €33/month (official)",
+  "meta./blog/tarif-site-shopify-2026/.description": "Shopify pricing France 2026 table: Starter €5, Basic €33, Grow €88, Advanced €384/month. Aligned with shopify.com + fees and freelance budgets.",
 
   "meta./blog/comparatif-shopify-wix-prestashop-2026/.title": "Shopify, Wix or Prestashop 2026: merchant comparison",
   "meta./blog/comparatif-shopify-wix-prestashop-2026/.description": "Shopify, Wix or Prestashop: selection criteria, 3-year cost, POS and inventory, SEO and maintenance. Field insights from a freelance e-commerce developer for every merchant.",
 
-  "meta./blog/magasin-physique-boutique-en-ligne/.title": "Brick-and-mortar + Shopify store: inventory, POS, omnichannel (2026)",
-  "meta./blog/magasin-physique-boutique-en-ligne/.description": "Connect a physical store to Shopify: multi-location inventory, POS, click &amp; collect, local SEO. 2026 guide + Stock Transfert Pro. Julien Brazzalotto.",
+  "meta./blog/magasin-physique-boutique-en-ligne/.title": "Brick-and-mortar store online on Shopify: 2026 guide",
+  "meta./blog/magasin-physique-boutique-en-ligne/.description": "Brick-and-mortar store online on Shopify: unified inventory, POS, click &amp; collect. 2026 guide for retailers with a physical store. Julien Brazzalotto.",
 
   /* ── Home (/) ── */
   "home.hero.title": "Freelance web developer in <span>Auch</span>: Shopify, e-commerce &amp; showcase website creation",
@@ -1007,6 +1007,8 @@ window.I18N_EN = {
   "blog.tarif.s9.p2": "The goal isn't to go as high as possible, but to <strong>align budget with business goals</strong>, a site that serves for 5 years, not 6 months.",
 
   "blog.tarif.s10.title": "Frequently asked questions",
+  "blog.tarif.s10.q0": "What are Shopify pricing plans in France in 2026?",
+  "blog.tarif.s10.a0": "<strong>Shopify pricing France 2026</strong>: Starter <strong>€5/month</strong>, Basic <strong>€33/month</strong>, Grow <strong>€88/month</strong>, Advanced <strong>€384/month</strong> (monthly billing). Table aligned with <a href=\"https://www.shopify.com/fr/tarifs\" rel=\"noopener noreferrer\">shopify.com/fr/tarifs</a>.",
   "blog.tarif.s10.q1": "How much does a minimum Shopify site cost per month in 2026?",
   "blog.tarif.s10.a1": "The <strong>Basic</strong> plan is <strong>€33/month</strong> with monthly billing, with roughly 25% off with annual commitment. Add domain name, possibly a paid theme, a few apps and payment fees.",
   "blog.tarif.s10.q2": "What freelance budget for creating a Shopify store in 2026?",
@@ -1161,6 +1163,8 @@ window.I18N_EN = {
   "blog.magasin.s8.li4": "Block time to prepare the project with a freelance or your team.",
 
   "blog.magasin.s9.title": "Frequently asked questions",
+  "blog.magasin.s9.q0": "How do you put a brick-and-mortar store online on Shopify?",
+  "blog.magasin.s9.a0": "Unify <strong>inventory</strong> (store + warehouse), enable <strong>pickup</strong> or click &amp; collect, connect <strong>Shopify POS</strong> if needed, publish best-sellers first, then <strong>local visibility</strong> (Google listing, contact page). Often <strong>3 to 6 weeks</strong> for a clean first scope.",
   "blog.magasin.s9.q1": "How long to open an online store when you already have a shop?",
   "blog.magasin.s9.a1": "Often <strong>three to six weeks</strong> for a clean first scope. A large catalog or specific integrations lengthen the timeline.",
   "blog.magasin.s9.q2": "Do I need a full-time employee for the site?",
