@@ -133,8 +133,8 @@ window.I18N_EN = {
   "meta./shopify/.title": "Shopify designer in Auch | Freelance e-commerce",
   "meta./shopify/.description": "Shopify designer in Auch (32): freelance e-commerce, Liquid themes, SEO and conversion. Custom quote.",
 
-  "meta./sites-vitrines/.title": "Showcase site in Auch | Freelance web designer & SEO",
-  "meta./sites-vitrines/.description": "Showcase website designer in Auch (32): freelance web designer, custom responsive site and local SEO in the Gers. Free quote.",
+  "meta./sites-vitrines/.title": "Custom showcase website | artisans & small businesses",
+  "meta./sites-vitrines/.description": "Custom showcase website for artisans, small businesses and independents: €1,500 to €4,000, fast, mobile, SEO included. Freelance web designer based in the Gers. Free quote.",
 
   "meta./mentions-legales/.title": "Legal notice | jbdevweb – web developer Auch",
   "meta./mentions-legales/.description": "Legal notice for jbdevweb.fr: publisher Julien Brazzalotto, hosting, cookies and personal data. Freelance web developer in Auch (Gers).",
@@ -448,10 +448,10 @@ window.I18N_EN = {
   "shopify.cta.button": "Contact Julien now",
 
   /* ── Showcase sites ── */
-  "sites_vitrines.hero.title": "Showcase website designer in <span>Auch</span>: design, SEO &amp; performance",
-  "sites_vitrines.hero.text": "Freelance web in <strong>Auch</strong> and the <strong>Gers</strong>: elegant, fast showcase sites optimized for <strong>local search ranking</strong>, contact generation and online credibility. See also <a href=\"/creation-site-internet-auch/\">website creation in Auch</a>.",
+  "sites_vitrines.hero.title": "Custom <span>showcase website</span> creation: design, SEO &amp; performance",
+  "sites_vitrines.hero.text": "Elegant, fast showcase sites optimized for <strong>Google</strong>, for artisans, small businesses and independents: more inquiries and real online credibility. Is your business in the Gers? See the <a href=\"/creation-site-internet-auch/\">website creation in Auch</a> page.",
   "sites_vitrines.hero.cta": "Talk about your project",
-  "sites_vitrines.intro": "<strong>Freelance showcase website designer in Auch</strong>: I build custom <strong>showcase sites</strong> for artisans and small businesses in the <strong>Gers</strong>.",
+  "sites_vitrines.intro": "<strong>Freelance web designer</strong>: I build custom <strong>showcase sites</strong> for artisans, small businesses and independents across France.",
   "sites_vitrines.stats.title": "Indicative ranges for 2026",
   "sites_vitrines.stats.list": "<li><strong>Custom showcase site</strong>: about <strong>€1,500 to €4,000</strong></li><li><strong>Static hosting</strong>: often <strong>€5 to €15/month</strong></li><li><strong>Average timeline</strong>: <strong>3 to 6 weeks</strong> depending on content</li><li><strong>Performance target</strong>: LCP &lt; 2.5s on mobile</li>",
 
@@ -542,7 +542,7 @@ window.I18N_EN = {
   "sites_vitrines.testimonials.t2": "<p>&laquo;&nbsp;Very good understanding of my needs and a result above my expectations.&nbsp;&raquo;</p><footer><strong>Retailer</strong>, Occitanie</footer>",
 
   "sites_vitrines.faq.title": "Frequently asked questions",
-  "sites_vitrines.faq.q1": "How much does a showcase site cost in Auch?",
+  "sites_vitrines.faq.q1": "How much does a custom showcase site cost?",
   "sites_vitrines.faq.a1": "Generally between <strong>€1,500 and €4,000</strong> depending on page count and design level. <a href=\"/contact/\">Free quote</a> after discussing your project.",
   "sites_vitrines.faq.q2": "Why a custom showcase site rather than WordPress or Wix?",
   "sites_vitrines.faq.a2": "A static site is faster and more secure, without a CMS subscription. WordPress or Wix suit you if you edit very often without a developer.",
