@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-labelledby="cadTitle cadDesc">
-  <title id="cadTitle">Planification Cadence sur Shopify</title>
+  <title id="cadTitle">Planification Price Scheduler sur Shopify</title>
   <desc id="cadDesc">Cibler le catalogue, definir l action prix ou visibilite, programmer l horaire, activer avec rollback</desc>
   <rect width="960" height="280" rx="16" fill="#0f1a15" stroke="#00E676" stroke-width="2"/>
   <g font-family="Segoe UI, system-ui, sans-serif">
@@ -28,6 +28,6 @@
     <text x="826" y="95" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">4. Rollback</text>
     <text x="826" y="125" text-anchor="middle" fill="#b7e0c8" font-size="14">Retour auto</text>
 
-    <text x="480" y="220" text-anchor="middle" fill="#d7f5e3" font-size="17" font-weight="600">Cadence · planification prix et lancements Shopify · dès 10 $/mois</text>
+    <text x="480" y="220" text-anchor="middle" fill="#d7f5e3" font-size="17" font-weight="600">Price Scheduler ï¿½ planification prix et lancements Shopify ï¿½ dï¿½s 10 $/mois</text>
   </g>
 </svg>

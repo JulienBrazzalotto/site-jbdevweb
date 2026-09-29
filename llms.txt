@@ -12,8 +12,8 @@
 
 ## Key guides (blog)
 
-- [Cadence: Schedule & Launch](https://jbdevweb.fr/blog/cadence/): Shopify app for scheduled prices, sales and launches — $10/month, all plans
-- [Stock Transfert Pro](https://jbdevweb.fr/blog/stock-transfert-pro-shopify/): Multi-location transfers, suppliers and purchase orders on Shopify App Store
+- [Price Scheduler: Schedule & Launch](https://jbdevweb.fr/blog/price-scheduler-shopify/): Shopify app for scheduled prices, sales, inventory, visibility and theme publishing, with smart rollback — $10/month, all plans
+- [Stock Transfert Pro](https://jbdevweb.fr/blog/stock-transfert-pro-shopify/): Multi-location transfers, purchase orders, weighted COGS, stocktakes and POS receiving on Shopify App Store
 - [Shopify pricing France 2026](https://jbdevweb.fr/blog/tarif-site-shopify-2026/): Plans Basic €33, Grow €88, Advanced €384/month, Shopify Payments fees
 - [Shopify vs Wix vs Prestashop 2026](https://jbdevweb.fr/blog/comparatif-shopify-wix-prestashop-2026/)
 - [Brick-and-mortar store online on Shopify](https://jbdevweb.fr/blog/magasin-physique-boutique-en-ligne/)
@@ -24,7 +24,7 @@
 - Location: Auch, 32000, Gers, Occitanie, France
 - Phone: +33 6 74 46 60 97
 - Specialties: Shopify, e-commerce, showcase websites, local SEO, web redesign
-- Shopify apps: [Cadence](https://apps.shopify.com/cadence-2), [Stock Transfert Pro](https://apps.shopify.com/stock-transfert-pro)
+- Shopify apps: [Price Scheduler](https://apps.shopify.com/cadence-2), [Stock Transfert Pro](https://apps.shopify.com/stock-transfert-pro)
 
 ## Optional
 
