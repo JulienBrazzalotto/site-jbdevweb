@@ -24,6 +24,7 @@ const htmlFiles = [
   'mentions-legales/index.html',
   'blog/index.html',
   'creation-site-internet-auch/index.html',
+  'creation-logiciel-auch/index.html',
   'blog/price-scheduler-shopify/index.html',
   'blog/stock-transfert-pro-shopify/index.html',
   'blog/tarif-site-shopify-2026/index.html',

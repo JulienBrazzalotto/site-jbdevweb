@@ -8,6 +8,7 @@
 - [Shopify stores](https://jbdevweb.fr/shopify/): Shopify creation, Liquid themes, conversion and SEO
 - [Showcase websites](https://jbdevweb.fr/sites-vitrines/): Custom fast websites, local SEO
 - [Website creation in Auch](https://jbdevweb.fr/creation-site-internet-auch/): Local web design for Gers and Occitanie
+- [Custom software in Auch](https://jbdevweb.fr/creation-logiciel-auch/): Shopify apps, business tools and automations
 - [Contact & quote](https://jbdevweb.fr/contact/): Free quote request
 
 ## Key guides (blog)
@@ -23,7 +24,7 @@
 - Name: Julien Brazzalotto — jbdevweb
 - Location: Auch, 32000, Gers, Occitanie, France
 - Phone: +33 6 74 46 60 97
-- Specialties: Shopify, e-commerce, showcase websites, local SEO, web redesign
+- Specialties: Shopify, e-commerce, showcase websites, custom software / Shopify apps, local SEO, web redesign
 - Shopify apps: [Price Scheduler](https://apps.shopify.com/cadence-2), [Stock Transfert Pro](https://apps.shopify.com/stock-transfert-pro)
 
 ## Optional
